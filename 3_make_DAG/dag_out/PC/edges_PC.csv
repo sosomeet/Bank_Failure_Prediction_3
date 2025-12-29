@@ -1,0 +1,29 @@
+source,target,weight
+Unnamed: 0,leverage_ratio,1.0
+Unnamed: 0,roe,1.0
+Unnamed: 0,asset_turnover,1.0
+Unnamed: 0,capitalization_ratio,1.0
+Unnamed: 0,totaldebt_invcap,1.0
+asset_liabilities,leverage_ratio,1.0
+asset_liabilities,debt_ratio,1.0
+asset_liabilities,cash_debt,1.0
+asset_liabilities,rect_turn,1.0
+asset_turnover,roe,1.0
+asset_turnover,roa,1.0
+asset_turnover,rect_turn,1.0
+debt_ratio,leverage_ratio,1.0
+debt_ratio,rect_turn,1.0
+debt_ratio2,roa,1.0
+debt_ratio2,capitalization_ratio,1.0
+debt_ratio2,longtermdebt_invcap,1.0
+debt_ratio2,totaldebt_invcap,1.0
+debt_ratio2,cash_debt,1.0
+debt_ratio2,debt_ebitda,1.0
+debt_ratio2,rect_turn,1.0
+roa,roe,1.0
+roa,debt_ebitda,1.0
+roa,rect_turn,1.0
+longtermdebt_invcap,capitalization_ratio,1.0
+longtermdebt_invcap,totaldebt_invcap,1.0
+totaldebt_invcap,leverage_ratio,1.0
+totaldebt_invcap,cash_debt,1.0

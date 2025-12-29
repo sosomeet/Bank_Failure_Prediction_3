@@ -1,0 +1,56 @@
+source,target,weight
+Unnamed: 0,capitalization_ratio,1.0
+Unnamed: 0,rect_turn,1.0
+leverage_ratio,capitalization_ratio,1.0
+leverage_ratio,rect_turn,1.0
+asset_liabilities,Unnamed: 0,1.0
+asset_liabilities,leverage_ratio,1.0
+asset_liabilities,roe,1.0
+asset_liabilities,asset_turnover,1.0
+asset_liabilities,capitalization_ratio,1.0
+asset_liabilities,rect_turn,1.0
+roe,Unnamed: 0,1.0
+roe,leverage_ratio,1.0
+roe,asset_turnover,1.0
+roe,totaldebt_invcap,1.0
+roe,rect_turn,1.0
+asset_turnover,Unnamed: 0,1.0
+asset_turnover,leverage_ratio,1.0
+asset_turnover,rect_turn,1.0
+debt_ratio,Unnamed: 0,1.0
+debt_ratio,leverage_ratio,1.0
+debt_ratio,asset_liabilities,1.0
+debt_ratio,roe,1.0
+debt_ratio,roa,1.0
+debt_ratio,capitalization_ratio,1.0
+debt_ratio,rect_turn,1.0
+debt_ratio2,leverage_ratio,1.0
+debt_ratio2,asset_liabilities,1.0
+debt_ratio2,roe,1.0
+debt_ratio2,debt_ratio,1.0
+debt_ratio2,roa,1.0
+debt_ratio2,capitalization_ratio,1.0
+debt_ratio2,longtermdebt_invcap,1.0
+debt_ratio2,totaldebt_invcap,1.0
+roa,Unnamed: 0,1.0
+roa,leverage_ratio,1.0
+roa,asset_turnover,1.0
+roa,totaldebt_invcap,1.0
+roa,rect_turn,1.0
+longtermdebt_invcap,leverage_ratio,1.0
+longtermdebt_invcap,capitalization_ratio,1.0
+longtermdebt_invcap,totaldebt_invcap,1.0
+totaldebt_invcap,Unnamed: 0,1.0
+totaldebt_invcap,leverage_ratio,1.0
+totaldebt_invcap,asset_turnover,1.0
+totaldebt_invcap,capitalization_ratio,1.0
+cash_debt,Unnamed: 0,1.0
+cash_debt,asset_liabilities,1.0
+cash_debt,debt_ratio,1.0
+cash_debt,debt_ratio2,1.0
+cash_debt,longtermdebt_invcap,1.0
+cash_debt,totaldebt_invcap,1.0
+cash_debt,rect_turn,1.0
+debt_ebitda,roe,1.0
+debt_ebitda,debt_ratio2,1.0
+debt_ebitda,roa,1.0
