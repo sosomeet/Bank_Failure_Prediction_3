@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="weight" attr.type="double"/>
+<graph edgedefault="directed"><node id="leverage_ratio"/>
+<node id="asset_liabilities"/>
+<node id="roe"/>
+<node id="asset_turnover"/>
+<node id="debt_ratio"/>
+<node id="debt_ratio2"/>
+<node id="roa"/>
+<node id="capitalization_ratio"/>
+<node id="longtermdebt_invcap"/>
+<node id="totaldebt_invcap"/>
+<node id="cash_debt"/>
+<node id="debt_ebitda"/>
+<node id="rect_turn"/>
+<edge source="leverage_ratio" target="totaldebt_invcap">
+  <data key="d0">0.37734410162221305</data>
+</edge>
+<edge source="debt_ratio" target="leverage_ratio">
+  <data key="d0">0.788978257551765</data>
+</edge>
+<edge source="debt_ratio" target="asset_liabilities">
+  <data key="d0">-1.0487020316640285</data>
+</edge>
+<edge source="debt_ratio2" target="capitalization_ratio">
+  <data key="d0">0.6864985459790469</data>
+</edge>
+<edge source="debt_ratio2" target="totaldebt_invcap">
+  <data key="d0">0.7916437955527503</data>
+</edge>
+<edge source="debt_ratio2" target="debt_ebitda">
+  <data key="d0">0.3006395021434944</data>
+</edge>
+<edge source="roa" target="roe">
+  <data key="d0">0.5449864671267228</data>
+</edge>
+<edge source="roa" target="asset_turnover">
+  <data key="d0">0.4664253965184754</data>
+</edge>
+<edge source="capitalization_ratio" target="longtermdebt_invcap">
+  <data key="d0">0.9275139976572211</data>
+</edge>
+<edge source="capitalization_ratio" target="totaldebt_invcap">
+  <data key="d0">-0.8195173471177255</data>
+</edge>
+<edge source="longtermdebt_invcap" target="totaldebt_invcap">
+  <data key="d0">0.37506344913327966</data>
+</edge>
+</graph></graphml>

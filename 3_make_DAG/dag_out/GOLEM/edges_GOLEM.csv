@@ -1,0 +1,12 @@
+source,target,weight
+leverage_ratio,totaldebt_invcap,0.37734410162221305
+debt_ratio,leverage_ratio,0.788978257551765
+debt_ratio,asset_liabilities,-1.0487020316640285
+debt_ratio2,capitalization_ratio,0.6864985459790469
+debt_ratio2,totaldebt_invcap,0.7916437955527503
+debt_ratio2,debt_ebitda,0.3006395021434944
+roa,roe,0.5449864671267228
+roa,asset_turnover,0.4664253965184754
+capitalization_ratio,longtermdebt_invcap,0.9275139976572211
+capitalization_ratio,totaldebt_invcap,-0.8195173471177255
+longtermdebt_invcap,totaldebt_invcap,0.37506344913327966
