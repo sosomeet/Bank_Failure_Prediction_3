@@ -1,0 +1,13 @@
+{
+  "generated_at": "2025-12-29T14:03:06",
+  "data_path": "./training_data.csv",
+  "shape": [
+    17881,
+    15
+  ],
+  "target_col": "label",
+  "numeric_cols": 14,
+  "categorical_cols": 0,
+  "apply_normalization": true,
+  "normalized_csv_path": "./traning_data_normalized.csv"
+}

@@ -1,0 +1,16 @@
+column,dtype,nunique,missing_ratio,n_rows
+Unnamed: 0,float64,17881,0.0,17881
+asset_liabilities,float64,17881,0.0,17881
+debt_ebitda,float64,11043,0.0,17881
+leverage_ratio,float64,10255,0.0,17881
+totaldebt_invcap,float64,2752,0.0,17881
+longtermdebt_invcap,float64,1131,0.0,17881
+roe,float64,1022,0.0,17881
+capitalization_ratio,float64,929,0.0,17881
+debt_ratio2,float64,655,0.0,17881
+rect_turn,float64,582,0.0,17881
+cash_debt,float64,549,0.0,17881
+debt_ratio,float64,335,0.0,17881
+asset_turnover,float64,273,0.0,17881
+roa,float64,218,0.0,17881
+label,int64,2,0.0,17881
