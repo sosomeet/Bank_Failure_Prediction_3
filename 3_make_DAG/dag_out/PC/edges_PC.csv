@@ -1,29 +1,25 @@
 source,target,weight
-Unnamed: 0,leverage_ratio,1.0
-Unnamed: 0,roe,1.0
-Unnamed: 0,asset_turnover,1.0
-Unnamed: 0,capitalization_ratio,1.0
-Unnamed: 0,totaldebt_invcap,1.0
-asset_liabilities,leverage_ratio,1.0
-asset_liabilities,debt_ratio,1.0
-asset_liabilities,cash_debt,1.0
-asset_liabilities,rect_turn,1.0
-asset_turnover,roe,1.0
-asset_turnover,roa,1.0
-asset_turnover,rect_turn,1.0
-debt_ratio,leverage_ratio,1.0
-debt_ratio,rect_turn,1.0
-debt_ratio2,roa,1.0
-debt_ratio2,capitalization_ratio,1.0
-debt_ratio2,longtermdebt_invcap,1.0
-debt_ratio2,totaldebt_invcap,1.0
-debt_ratio2,cash_debt,1.0
-debt_ratio2,debt_ebitda,1.0
-debt_ratio2,rect_turn,1.0
-roa,roe,1.0
-roa,debt_ebitda,1.0
-roa,rect_turn,1.0
-longtermdebt_invcap,capitalization_ratio,1.0
-longtermdebt_invcap,totaldebt_invcap,1.0
-totaldebt_invcap,leverage_ratio,1.0
-totaldebt_invcap,cash_debt,1.0
+leverage_ratio,asset_turnover,0.15832068719209003
+leverage_ratio,capitalization_ratio,0.018258043821493337
+asset_liabilities,debt_ratio,-0.9167743997403649
+asset_liabilities,cash_debt,0.12191798170277335
+asset_liabilities,rect_turn,0.7748560324991942
+asset_turnover,roe,-0.13016456144131272
+asset_turnover,roa,0.4925395033929539
+asset_turnover,rect_turn,0.2706919439146581
+debt_ratio,leverage_ratio,0.61961918593158
+debt_ratio,rect_turn,0.3598669881884052
+debt_ratio2,roa,0.046439867075745406
+debt_ratio2,capitalization_ratio,0.21078309496905778
+debt_ratio2,longtermdebt_invcap,0.5924014339964093
+debt_ratio2,totaldebt_invcap,0.5676004694670066
+debt_ratio2,cash_debt,-0.0972843637853117
+debt_ratio2,debt_ebitda,0.3434265824381695
+debt_ratio2,rect_turn,0.11314119663369201
+roa,roe,0.5477720420761151
+roa,debt_ebitda,-0.12257018363794625
+roa,rect_turn,0.11362438833273604
+longtermdebt_invcap,capitalization_ratio,0.7748752971013391
+longtermdebt_invcap,totaldebt_invcap,-0.10131411099330559
+totaldebt_invcap,leverage_ratio,0.2863739574278699
+totaldebt_invcap,cash_debt,-0.06281307773214408

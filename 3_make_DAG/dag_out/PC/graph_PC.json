@@ -1,9 +1,6 @@
 {
   "nodes": [
     {
-      "id": "Unnamed: 0"
-    },
-    {
       "id": "leverage_ratio"
     },
     {
@@ -45,144 +42,124 @@
   ],
   "edges": [
     {
-      "source": "Unnamed: 0",
-      "target": "leverage_ratio",
-      "weight": 1.0
-    },
-    {
-      "source": "Unnamed: 0",
-      "target": "roe",
-      "weight": 1.0
-    },
-    {
-      "source": "Unnamed: 0",
+      "source": "leverage_ratio",
       "target": "asset_turnover",
-      "weight": 1.0
+      "weight": 0.15832068719209003
     },
     {
-      "source": "Unnamed: 0",
+      "source": "leverage_ratio",
       "target": "capitalization_ratio",
-      "weight": 1.0
-    },
-    {
-      "source": "Unnamed: 0",
-      "target": "totaldebt_invcap",
-      "weight": 1.0
-    },
-    {
-      "source": "asset_liabilities",
-      "target": "leverage_ratio",
-      "weight": 1.0
+      "weight": 0.018258043821493337
     },
     {
       "source": "asset_liabilities",
       "target": "debt_ratio",
-      "weight": 1.0
+      "weight": -0.9167743997403649
     },
     {
       "source": "asset_liabilities",
       "target": "cash_debt",
-      "weight": 1.0
+      "weight": 0.12191798170277335
     },
     {
       "source": "asset_liabilities",
       "target": "rect_turn",
-      "weight": 1.0
+      "weight": 0.7748560324991942
     },
     {
       "source": "asset_turnover",
       "target": "roe",
-      "weight": 1.0
+      "weight": -0.13016456144131272
     },
     {
       "source": "asset_turnover",
       "target": "roa",
-      "weight": 1.0
+      "weight": 0.4925395033929539
     },
     {
       "source": "asset_turnover",
       "target": "rect_turn",
-      "weight": 1.0
+      "weight": 0.2706919439146581
     },
     {
       "source": "debt_ratio",
       "target": "leverage_ratio",
-      "weight": 1.0
+      "weight": 0.61961918593158
     },
     {
       "source": "debt_ratio",
       "target": "rect_turn",
-      "weight": 1.0
+      "weight": 0.3598669881884052
     },
     {
       "source": "debt_ratio2",
       "target": "roa",
-      "weight": 1.0
+      "weight": 0.046439867075745406
     },
     {
       "source": "debt_ratio2",
       "target": "capitalization_ratio",
-      "weight": 1.0
+      "weight": 0.21078309496905778
     },
     {
       "source": "debt_ratio2",
       "target": "longtermdebt_invcap",
-      "weight": 1.0
+      "weight": 0.5924014339964093
     },
     {
       "source": "debt_ratio2",
       "target": "totaldebt_invcap",
-      "weight": 1.0
+      "weight": 0.5676004694670066
     },
     {
       "source": "debt_ratio2",
       "target": "cash_debt",
-      "weight": 1.0
+      "weight": -0.0972843637853117
     },
     {
       "source": "debt_ratio2",
       "target": "debt_ebitda",
-      "weight": 1.0
+      "weight": 0.3434265824381695
     },
     {
       "source": "debt_ratio2",
       "target": "rect_turn",
-      "weight": 1.0
+      "weight": 0.11314119663369201
     },
     {
       "source": "roa",
       "target": "roe",
-      "weight": 1.0
+      "weight": 0.5477720420761151
     },
     {
       "source": "roa",
       "target": "debt_ebitda",
-      "weight": 1.0
+      "weight": -0.12257018363794625
     },
     {
       "source": "roa",
       "target": "rect_turn",
-      "weight": 1.0
+      "weight": 0.11362438833273604
     },
     {
       "source": "longtermdebt_invcap",
       "target": "capitalization_ratio",
-      "weight": 1.0
+      "weight": 0.7748752971013391
     },
     {
       "source": "longtermdebt_invcap",
       "target": "totaldebt_invcap",
-      "weight": 1.0
+      "weight": -0.10131411099330559
     },
     {
       "source": "totaldebt_invcap",
       "target": "leverage_ratio",
-      "weight": 1.0
+      "weight": 0.2863739574278699
     },
     {
       "source": "totaldebt_invcap",
       "target": "cash_debt",
-      "weight": 1.0
+      "weight": -0.06281307773214408
     }
   ]
 }
