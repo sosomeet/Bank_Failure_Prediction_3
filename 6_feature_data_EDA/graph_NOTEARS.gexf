@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-01-02">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="leverage_ratio" label="leverage_ratio" />
+      <node id="asset_liabilities" label="asset_liabilities" />
+      <node id="roe" label="roe" />
+      <node id="asset_turnover" label="asset_turnover" />
+      <node id="debt_ratio" label="debt_ratio" />
+      <node id="debt_ratio2" label="debt_ratio2" />
+      <node id="roa" label="roa" />
+      <node id="capitalization_ratio" label="capitalization_ratio" />
+      <node id="longtermdebt_invcap" label="longtermdebt_invcap" />
+      <node id="totaldebt_invcap" label="totaldebt_invcap" />
+      <node id="cash_debt" label="cash_debt" />
+      <node id="debt_ebitda" label="debt_ebitda" />
+      <node id="rect_turn" label="rect_turn" />
+    </nodes>
+    <edges>
+      <edge source="leverage_ratio" target="totaldebt_invcap" id="0" weight="0.35982057228408376" />
+      <edge source="asset_liabilities" target="rect_turn" id="1" weight="0.36093372137697355" />
+      <edge source="debt_ratio" target="leverage_ratio" id="2" weight="0.6247121802643705" />
+      <edge source="debt_ratio" target="asset_liabilities" id="3" weight="-0.8159274236489855" />
+      <edge source="debt_ratio2" target="capitalization_ratio" id="4" weight="0.5760778172508327" />
+      <edge source="debt_ratio2" target="totaldebt_invcap" id="5" weight="0.45387129355261857" />
+      <edge source="roa" target="roe" id="6" weight="0.39515173573232654" />
+      <edge source="roa" target="asset_turnover" id="7" weight="0.4258261923937104" />
+      <edge source="capitalization_ratio" target="longtermdebt_invcap" id="8" weight="0.8037798632708897" />
+    </edges>
+  </graph>
+</gexf>
