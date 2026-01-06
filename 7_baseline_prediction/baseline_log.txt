@@ -1,0 +1,1561 @@
+Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount("/content/drive", force_remount=True).
+[     0.0s] seed set: 42 | torch cuda=True | RUN_FFMLP=True
+[     0.0s] checking base files...
+[     0.0s] loading base csvs...
+[     0.1s] base loaded | n_train=12516 n_val=1788 n_test=3577
+[     0.1s] target_col=label | n_orig_cols=13
+[     0.1s] [RUN] O (once)
+[    12.8s]   models done | n_feat=13 | LGB=3.6s XGB=1.0s MLP=4.6s LOGIT=0.2s RF=3.3s | total=12.7s
+[    12.8s] O (once) done
+[    12.8s] [ALG] NOTEARS loading...
+[    13.0s] [ALG] NOTEARS ready | edges(total)=18 | run F/OF K=1..18
+[    13.0s]   [F ] NOTEARS K=1/18 (n_feat=1)
+[    24.0s]   models done | n_feat=1 | LGB=3.0s XGB=1.0s MLP=3.3s LOGIT=0.4s RF=3.3s | total=11.0s
+[    24.0s]   [OF] NOTEARS K=1/18 (n_feat=14)
+[    38.7s]   models done | n_feat=14 | LGB=5.1s XGB=1.0s MLP=4.8s LOGIT=0.3s RF=3.3s | total=14.6s
+[    48.7s]   models done | n_feat=2 | LGB=3.5s XGB=1.0s MLP=2.2s LOGIT=0.2s RF=3.0s | total=10.0s
+[    60.6s]   models done | n_feat=15 | LGB=2.5s XGB=1.2s MLP=4.6s LOGIT=0.3s RF=3.3s | total=11.9s
+[    70.0s]   models done | n_feat=3 | LGB=1.8s XGB=1.0s MLP=3.3s LOGIT=0.2s RF=3.0s | total=9.4s
+[    82.9s]   models done | n_feat=16 | LGB=3.3s XGB=1.0s MLP=4.7s LOGIT=0.4s RF=3.6s | total=12.9s
+[    92.2s]   models done | n_feat=4 | LGB=1.9s XGB=1.0s MLP=2.7s LOGIT=0.3s RF=3.5s | total=9.3s
+[   104.6s]   models done | n_feat=17 | LGB=2.6s XGB=1.0s MLP=4.6s LOGIT=0.4s RF=3.7s | total=12.5s
+[   114.4s]   models done | n_feat=5 | LGB=2.0s XGB=1.0s MLP=3.2s LOGIT=0.2s RF=3.4s | total=9.8s
+[   128.1s]   models done | n_feat=18 | LGB=4.0s XGB=1.0s MLP=4.5s LOGIT=0.4s RF=3.7s | total=13.7s
+[   140.4s]   models done | n_feat=6 | LGB=2.9s XGB=1.0s MLP=4.8s LOGIT=0.2s RF=3.4s | total=12.3s
+[   154.0s]   models done | n_feat=19 | LGB=4.2s XGB=1.0s MLP=4.3s LOGIT=0.5s RF=3.6s | total=13.6s
+[   166.8s]   models done | n_feat=7 | LGB=3.2s XGB=1.0s MLP=4.9s LOGIT=0.3s RF=3.5s | total=12.8s
+[   180.5s]   models done | n_feat=20 | LGB=3.9s XGB=1.1s MLP=4.6s LOGIT=0.4s RF=3.8s | total=13.8s
+[   192.5s]   models done | n_feat=8 | LGB=2.8s XGB=1.0s MLP=4.6s LOGIT=0.2s RF=3.4s | total=12.0s
+[   206.6s]   models done | n_feat=21 | LGB=4.3s XGB=1.1s MLP=4.6s LOGIT=0.3s RF=3.7s | total=14.1s
+[   219.4s]   models done | n_feat=9 | LGB=2.9s XGB=1.0s MLP=4.8s LOGIT=0.2s RF=3.9s | total=12.8s
+[   232.7s]   models done | n_feat=22 | LGB=3.7s XGB=1.1s MLP=4.4s LOGIT=0.3s RF=3.8s | total=13.3s
+[   232.7s]   [F ] NOTEARS K=10/18 (n_feat=10)
+[   245.4s]   models done | n_feat=10 | LGB=3.0s XGB=1.0s MLP=4.5s LOGIT=0.3s RF=3.9s | total=12.7s
+[   245.4s]   [OF] NOTEARS K=10/18 (n_feat=23)
+[   259.0s]   models done | n_feat=23 | LGB=3.8s XGB=1.0s MLP=4.6s LOGIT=0.4s RF=3.8s | total=13.6s
+[   271.6s]   models done | n_feat=11 | LGB=2.9s XGB=1.0s MLP=4.5s LOGIT=0.3s RF=3.8s | total=12.6s
+[   285.6s]   models done | n_feat=24 | LGB=3.7s XGB=1.1s MLP=4.9s LOGIT=0.4s RF=3.8s | total=14.0s
+[   297.8s]   models done | n_feat=12 | LGB=2.5s XGB=1.1s MLP=4.6s LOGIT=0.3s RF=3.8s | total=12.3s
+[   311.5s]   models done | n_feat=25 | LGB=3.5s XGB=1.1s MLP=4.6s LOGIT=0.4s RF=4.1s | total=13.7s
+[   324.1s]   models done | n_feat=13 | LGB=2.6s XGB=1.0s MLP=4.8s LOGIT=0.3s RF=3.9s | total=12.5s
+[   337.9s]   models done | n_feat=26 | LGB=3.5s XGB=1.1s MLP=4.6s LOGIT=0.5s RF=4.2s | total=13.8s
+[   349.6s]   models done | n_feat=14 | LGB=2.5s XGB=1.0s MLP=4.0s LOGIT=0.3s RF=4.0s | total=11.7s
+[   364.0s]   models done | n_feat=27 | LGB=4.0s XGB=1.1s MLP=4.6s LOGIT=0.5s RF=4.2s | total=14.3s
+[   376.8s]   models done | n_feat=15 | LGB=2.6s XGB=1.0s MLP=4.9s LOGIT=0.3s RF=4.0s | total=12.8s
+[   390.3s]   models done | n_feat=28 | LGB=3.1s XGB=1.1s MLP=4.6s LOGIT=0.5s RF=4.1s | total=13.4s
+[   403.3s]   models done | n_feat=16 | LGB=2.7s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=4.4s | total=13.1s
+[   416.9s]   models done | n_feat=29 | LGB=3.0s XGB=1.1s MLP=4.6s LOGIT=0.5s RF=4.3s | total=13.5s
+[   429.9s]   models done | n_feat=17 | LGB=2.7s XGB=1.1s MLP=4.6s LOGIT=0.4s RF=4.4s | total=13.0s
+[   443.5s]   models done | n_feat=30 | LGB=3.0s XGB=1.1s MLP=4.7s LOGIT=0.5s RF=4.3s | total=13.6s
+[   443.5s]   [F ] NOTEARS K=18/18 (n_feat=18)
+[   456.9s]   models done | n_feat=18 | LGB=2.8s XGB=1.0s MLP=4.8s LOGIT=0.4s RF=4.4s | total=13.4s
+[   456.9s]   [OF] NOTEARS K=18/18 (n_feat=31)
+[   470.5s]   models done | n_feat=31 | LGB=3.1s XGB=1.1s MLP=4.6s LOGIT=0.5s RF=4.3s | total=13.6s
+[   470.5s] [OFR] NOTEARS pool_size=31 | K=[5, 10, 20, 30, 40, 'ALL'] | trials=5
+[   470.5s]   [OFR] NOTEARS K=5 -> pick=5 starting...
+[   470.5s]     trial 1/5 seed=5042 n_feat=5
+[   481.3s]   models done | n_feat=5 | LGB=1.9s XGB=1.0s MLP=4.5s LOGIT=0.2s RF=3.2s | total=10.8s
+[   481.3s]     trial 2/5 seed=5043 n_feat=5
+[   493.3s]   models done | n_feat=5 | LGB=2.8s XGB=1.0s MLP=4.5s LOGIT=0.2s RF=3.4s | total=12.0s
+[   493.3s]     trial 3/5 seed=5044 n_feat=5
+[   506.1s]   models done | n_feat=5 | LGB=3.9s XGB=1.0s MLP=4.6s LOGIT=0.2s RF=3.2s | total=12.9s
+[   506.1s]     trial 4/5 seed=5045 n_feat=5
+[   518.9s]   models done | n_feat=5 | LGB=3.9s XGB=1.0s MLP=4.6s LOGIT=0.2s RF=3.1s | total=12.8s
+[   518.9s]     trial 5/5 seed=5046 n_feat=5
+[   531.6s]   models done | n_feat=5 | LGB=3.8s XGB=1.0s MLP=4.5s LOGIT=0.2s RF=3.2s | total=12.7s
+[   531.6s]   [OFR] NOTEARS K=5 done (mean aggregated)
+[   531.6s]   [OFR] NOTEARS K=10 -> pick=10 starting...
+[   531.6s]     trial 1/5 seed=10042 n_feat=10
+[   545.8s]   models done | n_feat=10 | LGB=4.5s XGB=1.0s MLP=4.8s LOGIT=0.3s RF=3.6s | total=14.2s
+[   545.8s]     trial 2/5 seed=10043 n_feat=10
+[   558.6s]   models done | n_feat=10 | LGB=3.5s XGB=1.0s MLP=4.3s LOGIT=0.2s RF=3.8s | total=12.9s
+[   558.6s]     trial 3/5 seed=10044 n_feat=10
+[   571.6s]   models done | n_feat=10 | LGB=3.4s XGB=1.0s MLP=4.8s LOGIT=0.3s RF=3.4s | total=13.0s
+[   571.6s]     trial 4/5 seed=10045 n_feat=10
+[   584.6s]   models done | n_feat=10 | LGB=3.4s XGB=1.0s MLP=4.6s LOGIT=0.2s RF=3.7s | total=13.0s
+[   584.6s]     trial 5/5 seed=10046 n_feat=10
+[   597.3s]   models done | n_feat=10 | LGB=3.4s XGB=1.0s MLP=4.2s LOGIT=0.2s RF=3.9s | total=12.7s
+[   597.3s]   [OFR] NOTEARS K=10 done (mean aggregated)
+[   597.3s]   [OFR] NOTEARS K=20 -> pick=20 starting...
+[   597.3s]     trial 1/5 seed=20042 n_feat=20
+[   611.1s]   models done | n_feat=20 | LGB=4.2s XGB=1.1s MLP=4.4s LOGIT=0.3s RF=4.0s | total=13.8s
+[   611.1s]     trial 2/5 seed=20043 n_feat=20
+[   624.9s]   models done | n_feat=20 | LGB=3.5s XGB=1.0s MLP=4.9s LOGIT=0.3s RF=4.1s | total=13.8s
+[   624.9s]     trial 3/5 seed=20044 n_feat=20
+[   637.8s]   models done | n_feat=20 | LGB=3.0s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=4.0s | total=12.9s
+[   637.8s]     trial 4/5 seed=20045 n_feat=20
+[   650.7s]   models done | n_feat=20 | LGB=2.9s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=3.9s | total=12.8s
+[   650.7s]     trial 5/5 seed=20046 n_feat=20
+[   663.5s]   models done | n_feat=20 | LGB=3.1s XGB=1.0s MLP=4.7s LOGIT=0.3s RF=3.8s | total=12.8s
+[   663.5s]   [OFR] NOTEARS K=20 done (mean aggregated)
+[   663.5s]   [OFR] NOTEARS K=30 -> pick=30 starting...
+[   663.5s]     trial 1/5 seed=30042 n_feat=30
+[   677.9s]   models done | n_feat=30 | LGB=3.6s XGB=1.1s MLP=4.6s LOGIT=0.5s RF=4.7s | total=14.4s
+[   677.9s]     trial 2/5 seed=30043 n_feat=30
+[   691.1s]   models done | n_feat=30 | LGB=3.1s XGB=1.1s MLP=4.4s LOGIT=0.4s RF=4.3s | total=13.2s
+[   691.1s]     trial 3/5 seed=30044 n_feat=30
+[   704.9s]   models done | n_feat=30 | LGB=3.1s XGB=1.1s MLP=4.9s LOGIT=0.5s RF=4.2s | total=13.8s
+[   704.9s]     trial 4/5 seed=30045 n_feat=30
+[   718.4s]   models done | n_feat=30 | LGB=3.1s XGB=1.1s MLP=4.6s LOGIT=0.4s RF=4.3s | total=13.5s
+[   718.4s]     trial 5/5 seed=30046 n_feat=30
+[   732.0s]   models done | n_feat=30 | LGB=3.2s XGB=1.1s MLP=4.6s LOGIT=0.5s RF=4.3s | total=13.6s
+[   732.1s]   [OFR] NOTEARS K=30 done (mean aggregated)
+[   732.1s]   [OFR] NOTEARS K=40 -> pick=31 starting...
+[   732.1s]     trial 1/5 seed=31042 n_feat=31
+[   745.6s]   models done | n_feat=31 | LGB=3.2s XGB=1.1s MLP=4.6s LOGIT=0.5s RF=4.2s | total=13.5s
+[   745.6s]     trial 2/5 seed=31043 n_feat=31
+[   759.1s]   models done | n_feat=31 | LGB=3.2s XGB=1.1s MLP=4.6s LOGIT=0.5s RF=4.2s | total=13.5s
+[   759.1s]     trial 3/5 seed=31044 n_feat=31
+[   772.7s]   models done | n_feat=31 | LGB=3.1s XGB=1.1s MLP=4.7s LOGIT=0.5s RF=4.3s | total=13.6s
+[   772.7s]     trial 4/5 seed=31045 n_feat=31
+[   786.2s]   models done | n_feat=31 | LGB=3.2s XGB=1.1s MLP=4.7s LOGIT=0.4s RF=4.1s | total=13.5s
+[   786.2s]     trial 5/5 seed=31046 n_feat=31
+[   800.2s]   models done | n_feat=31 | LGB=3.2s XGB=1.2s MLP=4.9s LOGIT=0.4s RF=4.3s | total=14.0s
+[   800.2s]   [OFR] NOTEARS K=40 done (mean aggregated)
+[   800.2s]   [OFR] NOTEARS K=ALL -> pick=31 starting...
+[   800.2s]     trial 1/5 seed=31042 n_feat=31
+[   816.5s]   models done | n_feat=31 | LGB=5.8s XGB=1.1s MLP=4.6s LOGIT=0.5s RF=4.3s | total=16.3s
+[   816.5s]     trial 2/5 seed=31043 n_feat=31
+[   831.2s]   models done | n_feat=31 | LGB=4.3s XGB=1.1s MLP=4.6s LOGIT=0.5s RF=4.3s | total=14.7s
+[   831.2s]     trial 3/5 seed=31044 n_feat=31
+[   844.9s]   models done | n_feat=31 | LGB=3.2s XGB=1.1s MLP=4.7s LOGIT=0.5s RF=4.3s | total=13.7s
+[   844.9s]     trial 4/5 seed=31045 n_feat=31
+[   858.4s]   models done | n_feat=31 | LGB=3.1s XGB=1.1s MLP=4.6s LOGIT=0.3s RF=4.3s | total=13.4s
+[   858.4s]     trial 5/5 seed=31046 n_feat=31
+[   872.0s]   models done | n_feat=31 | LGB=3.2s XGB=1.1s MLP=4.6s LOGIT=0.4s RF=4.3s | total=13.6s
+[   872.0s]   [OFR] NOTEARS K=ALL done (mean aggregated)
+[   872.0s] [ALG] PC loading...
+[   872.2s] [ALG] PC ready | edges(total)=24 | run F/OF K=1..24
+[   872.2s]   [F ] PC K=1/24 (n_feat=1)
+[   880.6s]   models done | n_feat=1 | LGB=1.8s XGB=0.9s MLP=2.0s LOGIT=0.4s RF=3.3s | total=8.4s
+[   880.6s]   [OF] PC K=1/24 (n_feat=14)
+[   894.8s]   models done | n_feat=14 | LGB=5.1s XGB=1.0s MLP=4.5s LOGIT=0.3s RF=3.3s | total=14.2s
+[   905.2s]   models done | n_feat=2 | LGB=3.7s XGB=1.0s MLP=2.4s LOGIT=0.2s RF=3.1s | total=10.3s
+[   918.1s]   models done | n_feat=15 | LGB=3.5s XGB=1.2s MLP=4.6s LOGIT=0.4s RF=3.3s | total=12.9s
+[   927.1s]   models done | n_feat=3 | LGB=1.8s XGB=1.1s MLP=2.8s LOGIT=0.2s RF=3.1s | total=9.1s
+[   939.6s]   models done | n_feat=16 | LGB=2.6s XGB=1.0s MLP=4.8s LOGIT=0.4s RF=3.6s | total=12.5s
+[   948.6s]   models done | n_feat=4 | LGB=1.9s XGB=1.0s MLP=2.4s LOGIT=0.2s RF=3.5s | total=9.0s
+[   960.9s]   models done | n_feat=17 | LGB=2.6s XGB=1.0s MLP=4.6s LOGIT=0.4s RF=3.6s | total=12.2s
+[   970.6s]   models done | n_feat=5 | LGB=1.9s XGB=1.0s MLP=3.2s LOGIT=0.3s RF=3.4s | total=9.7s
+[   984.5s]   models done | n_feat=18 | LGB=4.2s XGB=1.0s MLP=4.7s LOGIT=0.4s RF=3.6s | total=13.9s
+[   995.6s]   models done | n_feat=6 | LGB=2.9s XGB=1.0s MLP=3.6s LOGIT=0.2s RF=3.3s | total=11.1s
+[  1010.6s]   models done | n_feat=19 | LGB=5.4s XGB=1.0s MLP=4.6s LOGIT=0.4s RF=3.6s | total=15.1s
+[  1022.7s]   models done | n_feat=7 | LGB=3.2s XGB=1.0s MLP=4.3s LOGIT=0.3s RF=3.3s | total=12.1s
+[  1036.8s]   models done | n_feat=20 | LGB=4.5s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=3.6s | total=14.1s
+[  1049.1s]   models done | n_feat=8 | LGB=3.1s XGB=1.0s MLP=4.5s LOGIT=0.3s RF=3.4s | total=12.3s
+[  1063.2s]   models done | n_feat=21 | LGB=4.3s XGB=1.0s MLP=4.6s LOGIT=0.4s RF=3.7s | total=14.1s
+[  1075.8s]   models done | n_feat=9 | LGB=2.8s XGB=1.0s MLP=4.8s LOGIT=0.2s RF=3.8s | total=12.6s
+[  1089.1s]   models done | n_feat=22 | LGB=3.6s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=3.7s | total=13.3s
+[  1089.1s]   [F ] PC K=10/24 (n_feat=10)
+[  1101.7s]   models done | n_feat=10 | LGB=2.9s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=3.8s | total=12.6s
+[  1101.7s]   [OF] PC K=10/24 (n_feat=23)
+[  1115.2s]   models done | n_feat=23 | LGB=3.6s XGB=1.1s MLP=4.6s LOGIT=0.4s RF=3.8s | total=13.5s
+[  1127.7s]   models done | n_feat=11 | LGB=2.8s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=3.8s | total=12.4s
+[  1141.4s]   models done | n_feat=24 | LGB=3.7s XGB=1.1s MLP=4.6s LOGIT=0.4s RF=3.8s | total=13.7s
+[  1153.8s]   models done | n_feat=12 | LGB=2.8s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=3.8s | total=12.5s
+[  1167.9s]   models done | n_feat=25 | LGB=3.7s XGB=1.1s MLP=4.9s LOGIT=0.4s RF=4.1s | total=14.1s
+[  1179.8s]   models done | n_feat=13 | LGB=2.4s XGB=1.0s MLP=4.3s LOGIT=0.3s RF=3.8s | total=11.9s
+[  1194.0s]   models done | n_feat=26 | LGB=3.8s XGB=1.1s MLP=4.9s LOGIT=0.4s RF=4.0s | total=14.2s
+[  1206.1s]   models done | n_feat=14 | LGB=2.6s XGB=1.0s MLP=4.3s LOGIT=0.3s RF=3.8s | total=12.1s
+[  1220.4s]   models done | n_feat=27 | LGB=3.7s XGB=1.1s MLP=4.9s LOGIT=0.4s RF=4.2s | total=14.3s
+[  1232.8s]   models done | n_feat=15 | LGB=2.5s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=3.9s | total=12.4s
+[  1247.8s]   models done | n_feat=28 | LGB=4.9s XGB=1.1s MLP=4.6s LOGIT=0.4s RF=4.1s | total=15.0s
+[  1260.7s]   models done | n_feat=16 | LGB=2.7s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=4.3s | total=12.9s
+[  1273.9s]   models done | n_feat=29 | LGB=3.1s XGB=1.1s MLP=4.6s LOGIT=0.4s RF=4.2s | total=13.3s
+[  1286.9s]   models done | n_feat=17 | LGB=2.7s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=4.4s | total=13.0s
+[  1300.4s]   models done | n_feat=30 | LGB=3.0s XGB=1.1s MLP=4.7s LOGIT=0.4s RF=4.3s | total=13.4s
+[  1313.3s]   models done | n_feat=18 | LGB=2.7s XGB=1.1s MLP=4.5s LOGIT=0.3s RF=4.3s | total=12.9s
+[  1327.2s]   models done | n_feat=31 | LGB=3.2s XGB=1.1s MLP=4.9s LOGIT=0.5s RF=4.2s | total=13.9s
+[  1340.4s]   models done | n_feat=19 | LGB=2.7s XGB=1.1s MLP=4.6s LOGIT=0.3s RF=4.4s | total=13.2s
+[  1353.9s]   models done | n_feat=32 | LGB=3.2s XGB=1.1s MLP=4.6s LOGIT=0.4s RF=4.2s | total=13.5s
+[  1367.0s]   models done | n_feat=20 | LGB=2.7s XGB=1.1s MLP=4.7s LOGIT=0.3s RF=4.2s | total=13.0s
+[  1380.6s]   models done | n_feat=33 | LGB=3.2s XGB=1.1s MLP=4.7s LOGIT=0.5s RF=4.2s | total=13.6s
+[  1393.7s]   models done | n_feat=21 | LGB=2.8s XGB=1.1s MLP=4.6s LOGIT=0.3s RF=4.3s | total=13.1s
+[  1407.5s]   models done | n_feat=34 | LGB=3.3s XGB=1.1s MLP=4.7s LOGIT=0.4s RF=4.2s | total=13.8s
+[  1420.6s]   models done | n_feat=22 | LGB=2.8s XGB=1.1s MLP=4.7s LOGIT=0.3s RF=4.1s | total=13.1s
+[  1436.0s]   models done | n_feat=35 | LGB=4.6s XGB=1.2s MLP=4.8s LOGIT=0.5s RF=4.2s | total=15.3s
+[  1451.7s]   models done | n_feat=23 | LGB=5.4s XGB=1.1s MLP=4.6s LOGIT=0.4s RF=4.2s | total=15.7s
+[  1466.3s]   models done | n_feat=36 | LGB=3.7s XGB=1.1s MLP=4.7s LOGIT=0.4s RF=4.7s | total=14.6s
+[  1466.3s]   [F ] PC K=24/24 (n_feat=24)
+[  1479.4s]   models done | n_feat=24 | LGB=2.8s XGB=1.1s MLP=4.6s LOGIT=0.3s RF=4.4s | total=13.2s
+[  1479.4s]   [OF] PC K=24/24 (n_feat=37)
+[  1495.7s]   models done | n_feat=37 | LGB=3.3s XGB=1.1s MLP=4.6s LOGIT=2.6s RF=4.6s | total=16.3s
+[  1495.7s] [OFR] PC pool_size=37 | K=[5, 10, 20, 30, 40, 'ALL'] | trials=5
+[  1495.7s]   [OFR] PC K=5 -> pick=5 starting...
+[  1495.7s]     trial 1/5 seed=5042 n_feat=5
+[  1506.4s]   models done | n_feat=5 | LGB=2.0s XGB=1.0s MLP=4.2s LOGIT=0.2s RF=3.3s | total=10.6s
+[  1506.4s]     trial 2/5 seed=5043 n_feat=5
+[  1517.2s]   models done | n_feat=5 | LGB=2.0s XGB=1.0s MLP=4.3s LOGIT=0.2s RF=3.4s | total=10.8s
+[  1517.2s]     trial 3/5 seed=5044 n_feat=5
+[  1528.0s]   models done | n_feat=5 | LGB=2.5s XGB=1.0s MLP=3.8s LOGIT=0.2s RF=3.2s | total=10.8s
+[  1528.0s]     trial 4/5 seed=5045 n_feat=5
+[  1541.6s]   models done | n_feat=5 | LGB=4.6s XGB=1.0s MLP=4.7s LOGIT=0.2s RF=3.1s | total=13.6s
+[  1541.6s]     trial 5/5 seed=5046 n_feat=5
+[  1554.6s]   models done | n_feat=5 | LGB=4.0s XGB=1.0s MLP=4.6s LOGIT=0.2s RF=3.1s | total=12.9s
+[  1554.6s]   [OFR] PC K=5 done (mean aggregated)
+[  1554.6s]   [OFR] PC K=10 -> pick=10 starting...
+[  1554.6s]     trial 1/5 seed=10042 n_feat=10
+[  1568.5s]   models done | n_feat=10 | LGB=4.3s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=3.8s | total=14.0s
+[  1568.5s]     trial 2/5 seed=10043 n_feat=10
+[  1581.4s]   models done | n_feat=10 | LGB=3.5s XGB=1.0s MLP=4.6s LOGIT=0.2s RF=3.6s | total=12.9s
+[  1581.4s]     trial 3/5 seed=10044 n_feat=10
+[  1594.0s]   models done | n_feat=10 | LGB=3.5s XGB=1.0s MLP=4.6s LOGIT=0.2s RF=3.3s | total=12.6s
+[  1594.0s]     trial 4/5 seed=10045 n_feat=10
+[  1607.2s]   models done | n_feat=10 | LGB=3.9s XGB=1.0s MLP=4.6s LOGIT=0.2s RF=3.5s | total=13.2s
+[  1607.2s]     trial 5/5 seed=10046 n_feat=10
+[  1620.4s]   models done | n_feat=10 | LGB=3.6s XGB=1.0s MLP=4.5s LOGIT=0.3s RF=3.9s | total=13.2s
+[  1620.4s]   [OFR] PC K=10 done (mean aggregated)
+[  1620.4s]   [OFR] PC K=20 -> pick=20 starting...
+[  1620.4s]     trial 1/5 seed=20042 n_feat=20
+[  1634.2s]   models done | n_feat=20 | LGB=3.8s XGB=1.1s MLP=4.5s LOGIT=0.4s RF=4.0s | total=13.8s
+[  1634.2s]     trial 2/5 seed=20043 n_feat=20
+[  1647.4s]   models done | n_feat=20 | LGB=3.1s XGB=1.0s MLP=4.8s LOGIT=0.3s RF=4.0s | total=13.2s
+[  1647.4s]     trial 3/5 seed=20044 n_feat=20
+[  1660.5s]   models done | n_feat=20 | LGB=3.1s XGB=1.1s MLP=4.7s LOGIT=0.3s RF=3.9s | total=13.1s
+[  1660.5s]     trial 4/5 seed=20045 n_feat=20
+[  1673.4s]   models done | n_feat=20 | LGB=3.0s XGB=1.0s MLP=4.6s LOGIT=0.4s RF=3.9s | total=12.9s
+[  1673.4s]     trial 5/5 seed=20046 n_feat=20
+[  1686.5s]   models done | n_feat=20 | LGB=3.2s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=4.0s | total=13.1s
+[  1686.5s]   [OFR] PC K=20 done (mean aggregated)
+[  1686.5s]   [OFR] PC K=30 -> pick=30 starting...
+[  1686.5s]     trial 1/5 seed=30042 n_feat=30
+[  1701.9s]   models done | n_feat=30 | LGB=5.1s XGB=1.1s MLP=4.6s LOGIT=0.4s RF=4.2s | total=15.5s
+[  1701.9s]     trial 2/5 seed=30043 n_feat=30
+[  1715.3s]   models done | n_feat=30 | LGB=3.1s XGB=1.1s MLP=4.6s LOGIT=0.4s RF=4.1s | total=13.3s
+[  1715.3s]     trial 3/5 seed=30044 n_feat=30
+[  1729.1s]   models done | n_feat=30 | LGB=3.1s XGB=1.1s MLP=4.6s LOGIT=0.3s RF=4.7s | total=13.8s
+[  1729.1s]     trial 4/5 seed=30045 n_feat=30
+[  1742.5s]   models done | n_feat=30 | LGB=3.1s XGB=1.1s MLP=4.6s LOGIT=0.4s RF=4.2s | total=13.4s
+[  1742.5s]     trial 5/5 seed=30046 n_feat=30
+[  1756.1s]   models done | n_feat=30 | LGB=3.1s XGB=1.1s MLP=4.7s LOGIT=0.4s RF=4.3s | total=13.6s
+[  1756.1s]   [OFR] PC K=30 done (mean aggregated)
+[  1756.1s]   [OFR] PC K=40 -> pick=37 starting...
+[  1756.1s]     trial 1/5 seed=37042 n_feat=37
+[  1772.8s]   models done | n_feat=37 | LGB=3.4s XGB=1.2s MLP=4.7s LOGIT=2.9s RF=4.6s | total=16.7s
+[  1772.8s]     trial 2/5 seed=37043 n_feat=37
+[  1791.8s]   models done | n_feat=37 | LGB=5.4s XGB=1.1s MLP=4.7s LOGIT=3.2s RF=4.6s | total=19.0s
+[  1791.8s]     trial 3/5 seed=37044 n_feat=37
+[  1809.4s]   models done | n_feat=37 | LGB=3.3s XGB=1.1s MLP=4.6s LOGIT=3.9s RF=4.6s | total=17.6s
+[  1809.4s]     trial 4/5 seed=37045 n_feat=37
+[  1829.3s]   models done | n_feat=37 | LGB=6.0s XGB=1.1s MLP=4.7s LOGIT=3.5s RF=4.6s | total=19.9s
+[  1829.3s]     trial 5/5 seed=37046 n_feat=37
+[  1847.3s]   models done | n_feat=37 | LGB=3.4s XGB=1.1s MLP=4.9s LOGIT=4.0s RF=4.5s | total=18.0s
+[  1847.3s]   [OFR] PC K=40 done (mean aggregated)
+[  1847.3s]   [OFR] PC K=ALL -> pick=37 starting...
+[  1847.3s]     trial 1/5 seed=37042 n_feat=37
+[  1866.7s]   models done | n_feat=37 | LGB=5.9s XGB=1.1s MLP=4.6s LOGIT=3.1s RF=4.7s | total=19.4s
+[  1866.7s]     trial 2/5 seed=37043 n_feat=37
+[  1884.3s]   models done | n_feat=37 | LGB=3.4s XGB=1.1s MLP=4.6s LOGIT=4.0s RF=4.6s | total=17.7s
+[  1884.3s]     trial 3/5 seed=37044 n_feat=37
+[  1901.8s]   models done | n_feat=37 | LGB=3.3s XGB=1.1s MLP=4.8s LOGIT=3.7s RF=4.6s | total=17.4s
+[  1901.8s]     trial 4/5 seed=37045 n_feat=37
+[  1921.9s]   models done | n_feat=37 | LGB=6.0s XGB=1.1s MLP=4.9s LOGIT=3.6s RF=4.6s | total=20.2s
+[  1921.9s]     trial 5/5 seed=37046 n_feat=37
+[  1939.1s]   models done | n_feat=37 | LGB=3.3s XGB=1.1s MLP=4.7s LOGIT=3.5s RF=4.6s | total=17.2s
+[  1939.1s]   [OFR] PC K=ALL done (mean aggregated)
+[  1939.1s] [ALG] GES loading...
+[  1943.9s] [ALG] GES ready | edges(total)=55 | run F/OF K=1..55
+[  1943.9s]   [F ] GES K=1/55 (n_feat=1)
+[  1955.1s]   models done | n_feat=1 | LGB=1.9s XGB=0.9s MLP=4.4s LOGIT=0.6s RF=3.4s | total=11.2s
+[  1955.1s]   [OF] GES K=1/55 (n_feat=14)
+[  1966.5s]   models done | n_feat=14 | LGB=2.9s XGB=1.0s MLP=2.5s LOGIT=1.6s RF=3.3s | total=11.4s
+[  1978.8s]   models done | n_feat=2 | LGB=3.6s XGB=0.9s MLP=4.5s LOGIT=0.2s RF=3.0s | total=12.3s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  1995.3s]   models done | n_feat=15 | LGB=4.9s XGB=1.0s MLP=4.6s LOGIT=2.5s RF=3.4s | total=16.4s
+[  2005.8s]   models done | n_feat=3 | LGB=1.7s XGB=1.0s MLP=4.5s LOGIT=0.3s RF=3.0s | total=10.5s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2020.6s]   models done | n_feat=16 | LGB=4.0s XGB=1.0s MLP=4.6s LOGIT=1.6s RF=3.7s | total=14.9s
+[  2031.7s]   models done | n_feat=4 | LGB=1.9s XGB=1.0s MLP=4.5s LOGIT=0.3s RF=3.3s | total=11.0s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2047.6s]   models done | n_feat=17 | LGB=4.0s XGB=1.0s MLP=4.8s LOGIT=2.5s RF=3.6s | total=16.0s
+[  2058.5s]   models done | n_feat=5 | LGB=2.0s XGB=1.0s MLP=4.3s LOGIT=0.3s RF=3.3s | total=10.9s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2074.4s]   models done | n_feat=18 | LGB=4.1s XGB=1.0s MLP=4.8s LOGIT=2.2s RF=3.7s | total=15.9s
+[  2082.3s]   models done | n_feat=6 | LGB=2.2s XGB=1.0s MLP=1.1s LOGIT=0.3s RF=3.3s | total=7.9s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2099.4s]   models done | n_feat=19 | LGB=5.3s XGB=1.0s MLP=4.6s LOGIT=2.5s RF=3.8s | total=17.2s
+[  2110.8s]   models done | n_feat=7 | LGB=2.1s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=3.4s | total=11.4s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2126.3s]   models done | n_feat=20 | LGB=4.1s XGB=1.0s MLP=4.6s LOGIT=2.1s RF=3.8s | total=15.5s
+[  2138.0s]   models done | n_feat=8 | LGB=2.1s XGB=1.0s MLP=4.8s LOGIT=0.3s RF=3.5s | total=11.7s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2152.4s]   models done | n_feat=21 | LGB=2.7s XGB=1.0s MLP=4.4s LOGIT=2.6s RF=3.8s | total=14.4s
+[  2164.6s]   models done | n_feat=9 | LGB=2.3s XGB=1.0s MLP=4.8s LOGIT=0.4s RF=3.8s | total=12.2s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2179.1s]   models done | n_feat=22 | LGB=2.7s XGB=1.1s MLP=4.4s LOGIT=2.6s RF=3.7s | total=14.5s
+[  2179.1s]   [F ] GES K=10/55 (n_feat=10)
+[  2191.7s]   models done | n_feat=10 | LGB=2.3s XGB=1.0s MLP=4.9s LOGIT=0.5s RF=3.8s | total=12.5s
+[  2191.7s]   [OF] GES K=10/55 (n_feat=23)
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2206.5s]   models done | n_feat=23 | LGB=2.8s XGB=1.1s MLP=4.6s LOGIT=2.6s RF=3.7s | total=14.9s
+[  2218.8s]   models done | n_feat=11 | LGB=2.3s XGB=1.0s MLP=4.6s LOGIT=0.7s RF=3.6s | total=12.3s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2233.5s]   models done | n_feat=24 | LGB=2.8s XGB=1.1s MLP=4.7s LOGIT=2.4s RF=3.7s | total=14.7s
+[  2247.1s]   models done | n_feat=12 | LGB=2.3s XGB=1.0s MLP=4.6s LOGIT=1.9s RF=3.7s | total=13.6s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2264.8s]   models done | n_feat=25 | LGB=5.1s XGB=1.1s MLP=4.6s LOGIT=2.6s RF=4.1s | total=17.7s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2279.3s]   models done | n_feat=13 | LGB=2.8s XGB=1.0s MLP=4.6s LOGIT=2.3s RF=3.8s | total=14.5s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2294.5s]   models done | n_feat=26 | LGB=2.9s XGB=1.1s MLP=4.6s LOGIT=2.4s RF=4.2s | total=15.2s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2308.8s]   models done | n_feat=14 | LGB=2.4s XGB=1.0s MLP=4.8s LOGIT=2.4s RF=3.6s | total=14.3s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2324.3s]   models done | n_feat=27 | LGB=3.0s XGB=1.1s MLP=4.7s LOGIT=2.7s RF=4.2s | total=15.5s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2338.8s]   models done | n_feat=15 | LGB=2.6s XGB=1.1s MLP=4.6s LOGIT=2.5s RF=3.7s | total=14.4s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2356.9s]   models done | n_feat=28 | LGB=5.7s XGB=1.1s MLP=4.7s LOGIT=2.5s RF=4.2s | total=18.2s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2371.6s]   models done | n_feat=16 | LGB=2.6s XGB=1.0s MLP=4.6s LOGIT=2.3s RF=4.1s | total=14.6s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2387.1s]   models done | n_feat=29 | LGB=3.0s XGB=1.1s MLP=4.6s LOGIT=2.7s RF=4.2s | total=15.6s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2401.3s]   models done | n_feat=17 | LGB=2.7s XGB=1.0s MLP=4.6s LOGIT=1.9s RF=4.0s | total=14.2s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2419.6s]   models done | n_feat=30 | LGB=5.3s XGB=1.1s MLP=4.9s LOGIT=2.7s RF=4.3s | total=18.2s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2434.3s]   models done | n_feat=18 | LGB=2.8s XGB=1.1s MLP=4.3s LOGIT=2.5s RF=4.0s | total=14.7s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2450.3s]   models done | n_feat=31 | LGB=3.2s XGB=1.1s MLP=4.9s LOGIT=2.9s RF=4.0s | total=16.0s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2465.3s]   models done | n_feat=19 | LGB=2.7s XGB=1.0s MLP=4.6s LOGIT=2.5s RF=4.0s | total=15.0s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2481.2s]   models done | n_feat=32 | LGB=3.3s XGB=1.2s MLP=4.7s LOGIT=2.6s RF=4.1s | total=15.9s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2497.9s]   models done | n_feat=20 | LGB=4.6s XGB=1.1s MLP=4.9s LOGIT=2.1s RF=4.1s | total=16.8s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2513.9s]   models done | n_feat=33 | LGB=3.2s XGB=1.1s MLP=4.7s LOGIT=2.8s RF=4.1s | total=15.9s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2529.0s]   models done | n_feat=21 | LGB=2.8s XGB=1.0s MLP=4.6s LOGIT=2.6s RF=4.1s | total=15.1s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2545.1s]   models done | n_feat=34 | LGB=3.3s XGB=1.2s MLP=4.7s LOGIT=2.8s RF=4.1s | total=16.2s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2562.0s]   models done | n_feat=22 | LGB=4.5s XGB=1.0s MLP=4.6s LOGIT=2.6s RF=4.1s | total=16.8s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2578.0s]   models done | n_feat=35 | LGB=3.3s XGB=1.1s MLP=4.6s LOGIT=2.9s RF=4.2s | total=16.0s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2593.2s]   models done | n_feat=23 | LGB=2.8s XGB=1.1s MLP=4.6s LOGIT=2.6s RF=4.1s | total=15.2s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2611.9s]   models done | n_feat=36 | LGB=5.7s XGB=1.1s MLP=4.6s LOGIT=2.8s RF=4.5s | total=18.7s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2627.0s]   models done | n_feat=24 | LGB=2.9s XGB=1.1s MLP=4.9s LOGIT=2.2s RF=4.1s | total=15.1s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2678.4s]   models done | n_feat=37 | LGB=3.4s XGB=1.1s MLP=4.6s LOGIT=37.6s RF=4.7s | total=51.5s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2694.4s]   models done | n_feat=25 | LGB=3.2s XGB=1.1s MLP=4.6s LOGIT=2.6s RF=4.5s | total=16.0s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2745.4s]   models done | n_feat=38 | LGB=3.4s XGB=1.1s MLP=4.8s LOGIT=37.1s RF=4.6s | total=51.0s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2761.4s]   models done | n_feat=26 | LGB=3.1s XGB=1.1s MLP=4.6s LOGIT=2.7s RF=4.5s | total=15.9s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2811.0s]   models done | n_feat=39 | LGB=3.4s XGB=1.1s MLP=4.7s LOGIT=35.7s RF=4.7s | total=49.6s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2827.8s]   models done | n_feat=27 | LGB=3.9s XGB=1.1s MLP=4.6s LOGIT=2.7s RF=4.5s | total=16.8s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2876.8s]   models done | n_feat=40 | LGB=3.5s XGB=1.1s MLP=4.9s LOGIT=34.9s RF=4.6s | total=49.0s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2893.7s]   models done | n_feat=28 | LGB=4.3s XGB=1.1s MLP=4.4s LOGIT=2.5s RF=4.6s | total=16.9s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2940.8s]   models done | n_feat=41 | LGB=3.5s XGB=1.1s MLP=5.0s LOGIT=33.2s RF=4.4s | total=47.1s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  2959.7s]   models done | n_feat=29 | LGB=5.8s XGB=1.1s MLP=4.6s LOGIT=2.8s RF=4.6s | total=18.9s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  3009.8s]   models done | n_feat=42 | LGB=3.6s XGB=1.1s MLP=4.6s LOGIT=36.1s RF=4.6s | total=50.1s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  3027.6s]   models done | n_feat=30 | LGB=4.8s XGB=1.1s MLP=4.6s LOGIT=2.8s RF=4.5s | total=17.8s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  3076.6s]   models done | n_feat=43 | LGB=3.6s XGB=1.1s MLP=4.6s LOGIT=35.1s RF=4.6s | total=49.1s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  3094.1s]   models done | n_feat=31 | LGB=4.5s XGB=1.1s MLP=4.6s LOGIT=2.8s RF=4.4s | total=17.4s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  3143.7s]   models done | n_feat=44 | LGB=3.6s XGB=1.2s MLP=4.8s LOGIT=35.4s RF=4.7s | total=49.6s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  3160.7s]   models done | n_feat=32 | LGB=3.8s XGB=1.1s MLP=4.9s LOGIT=2.6s RF=4.6s | total=17.0s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  3209.0s]   models done | n_feat=45 | LGB=3.6s XGB=1.1s MLP=4.7s LOGIT=34.0s RF=4.8s | total=48.3s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  3226.6s]   models done | n_feat=33 | LGB=4.4s XGB=1.1s MLP=4.6s LOGIT=2.8s RF=4.7s | total=17.7s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  3275.9s]   models done | n_feat=46 | LGB=3.7s XGB=1.2s MLP=4.7s LOGIT=35.0s RF=4.8s | total=49.3s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  3292.5s]   models done | n_feat=34 | LGB=3.8s XGB=1.1s MLP=4.7s LOGIT=2.5s RF=4.5s | total=16.5s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  3342.9s]   models done | n_feat=47 | LGB=3.8s XGB=1.1s MLP=5.0s LOGIT=35.7s RF=4.8s | total=50.4s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  3359.2s]   models done | n_feat=35 | LGB=3.3s XGB=1.1s MLP=4.4s LOGIT=2.9s RF=4.6s | total=16.3s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  3407.6s]   models done | n_feat=48 | LGB=3.8s XGB=1.1s MLP=5.0s LOGIT=33.7s RF=4.7s | total=48.4s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  3425.4s]   models done | n_feat=36 | LGB=4.5s XGB=1.1s MLP=4.7s LOGIT=2.5s RF=5.0s | total=17.8s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  3474.9s]   models done | n_feat=49 | LGB=3.8s XGB=1.1s MLP=4.8s LOGIT=34.6s RF=5.2s | total=49.5s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  3522.8s]   models done | n_feat=37 | LGB=3.7s XGB=1.1s MLP=4.6s LOGIT=33.5s RF=4.9s | total=47.9s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  3573.7s]   models done | n_feat=50 | LGB=3.9s XGB=1.3s MLP=4.9s LOGIT=35.7s RF=5.1s | total=51.0s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  3624.7s]   models done | n_feat=38 | LGB=3.5s XGB=1.1s MLP=4.8s LOGIT=36.5s RF=5.1s | total=50.9s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  3677.7s]   models done | n_feat=51 | LGB=4.1s XGB=1.1s MLP=4.7s LOGIT=37.9s RF=5.3s | total=53.1s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  3729.1s]   models done | n_feat=39 | LGB=3.5s XGB=1.1s MLP=4.6s LOGIT=37.0s RF=5.1s | total=51.3s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  3782.6s]   models done | n_feat=52 | LGB=4.2s XGB=1.1s MLP=4.8s LOGIT=38.3s RF=5.1s | total=53.6s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  3834.4s]   models done | n_feat=40 | LGB=4.5s XGB=1.1s MLP=4.6s LOGIT=36.5s RF=5.0s | total=51.8s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  3889.9s]   models done | n_feat=53 | LGB=6.7s XGB=1.2s MLP=4.7s LOGIT=37.8s RF=5.1s | total=55.4s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  3943.9s]   models done | n_feat=41 | LGB=5.6s XGB=1.1s MLP=5.0s LOGIT=37.3s RF=4.9s | total=54.0s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  3999.3s]   models done | n_feat=54 | LGB=6.3s XGB=1.2s MLP=4.4s LOGIT=38.4s RF=5.1s | total=55.4s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  4050.9s]   models done | n_feat=42 | LGB=4.8s XGB=1.1s MLP=4.9s LOGIT=35.9s RF=4.9s | total=51.6s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  4106.8s]   models done | n_feat=55 | LGB=6.7s XGB=1.1s MLP=4.7s LOGIT=38.2s RF=5.1s | total=55.9s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  4159.4s]   models done | n_feat=43 | LGB=5.6s XGB=1.1s MLP=4.6s LOGIT=36.4s RF=4.9s | total=52.6s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  4214.1s]   models done | n_feat=56 | LGB=6.8s XGB=1.1s MLP=4.7s LOGIT=37.0s RF=5.0s | total=54.7s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  4266.5s]   models done | n_feat=44 | LGB=6.3s XGB=1.1s MLP=4.7s LOGIT=35.3s RF=4.9s | total=52.4s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  4323.3s]   models done | n_feat=57 | LGB=6.8s XGB=1.2s MLP=4.7s LOGIT=39.1s RF=5.1s | total=56.8s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  4374.8s]   models done | n_feat=45 | LGB=6.4s XGB=1.2s MLP=4.7s LOGIT=34.2s RF=5.0s | total=51.5s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  4429.4s]   models done | n_feat=58 | LGB=6.9s XGB=1.2s MLP=4.9s LOGIT=36.6s RF=5.1s | total=54.6s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  4482.9s]   models done | n_feat=46 | LGB=6.5s XGB=1.1s MLP=4.7s LOGIT=36.3s RF=4.9s | total=53.5s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  4535.5s]   models done | n_feat=59 | LGB=5.3s XGB=1.2s MLP=4.8s LOGIT=36.2s RF=5.2s | total=52.6s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  4585.9s]   models done | n_feat=47 | LGB=3.9s XGB=1.2s MLP=4.7s LOGIT=35.5s RF=5.1s | total=50.4s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  4635.3s]   models done | n_feat=60 | LGB=4.3s XGB=1.2s MLP=5.1s LOGIT=33.6s RF=5.3s | total=49.4s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  4685.5s]   models done | n_feat=48 | LGB=4.6s XGB=1.1s MLP=4.7s LOGIT=34.7s RF=5.0s | total=50.2s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  4741.4s]   models done | n_feat=61 | LGB=7.0s XGB=1.2s MLP=4.7s LOGIT=37.9s RF=5.1s | total=55.9s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  4796.5s]   models done | n_feat=49 | LGB=6.6s XGB=1.1s MLP=4.7s LOGIT=37.1s RF=5.5s | total=55.1s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  4851.6s]   models done | n_feat=62 | LGB=6.3s XGB=1.2s MLP=4.7s LOGIT=37.6s RF=5.3s | total=55.1s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  4906.4s]   models done | n_feat=50 | LGB=5.2s XGB=1.1s MLP=4.7s LOGIT=38.2s RF=5.6s | total=54.8s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  4958.7s]   models done | n_feat=63 | LGB=5.4s XGB=1.2s MLP=4.8s LOGIT=35.7s RF=5.2s | total=52.2s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  5014.5s]   models done | n_feat=51 | LGB=6.7s XGB=1.1s MLP=4.9s LOGIT=37.5s RF=5.6s | total=55.8s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  5068.6s]   models done | n_feat=64 | LGB=5.7s XGB=1.2s MLP=4.5s LOGIT=36.9s RF=5.8s | total=54.1s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  5121.2s]   models done | n_feat=52 | LGB=5.6s XGB=1.1s MLP=4.9s LOGIT=35.5s RF=5.5s | total=52.6s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  5178.9s]   models done | n_feat=65 | LGB=7.2s XGB=1.2s MLP=4.8s LOGIT=38.6s RF=5.8s | total=57.6s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  5230.3s]   models done | n_feat=53 | LGB=4.7s XGB=1.1s MLP=4.7s LOGIT=35.5s RF=5.5s | total=51.4s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  5286.6s]   models done | n_feat=66 | LGB=7.3s XGB=1.2s MLP=4.8s LOGIT=37.4s RF=5.7s | total=56.3s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  5342.4s]   models done | n_feat=54 | LGB=8.7s XGB=1.1s MLP=4.8s LOGIT=35.4s RF=5.8s | total=55.8s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  5396.6s]   models done | n_feat=67 | LGB=4.6s XGB=1.1s MLP=4.8s LOGIT=37.7s RF=5.9s | total=54.2s
+[  5396.6s]   [F ] GES K=55/55 (n_feat=55)
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  5449.6s]   models done | n_feat=55 | LGB=4.2s XGB=1.1s MLP=4.7s LOGIT=37.2s RF=5.7s | total=52.9s
+[  5449.6s]   [OF] GES K=55/55 (n_feat=68)
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  5502.7s]   models done | n_feat=68 | LGB=4.7s XGB=1.2s MLP=4.9s LOGIT=36.5s RF=5.8s | total=53.1s
+[  5502.7s] [OFR] GES pool_size=68 | K=[5, 10, 20, 30, 40, 'ALL'] | trials=5
+[  5502.7s]   [OFR] GES K=5 -> pick=5 starting...
+[  5502.7s]     trial 1/5 seed=5042 n_feat=5
+[  5514.5s]   models done | n_feat=5 | LGB=2.7s XGB=1.0s MLP=4.5s LOGIT=0.3s RF=3.3s | total=11.9s
+[  5514.5s]     trial 2/5 seed=5043 n_feat=5
+[  5527.2s]   models done | n_feat=5 | LGB=3.6s XGB=1.0s MLP=4.6s LOGIT=0.2s RF=3.3s | total=12.7s
+[  5527.2s]     trial 3/5 seed=5044 n_feat=5
+[  5540.4s]   models done | n_feat=5 | LGB=3.9s XGB=1.0s MLP=4.6s LOGIT=0.4s RF=3.4s | total=13.2s
+[  5540.4s]     trial 4/5 seed=5045 n_feat=5
+[  5553.1s]   models done | n_feat=5 | LGB=3.6s XGB=1.0s MLP=4.5s LOGIT=0.3s RF=3.2s | total=12.7s
+[  5553.1s]     trial 5/5 seed=5046 n_feat=5
+[  5566.0s]   models done | n_feat=5 | LGB=3.9s XGB=1.0s MLP=4.5s LOGIT=0.2s RF=3.3s | total=12.9s
+[  5566.0s]   [OFR] GES K=5 done (mean aggregated)
+[  5566.0s]   [OFR] GES K=10 -> pick=10 starting...
+[  5566.0s]     trial 1/5 seed=10042 n_feat=10
+[  5577.4s]   models done | n_feat=10 | LGB=4.2s XGB=1.0s MLP=1.8s LOGIT=0.5s RF=3.9s | total=11.4s
+[  5577.4s]     trial 2/5 seed=10043 n_feat=10
+[  5591.7s]   models done | n_feat=10 | LGB=4.9s XGB=1.0s MLP=4.5s LOGIT=0.3s RF=3.7s | total=14.3s
+[  5591.7s]     trial 3/5 seed=10044 n_feat=10
+[  5606.4s]   models done | n_feat=10 | LGB=4.7s XGB=1.0s MLP=4.6s LOGIT=0.6s RF=3.7s | total=14.6s
+[  5606.4s]     trial 4/5 seed=10045 n_feat=10
+[  5619.4s]   models done | n_feat=10 | LGB=3.4s XGB=1.0s MLP=4.6s LOGIT=0.4s RF=3.7s | total=13.1s
+[  5619.4s]     trial 5/5 seed=10046 n_feat=10
+[  5632.1s]   models done | n_feat=10 | LGB=3.2s XGB=1.0s MLP=4.8s LOGIT=0.2s RF=3.5s | total=12.7s
+[  5632.1s]   [OFR] GES K=10 done (mean aggregated)
+[  5632.1s]   [OFR] GES K=20 -> pick=20 starting...
+[  5632.1s]     trial 1/5 seed=20042 n_feat=20
+[  5647.2s]   models done | n_feat=20 | LGB=3.9s XGB=1.1s MLP=4.6s LOGIT=1.4s RF=4.0s | total=15.1s
+[  5647.2s]     trial 2/5 seed=20043 n_feat=20
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  5661.7s]   models done | n_feat=20 | LGB=2.7s XGB=1.1s MLP=4.6s LOGIT=2.0s RF=4.1s | total=14.4s
+[  5661.7s]     trial 3/5 seed=20044 n_feat=20
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  5676.3s]   models done | n_feat=20 | LGB=2.8s XGB=1.1s MLP=4.2s LOGIT=2.3s RF=4.2s | total=14.6s
+[  5676.3s]     trial 4/5 seed=20045 n_feat=20
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  5691.2s]   models done | n_feat=20 | LGB=2.8s XGB=1.0s MLP=4.6s LOGIT=2.4s RF=4.1s | total=14.9s
+[  5691.2s]     trial 5/5 seed=20046 n_feat=20
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  5706.0s]   models done | n_feat=20 | LGB=2.7s XGB=1.0s MLP=4.7s LOGIT=2.4s RF=4.1s | total=14.9s
+[  5706.1s]   [OFR] GES K=20 done (mean aggregated)
+[  5706.1s]   [OFR] GES K=30 -> pick=30 starting...
+[  5706.1s]     trial 1/5 seed=30042 n_feat=30
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  5724.2s]   models done | n_feat=30 | LGB=5.7s XGB=1.1s MLP=4.6s LOGIT=2.2s RF=4.5s | total=18.1s
+[  5724.2s]     trial 2/5 seed=30043 n_feat=30
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  5740.6s]   models done | n_feat=30 | LGB=3.2s XGB=1.1s MLP=4.6s LOGIT=2.8s RF=4.7s | total=16.4s
+[  5740.6s]     trial 3/5 seed=30044 n_feat=30
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  5755.0s]   models done | n_feat=30 | LGB=3.1s XGB=1.1s MLP=2.8s LOGIT=2.9s RF=4.4s | total=14.4s
+[  5755.0s]     trial 4/5 seed=30045 n_feat=30
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  5771.1s]   models done | n_feat=30 | LGB=3.1s XGB=1.1s MLP=4.7s LOGIT=2.8s RF=4.4s | total=16.1s
+[  5771.1s]     trial 5/5 seed=30046 n_feat=30
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  5789.8s]   models done | n_feat=30 | LGB=5.7s XGB=1.1s MLP=4.6s LOGIT=2.8s RF=4.5s | total=18.7s
+[  5789.8s]   [OFR] GES K=30 done (mean aggregated)
+[  5789.8s]   [OFR] GES K=40 -> pick=40 starting...
+[  5789.8s]     trial 1/5 seed=40042 n_feat=40
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  5841.3s]   models done | n_feat=40 | LGB=3.5s XGB=1.2s MLP=4.9s LOGIT=37.2s RF=4.8s | total=51.5s
+[  5841.4s]     trial 2/5 seed=40043 n_feat=40
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  5890.8s]   models done | n_feat=40 | LGB=5.5s XGB=1.1s MLP=4.2s LOGIT=33.9s RF=4.7s | total=49.4s
+[  5890.8s]     trial 3/5 seed=40044 n_feat=40
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  5940.9s]   models done | n_feat=40 | LGB=3.5s XGB=1.2s MLP=5.0s LOGIT=35.7s RF=4.7s | total=50.1s
+[  5940.9s]     trial 4/5 seed=40045 n_feat=40
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  5990.7s]   models done | n_feat=40 | LGB=3.5s XGB=1.1s MLP=4.7s LOGIT=35.6s RF=4.9s | total=49.9s
+[  5990.7s]     trial 5/5 seed=40046 n_feat=40
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  6042.5s]   models done | n_feat=40 | LGB=5.7s XGB=1.1s MLP=4.6s LOGIT=35.6s RF=4.8s | total=51.8s
+[  6042.5s]   [OFR] GES K=40 done (mean aggregated)
+[  6042.5s]   [OFR] GES K=ALL -> pick=68 starting...
+[  6042.5s]     trial 1/5 seed=68042 n_feat=68
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  6096.3s]   models done | n_feat=68 | LGB=5.6s XGB=1.1s MLP=4.7s LOGIT=36.5s RF=5.7s | total=53.8s
+[  6096.3s]     trial 2/5 seed=68043 n_feat=68
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  6149.5s]   models done | n_feat=68 | LGB=5.9s XGB=1.2s MLP=4.7s LOGIT=35.6s RF=5.8s | total=53.2s
+[  6149.5s]     trial 3/5 seed=68044 n_feat=68
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  6205.1s]   models done | n_feat=68 | LGB=6.9s XGB=1.2s MLP=4.8s LOGIT=36.9s RF=5.8s | total=55.5s
+[  6205.1s]     trial 4/5 seed=68045 n_feat=68
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  6260.8s]   models done | n_feat=68 | LGB=5.7s XGB=1.2s MLP=4.7s LOGIT=38.3s RF=5.9s | total=55.7s
+[  6260.8s]     trial 5/5 seed=68046 n_feat=68
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[  6312.7s]   models done | n_feat=68 | LGB=4.8s XGB=1.1s MLP=5.0s LOGIT=35.2s RF=5.7s | total=51.9s
+[  6312.7s]   [OFR] GES K=ALL done (mean aggregated)
+[  6312.7s] [ALG] GOLEM loading...
+[  6315.7s] [ALG] GOLEM ready | edges(total)=26 | run F/OF K=1..26
+[  6315.7s]   [F ] GOLEM K=1/26 (n_feat=1)
+[  6325.8s]   models done | n_feat=1 | LGB=2.0s XGB=1.0s MLP=3.3s LOGIT=0.4s RF=3.4s | total=10.1s
+[  6325.8s]   [OF] GOLEM K=1/26 (n_feat=14)
+[  6338.4s]   models done | n_feat=14 | LGB=3.5s XGB=1.0s MLP=4.5s LOGIT=0.3s RF=3.3s | total=12.6s
+[  6348.0s]   models done | n_feat=2 | LGB=3.1s XGB=0.9s MLP=2.3s LOGIT=0.2s RF=3.0s | total=9.6s
+[  6359.6s]   models done | n_feat=15 | LGB=2.5s XGB=1.2s MLP=4.4s LOGIT=0.3s RF=3.2s | total=11.6s
+[  6368.6s]   models done | n_feat=3 | LGB=1.8s XGB=1.0s MLP=3.0s LOGIT=0.2s RF=3.0s | total=9.0s
+[  6380.7s]   models done | n_feat=16 | LGB=2.6s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=3.5s | total=12.1s
+[  6390.3s]   models done | n_feat=4 | LGB=1.9s XGB=1.0s MLP=3.1s LOGIT=0.2s RF=3.5s | total=9.6s
+[  6402.5s]   models done | n_feat=17 | LGB=2.6s XGB=1.1s MLP=4.5s LOGIT=0.3s RF=3.7s | total=12.2s
+[  6412.1s]   models done | n_feat=5 | LGB=2.0s XGB=1.0s MLP=3.1s LOGIT=0.3s RF=3.2s | total=9.5s
+[  6426.9s]   models done | n_feat=18 | LGB=5.3s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=3.6s | total=14.8s
+[  6438.3s]   models done | n_feat=6 | LGB=3.3s XGB=1.0s MLP=3.6s LOGIT=0.3s RF=3.3s | total=11.4s
+[  6453.7s]   models done | n_feat=19 | LGB=5.4s XGB=1.0s MLP=4.8s LOGIT=0.4s RF=3.7s | total=15.4s
+[  6464.5s]   models done | n_feat=7 | LGB=2.9s XGB=1.0s MLP=3.4s LOGIT=0.3s RF=3.3s | total=10.9s
+[  6479.3s]   models done | n_feat=20 | LGB=5.3s XGB=1.0s MLP=4.4s LOGIT=0.4s RF=3.7s | total=14.7s
+[  6490.7s]   models done | n_feat=8 | LGB=3.4s XGB=1.0s MLP=3.5s LOGIT=0.3s RF=3.3s | total=11.4s
+[  6506.2s]   models done | n_feat=21 | LGB=5.4s XGB=1.0s MLP=4.9s LOGIT=0.3s RF=3.8s | total=15.5s
+[  6518.7s]   models done | n_feat=9 | LGB=2.8s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=3.9s | total=12.5s
+[  6532.2s]   models done | n_feat=22 | LGB=3.8s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=3.7s | total=13.5s
+[  6532.2s]   [F ] GOLEM K=10/26 (n_feat=10)
+[  6544.8s]   models done | n_feat=10 | LGB=2.9s XGB=1.1s MLP=4.6s LOGIT=0.3s RF=3.7s | total=12.6s
+[  6544.8s]   [OF] GOLEM K=10/26 (n_feat=23)
+[  6558.6s]   models done | n_feat=23 | LGB=3.8s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=4.0s | total=13.7s
+[  6570.9s]   models done | n_feat=11 | LGB=2.7s XGB=1.0s MLP=4.6s LOGIT=0.2s RF=3.8s | total=12.3s
+[  6584.4s]   models done | n_feat=24 | LGB=3.7s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=3.8s | total=13.5s
+[  6597.0s]   models done | n_feat=12 | LGB=2.9s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=3.8s | total=12.6s
+[  6610.9s]   models done | n_feat=25 | LGB=3.8s XGB=1.1s MLP=4.6s LOGIT=0.3s RF=4.1s | total=14.0s
+[  6623.3s]   models done | n_feat=13 | LGB=2.6s XGB=1.1s MLP=4.6s LOGIT=0.3s RF=3.8s | total=12.3s
+[  6636.9s]   models done | n_feat=26 | LGB=3.6s XGB=1.1s MLP=4.6s LOGIT=0.3s RF=4.2s | total=13.7s
+[  6649.3s]   models done | n_feat=14 | LGB=2.7s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=3.8s | total=12.4s
+[  6663.2s]   models done | n_feat=27 | LGB=3.7s XGB=1.1s MLP=4.6s LOGIT=0.4s RF=4.1s | total=13.8s
+[  6675.9s]   models done | n_feat=15 | LGB=2.6s XGB=1.1s MLP=4.9s LOGIT=0.3s RF=3.9s | total=12.7s
+[  6689.0s]   models done | n_feat=28 | LGB=3.2s XGB=1.1s MLP=4.3s LOGIT=0.4s RF=4.2s | total=13.1s
+[  6703.1s]   models done | n_feat=16 | LGB=3.7s XGB=1.1s MLP=4.8s LOGIT=0.3s RF=4.3s | total=14.1s
+[  6716.4s]   models done | n_feat=29 | LGB=3.0s XGB=1.1s MLP=4.6s LOGIT=0.4s RF=4.2s | total=13.3s
+[  6729.4s]   models done | n_feat=17 | LGB=2.7s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=4.4s | total=13.0s
+[  6743.0s]   models done | n_feat=30 | LGB=3.1s XGB=1.1s MLP=4.7s LOGIT=0.4s RF=4.3s | total=13.6s
+[  6756.1s]   models done | n_feat=18 | LGB=2.6s XGB=1.0s MLP=4.8s LOGIT=0.3s RF=4.3s | total=13.1s
+[  6769.5s]   models done | n_feat=31 | LGB=3.2s XGB=1.1s MLP=4.4s LOGIT=0.4s RF=4.3s | total=13.3s
+[  6782.7s]   models done | n_feat=19 | LGB=2.7s XGB=1.1s MLP=4.9s LOGIT=0.2s RF=4.3s | total=13.2s
+[  6796.2s]   models done | n_feat=32 | LGB=3.2s XGB=1.1s MLP=4.6s LOGIT=0.3s RF=4.3s | total=13.5s
+[  6809.3s]   models done | n_feat=20 | LGB=2.8s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=4.4s | total=13.1s
+[  6822.9s]   models done | n_feat=33 | LGB=3.2s XGB=1.1s MLP=4.6s LOGIT=0.5s RF=4.3s | total=13.6s
+[  6835.9s]   models done | n_feat=21 | LGB=2.7s XGB=1.0s MLP=4.5s LOGIT=0.3s RF=4.4s | total=13.0s
+[  6849.7s]   models done | n_feat=34 | LGB=3.3s XGB=1.1s MLP=4.6s LOGIT=0.4s RF=4.3s | total=13.8s
+[  6862.9s]   models done | n_feat=22 | LGB=2.8s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=4.4s | total=13.2s
+[  6876.9s]   models done | n_feat=35 | LGB=3.3s XGB=1.1s MLP=4.9s LOGIT=0.4s RF=4.3s | total=14.0s
+[  6890.0s]   models done | n_feat=23 | LGB=2.9s XGB=1.1s MLP=4.6s LOGIT=0.3s RF=4.2s | total=13.1s
+[  6904.3s]   models done | n_feat=36 | LGB=3.3s XGB=1.1s MLP=4.8s LOGIT=0.5s RF=4.7s | total=14.3s
+[  6917.4s]   models done | n_feat=24 | LGB=2.8s XGB=1.1s MLP=4.6s LOGIT=0.3s RF=4.3s | total=13.1s
+[  6934.2s]   models done | n_feat=37 | LGB=3.3s XGB=1.1s MLP=4.9s LOGIT=2.8s RF=4.6s | total=16.8s
+[  6948.0s]   models done | n_feat=25 | LGB=3.0s XGB=1.2s MLP=4.4s LOGIT=0.3s RF=4.7s | total=13.7s
+[  6968.6s]   models done | n_feat=38 | LGB=6.2s XGB=1.1s MLP=4.9s LOGIT=3.8s RF=4.7s | total=20.6s
+[  6968.6s]   [F ] GOLEM K=26/26 (n_feat=26)
+[  6982.6s]   models done | n_feat=26 | LGB=3.0s XGB=1.1s MLP=4.7s LOGIT=0.3s RF=4.8s | total=13.9s
+[  6982.6s]   [OF] GOLEM K=26/26 (n_feat=39)
+[  6999.6s]   models done | n_feat=39 | LGB=3.5s XGB=1.1s MLP=4.7s LOGIT=3.2s RF=4.6s | total=17.0s
+[  6999.6s] [OFR] GOLEM pool_size=39 | K=[5, 10, 20, 30, 40, 'ALL'] | trials=5
+[  6999.6s]   [OFR] GOLEM K=5 -> pick=5 starting...
+[  6999.6s]     trial 1/5 seed=5042 n_feat=5
+[  7013.2s]   models done | n_feat=5 | LGB=4.7s XGB=1.0s MLP=4.6s LOGIT=0.2s RF=3.1s | total=13.6s
+[  7013.2s]     trial 2/5 seed=5043 n_feat=5
+[  7026.5s]   models done | n_feat=5 | LGB=4.7s XGB=1.0s MLP=4.2s LOGIT=0.2s RF=3.3s | total=13.4s
+[  7026.5s]     trial 3/5 seed=5044 n_feat=5
+[  7039.9s]   models done | n_feat=5 | LGB=4.6s XGB=1.0s MLP=4.2s LOGIT=0.2s RF=3.3s | total=13.3s
+[  7039.9s]     trial 4/5 seed=5045 n_feat=5
+[  7053.3s]   models done | n_feat=5 | LGB=4.7s XGB=1.0s MLP=4.5s LOGIT=0.2s RF=3.1s | total=13.5s
+[  7053.3s]     trial 5/5 seed=5046 n_feat=5
+[  7067.2s]   models done | n_feat=5 | LGB=4.7s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=3.3s | total=13.8s
+[  7067.2s]   [OFR] GOLEM K=5 done (mean aggregated)
+[  7067.2s]   [OFR] GOLEM K=10 -> pick=10 starting...
+[  7067.2s]     trial 1/5 seed=10042 n_feat=10
+[  7081.2s]   models done | n_feat=10 | LGB=4.5s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=3.7s | total=14.0s
+[  7081.2s]     trial 2/5 seed=10043 n_feat=10
+[  7094.3s]   models done | n_feat=10 | LGB=3.6s XGB=1.0s MLP=4.6s LOGIT=0.2s RF=3.6s | total=13.1s
+[  7094.3s]     trial 3/5 seed=10044 n_feat=10
+[  7107.2s]   models done | n_feat=10 | LGB=3.6s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=3.4s | total=12.9s
+[  7107.2s]     trial 4/5 seed=10045 n_feat=10
+[  7120.5s]   models done | n_feat=10 | LGB=3.6s XGB=1.0s MLP=4.8s LOGIT=0.2s RF=3.7s | total=13.3s
+[  7120.5s]     trial 5/5 seed=10046 n_feat=10
+[  7133.4s]   models done | n_feat=10 | LGB=3.4s XGB=1.0s MLP=4.5s LOGIT=0.2s RF=3.7s | total=12.9s
+[  7133.4s]   [OFR] GOLEM K=10 done (mean aggregated)
+[  7133.4s]   [OFR] GOLEM K=20 -> pick=20 starting...
+[  7133.4s]     trial 1/5 seed=20042 n_feat=20
+[  7147.4s]   models done | n_feat=20 | LGB=4.0s XGB=1.0s MLP=4.6s LOGIT=0.3s RF=4.0s | total=14.0s
+[  7147.4s]     trial 2/5 seed=20043 n_feat=20
+[  7161.7s]   models done | n_feat=20 | LGB=4.4s XGB=1.1s MLP=4.6s LOGIT=0.3s RF=4.0s | total=14.3s
+[  7161.7s]     trial 3/5 seed=20044 n_feat=20
+[  7174.5s]   models done | n_feat=20 | LGB=2.8s XGB=1.0s MLP=4.7s LOGIT=0.3s RF=4.0s | total=12.8s
+[  7174.5s]     trial 4/5 seed=20045 n_feat=20
+[  7187.1s]   models done | n_feat=20 | LGB=2.7s XGB=1.1s MLP=4.6s LOGIT=0.2s RF=4.0s | total=12.6s
+[  7187.1s]     trial 5/5 seed=20046 n_feat=20
+[  7200.4s]   models done | n_feat=20 | LGB=3.1s XGB=1.1s MLP=4.9s LOGIT=0.3s RF=3.9s | total=13.3s
+[  7200.4s]   [OFR] GOLEM K=20 done (mean aggregated)
+[  7200.4s]   [OFR] GOLEM K=30 -> pick=30 starting...
+[  7200.5s]     trial 1/5 seed=30042 n_feat=30
+[  7215.5s]   models done | n_feat=30 | LGB=5.0s XGB=1.1s MLP=4.3s LOGIT=0.4s RF=4.2s | total=15.1s
+[  7215.5s]     trial 2/5 seed=30043 n_feat=30
+[  7229.2s]   models done | n_feat=30 | LGB=3.1s XGB=1.1s MLP=4.9s LOGIT=0.3s RF=4.4s | total=13.7s
+[  7229.2s]     trial 3/5 seed=30044 n_feat=30
+[  7242.8s]   models done | n_feat=30 | LGB=3.0s XGB=1.1s MLP=4.7s LOGIT=0.4s RF=4.4s | total=13.5s
+[  7242.8s]     trial 4/5 seed=30045 n_feat=30
+[  7256.0s]   models done | n_feat=30 | LGB=3.0s XGB=1.1s MLP=4.6s LOGIT=0.3s RF=4.1s | total=13.2s
+[  7256.0s]     trial 5/5 seed=30046 n_feat=30
+[  7269.6s]   models done | n_feat=30 | LGB=3.1s XGB=1.1s MLP=4.8s LOGIT=0.4s RF=4.3s | total=13.6s
+[  7269.6s]   [OFR] GOLEM K=30 done (mean aggregated)
+[  7269.6s]   [OFR] GOLEM K=40 -> pick=39 starting...
+[  7269.6s]     trial 1/5 seed=39042 n_feat=39
+[  7286.0s]   models done | n_feat=39 | LGB=3.5s XGB=1.1s MLP=4.7s LOGIT=2.5s RF=4.6s | total=16.4s
+[  7286.0s]     trial 2/5 seed=39043 n_feat=39
+[  7305.9s]   models done | n_feat=39 | LGB=6.1s XGB=1.1s MLP=4.7s LOGIT=3.2s RF=4.7s | total=19.9s
+[  7305.9s]     trial 3/5 seed=39044 n_feat=39
+[  7323.5s]   models done | n_feat=39 | LGB=3.4s XGB=1.1s MLP=4.7s LOGIT=3.8s RF=4.7s | total=17.6s
+[  7323.5s]     trial 4/5 seed=39045 n_feat=39
+[  7342.2s]   models done | n_feat=39 | LGB=4.5s XGB=1.2s MLP=5.0s LOGIT=3.3s RF=4.7s | total=18.7s
+[  7342.2s]     trial 5/5 seed=39046 n_feat=39
+[  7359.9s]   models done | n_feat=39 | LGB=3.5s XGB=1.2s MLP=4.6s LOGIT=3.8s RF=4.6s | total=17.7s
+[  7359.9s]   [OFR] GOLEM K=40 done (mean aggregated)
+[  7359.9s]   [OFR] GOLEM K=ALL -> pick=39 starting...
+[  7359.9s]     trial 1/5 seed=39042 n_feat=39
+[  7376.4s]   models done | n_feat=39 | LGB=3.5s XGB=1.1s MLP=4.7s LOGIT=2.6s RF=4.5s | total=16.5s
+[  7376.4s]     trial 2/5 seed=39043 n_feat=39
+[  7395.8s]   models done | n_feat=39 | LGB=6.1s XGB=1.1s MLP=4.7s LOGIT=2.5s RF=4.8s | total=19.3s
+[  7395.8s]     trial 3/5 seed=39044 n_feat=39
+[  7413.4s]   models done | n_feat=39 | LGB=3.5s XGB=1.1s MLP=4.7s LOGIT=3.8s RF=4.6s | total=17.6s
+[  7413.4s]     trial 4/5 seed=39045 n_feat=39
+[  7431.0s]   models done | n_feat=39 | LGB=3.4s XGB=1.1s MLP=4.7s LOGIT=3.7s RF=4.6s | total=17.6s
+[  7431.0s]     trial 5/5 seed=39046 n_feat=39
+[  7451.1s]   models done | n_feat=39 | LGB=6.1s XGB=1.1s MLP=4.7s LOGIT=3.5s RF=4.7s | total=20.1s
+[  7451.1s]   [OFR] GOLEM K=ALL done (mean aggregated)
+[  7451.1s] [DONE] saved:
+/content/drive/MyDrive/bank_failure_prediction/results_tables/results_O.csv
+/content/drive/MyDrive/bank_failure_prediction/results_tables/results_F.csv
+/content/drive/MyDrive/bank_failure_prediction/results_tables/results_OF.csv
+/content/drive/MyDrive/bank_failure_prediction/results_tables/results_OFR.csv
+/content/drive/MyDrive/bank_failure_prediction/results_tables/results_OFR_trials.csv
+SET	DAG	MODEL	K_EDGE	N_FEAT	AUROC	AUPRC	F1	Brier	ECE
+0	O	GES	XGBoost	0	13	0.937523	0.450339	0.414894	0.016282	0.010862
+1	O	GES	Logit	0	13	0.924496	0.255344	0.258993	0.018913	0.011369
+2	O	GES	LightGBM	0	13	0.923703	0.453826	0.447761	0.016772	0.015523
+3	O	GES	RF	0	13	0.920009	0.439904	0.446043	0.015931	0.005427
+4	O	GES	FFMLP	0	13	0.870801	0.303392	0.369427	0.019760	0.008311
+5	O	GOLEM	XGBoost	0	13	0.937523	0.450339	0.414894	0.016282	0.010862
+6	O	GOLEM	Logit	0	13	0.924496	0.255344	0.258993	0.018913	0.011369
+7	O	GOLEM	LightGBM	0	13	0.923703	0.453826	0.447761	0.016772	0.015523
+8	O	GOLEM	RF	0	13	0.920009	0.439904	0.446043	0.015931	0.005427
+9	O	GOLEM	FFMLP	0	13	0.870801	0.303392	0.369427	0.019760	0.008311
+
+
+SET	DAG	MODEL	K_EDGE	N_FEAT	AUROC	AUPRC	F1	Brier	ECE
+0	F	GES	Logit	1	1	0.597292	0.030254	0.047221	0.021594	0.000391
+1	F	GES	LightGBM	1	1	0.578530	0.031571	0.051948	0.021873	0.003973
+2	F	GES	XGBoost	1	1	0.561552	0.030024	0.064516	0.021814	0.002871
+3	F	GES	RF	1	1	0.493108	0.023481	0.027273	0.032837	0.041226
+4	F	GES	FFMLP	1	1	0.471220	0.022243	0.043217	0.035489	0.061191
+5	F	GES	Logit	2	2	0.811350	0.070783	0.122137	0.021052	0.001448
+6	F	GES	XGBoost	2	2	0.787407	0.073654	0.120301	0.021464	0.009949
+7	F	GES	LightGBM	2	2	0.782196	0.069123	0.117864	0.024793	0.022344
+8	F	GES	RF	2	2	0.738483	0.072417	0.080000	0.022691	0.019559
+9	F	GES	FFMLP	2	2	0.682489	0.034762	0.073130	0.032148	0.051673
+
+SET	DAG	MODEL	K_EDGE	N_FEAT	AUROC	AUPRC	F1	Brier	ECE
+0	OF	GES	XGBoost	1	14	0.938117	0.430967	0.452055	0.016508	0.011758
+1	OF	GES	RF	1	14	0.934811	0.439938	0.428571	0.016008	0.005441
+2	OF	GES	Logit	1	14	0.922788	0.263661	0.237288	0.018810	0.010772
+3	OF	GES	LightGBM	1	14	0.922115	0.441046	0.431655	0.016859	0.016458
+4	OF	GES	FFMLP	1	14	0.447865	0.027068	0.040146	0.037050	0.062326
+5	OF	GES	XGBoost	2	15	0.935381	0.436098	0.419162	0.016490	0.011648
+6	OF	GES	LightGBM	2	15	0.927915	0.455024	0.421687	0.016476	0.016224
+7	OF	GES	RF	2	15	0.921157	0.433153	0.408163	0.016123	0.003211
+8	OF	GES	Logit	2	15	0.921116	0.253350	0.290076	0.018960	0.010080
+9	OF	GES	FFMLP	2	15	0.686063	0.039026	0.069114	0.024625	0.028491
+
+SET	DAG	MODEL	K_EDGE	N_FEAT	AUROC	AUPRC	F1	Brier	ECE
+0	OFR	GES	XGBoost	5	5	0.860901	0.182322	0.244911	0.020244	0.010393
+1	OFR	GES	RF	5	5	0.852863	0.203145	0.249973	0.019536	0.007708
+2	OFR	GES	LightGBM	5	5	0.838290	0.188116	0.233488	0.020877	0.019248
+3	OFR	GES	Logit	5	5	0.712839	0.068328	0.114470	0.021215	0.002986
+4	OFR	GES	FFMLP	5	5	0.590472	0.031020	0.056116	0.029881	0.032835
+5	OFR	GES	XGBoost	10	10	0.895795	0.294079	0.327791	0.018674	0.012002
+6	OFR	GES	RF	10	10	0.887049	0.280496	0.306174	0.018255	0.005490
+7	OFR	GES	LightGBM	10	10	0.883772	0.275859	0.336405	0.020176	0.019453
+8	OFR	GES	Logit	10	10	0.780941	0.085085	0.120874	0.021290	0.004714
+9	OFR	GES	FFMLP	10	10	0.672477	0.079898	0.140727	0.028196	0.038244
