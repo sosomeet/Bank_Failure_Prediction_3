@@ -1,0 +1,579 @@
+{
+  "alg": "GES",
+  "data_path": "./training_data_normalized.csv",
+  "gexf_path": "./graph_GES.gexf",
+  "output_csv": "./add_feature_dataset\\GES\\data_with_edge_features_GES.csv",
+  "n_rows": 17881,
+  "n_original_cols": 15,
+  "n_added_edge_features": 55,
+  "added_feature_cols": [
+    "edge_GES__Unnamed: 0__capitalization_ratio",
+    "edge_GES__Unnamed: 0__rect_turn",
+    "edge_GES__leverage_ratio__capitalization_ratio",
+    "edge_GES__leverage_ratio__rect_turn",
+    "edge_GES__asset_liabilities__Unnamed: 0",
+    "edge_GES__asset_liabilities__leverage_ratio",
+    "edge_GES__asset_liabilities__roe",
+    "edge_GES__asset_liabilities__asset_turnover",
+    "edge_GES__asset_liabilities__capitalization_ratio",
+    "edge_GES__asset_liabilities__rect_turn",
+    "edge_GES__roe__Unnamed: 0",
+    "edge_GES__roe__leverage_ratio",
+    "edge_GES__roe__asset_turnover",
+    "edge_GES__roe__totaldebt_invcap",
+    "edge_GES__roe__rect_turn",
+    "edge_GES__asset_turnover__Unnamed: 0",
+    "edge_GES__asset_turnover__leverage_ratio",
+    "edge_GES__asset_turnover__rect_turn",
+    "edge_GES__debt_ratio__Unnamed: 0",
+    "edge_GES__debt_ratio__leverage_ratio",
+    "edge_GES__debt_ratio__asset_liabilities",
+    "edge_GES__debt_ratio__roe",
+    "edge_GES__debt_ratio__roa",
+    "edge_GES__debt_ratio__capitalization_ratio",
+    "edge_GES__debt_ratio__rect_turn",
+    "edge_GES__debt_ratio2__leverage_ratio",
+    "edge_GES__debt_ratio2__asset_liabilities",
+    "edge_GES__debt_ratio2__roe",
+    "edge_GES__debt_ratio2__debt_ratio",
+    "edge_GES__debt_ratio2__roa",
+    "edge_GES__debt_ratio2__capitalization_ratio",
+    "edge_GES__debt_ratio2__longtermdebt_invcap",
+    "edge_GES__debt_ratio2__totaldebt_invcap",
+    "edge_GES__roa__Unnamed: 0",
+    "edge_GES__roa__leverage_ratio",
+    "edge_GES__roa__asset_turnover",
+    "edge_GES__roa__totaldebt_invcap",
+    "edge_GES__roa__rect_turn",
+    "edge_GES__longtermdebt_invcap__leverage_ratio",
+    "edge_GES__longtermdebt_invcap__capitalization_ratio",
+    "edge_GES__longtermdebt_invcap__totaldebt_invcap",
+    "edge_GES__totaldebt_invcap__Unnamed: 0",
+    "edge_GES__totaldebt_invcap__leverage_ratio",
+    "edge_GES__totaldebt_invcap__asset_turnover",
+    "edge_GES__totaldebt_invcap__capitalization_ratio",
+    "edge_GES__cash_debt__Unnamed: 0",
+    "edge_GES__cash_debt__asset_liabilities",
+    "edge_GES__cash_debt__debt_ratio",
+    "edge_GES__cash_debt__debt_ratio2",
+    "edge_GES__cash_debt__longtermdebt_invcap",
+    "edge_GES__cash_debt__totaldebt_invcap",
+    "edge_GES__cash_debt__rect_turn",
+    "edge_GES__debt_ebitda__roe",
+    "edge_GES__debt_ebitda__debt_ratio2",
+    "edge_GES__debt_ebitda__roa"
+  ],
+  "node_to_col_mapping_preview": {
+    "Unnamed: 0": "Unnamed: 0",
+    "leverage_ratio": "leverage_ratio",
+    "asset_liabilities": "asset_liabilities",
+    "roe": "roe",
+    "asset_turnover": "asset_turnover",
+    "debt_ratio": "debt_ratio",
+    "debt_ratio2": "debt_ratio2",
+    "roa": "roa",
+    "capitalization_ratio": "capitalization_ratio",
+    "longtermdebt_invcap": "longtermdebt_invcap",
+    "totaldebt_invcap": "totaldebt_invcap",
+    "cash_debt": "cash_debt",
+    "debt_ebitda": "debt_ebitda",
+    "rect_turn": "rect_turn"
+  },
+  "edges": [
+    {
+      "alg": "GES",
+      "u": "Unnamed: 0",
+      "v": "capitalization_ratio",
+      "u_col": "Unnamed: 0",
+      "v_col": "capitalization_ratio",
+      "weight": 0.04861376562095067,
+      "new_col": "edge_GES__Unnamed: 0__capitalization_ratio"
+    },
+    {
+      "alg": "GES",
+      "u": "Unnamed: 0",
+      "v": "rect_turn",
+      "u_col": "Unnamed: 0",
+      "v_col": "rect_turn",
+      "weight": 0.023784375318841207,
+      "new_col": "edge_GES__Unnamed: 0__rect_turn"
+    },
+    {
+      "alg": "GES",
+      "u": "leverage_ratio",
+      "v": "capitalization_ratio",
+      "u_col": "leverage_ratio",
+      "v_col": "capitalization_ratio",
+      "weight": 0.09472080018973736,
+      "new_col": "edge_GES__leverage_ratio__capitalization_ratio"
+    },
+    {
+      "alg": "GES",
+      "u": "leverage_ratio",
+      "v": "rect_turn",
+      "u_col": "leverage_ratio",
+      "v_col": "rect_turn",
+      "weight": 0.17161027797208578,
+      "new_col": "edge_GES__leverage_ratio__rect_turn"
+    },
+    {
+      "alg": "GES",
+      "u": "asset_liabilities",
+      "v": "Unnamed: 0",
+      "u_col": "asset_liabilities",
+      "v_col": "Unnamed: 0",
+      "weight": -0.19982207046780232,
+      "new_col": "edge_GES__asset_liabilities__Unnamed: 0"
+    },
+    {
+      "alg": "GES",
+      "u": "asset_liabilities",
+      "v": "leverage_ratio",
+      "u_col": "asset_liabilities",
+      "v_col": "leverage_ratio",
+      "weight": 0.7041104916537222,
+      "new_col": "edge_GES__asset_liabilities__leverage_ratio"
+    },
+    {
+      "alg": "GES",
+      "u": "asset_liabilities",
+      "v": "roe",
+      "u_col": "asset_liabilities",
+      "v_col": "roe",
+      "weight": -0.060880549050645896,
+      "new_col": "edge_GES__asset_liabilities__roe"
+    },
+    {
+      "alg": "GES",
+      "u": "asset_liabilities",
+      "v": "asset_turnover",
+      "u_col": "asset_liabilities",
+      "v_col": "asset_turnover",
+      "weight": 0.05581527566181574,
+      "new_col": "edge_GES__asset_liabilities__asset_turnover"
+    },
+    {
+      "alg": "GES",
+      "u": "asset_liabilities",
+      "v": "capitalization_ratio",
+      "u_col": "asset_liabilities",
+      "v_col": "capitalization_ratio",
+      "weight": 0.0753977756951358,
+      "new_col": "edge_GES__asset_liabilities__capitalization_ratio"
+    },
+    {
+      "alg": "GES",
+      "u": "asset_liabilities",
+      "v": "rect_turn",
+      "u_col": "asset_liabilities",
+      "v_col": "rect_turn",
+      "weight": 0.6536536416790305,
+      "new_col": "edge_GES__asset_liabilities__rect_turn"
+    },
+    {
+      "alg": "GES",
+      "u": "roe",
+      "v": "Unnamed: 0",
+      "u_col": "roe",
+      "v_col": "Unnamed: 0",
+      "weight": -0.10031583814435191,
+      "new_col": "edge_GES__roe__Unnamed: 0"
+    },
+    {
+      "alg": "GES",
+      "u": "roe",
+      "v": "leverage_ratio",
+      "u_col": "roe",
+      "v_col": "leverage_ratio",
+      "weight": -0.10465973269240925,
+      "new_col": "edge_GES__roe__leverage_ratio"
+    },
+    {
+      "alg": "GES",
+      "u": "roe",
+      "v": "asset_turnover",
+      "u_col": "roe",
+      "v_col": "asset_turnover",
+      "weight": -0.14647962661999422,
+      "new_col": "edge_GES__roe__asset_turnover"
+    },
+    {
+      "alg": "GES",
+      "u": "roe",
+      "v": "totaldebt_invcap",
+      "u_col": "roe",
+      "v_col": "totaldebt_invcap",
+      "weight": 0.14254409314898103,
+      "new_col": "edge_GES__roe__totaldebt_invcap"
+    },
+    {
+      "alg": "GES",
+      "u": "roe",
+      "v": "rect_turn",
+      "u_col": "roe",
+      "v_col": "rect_turn",
+      "weight": -0.07813687525644408,
+      "new_col": "edge_GES__roe__rect_turn"
+    },
+    {
+      "alg": "GES",
+      "u": "asset_turnover",
+      "v": "Unnamed: 0",
+      "u_col": "asset_turnover",
+      "v_col": "Unnamed: 0",
+      "weight": -0.25894234723205506,
+      "new_col": "edge_GES__asset_turnover__Unnamed: 0"
+    },
+    {
+      "alg": "GES",
+      "u": "asset_turnover",
+      "v": "leverage_ratio",
+      "u_col": "asset_turnover",
+      "v_col": "leverage_ratio",
+      "weight": 0.11849990071239452,
+      "new_col": "edge_GES__asset_turnover__leverage_ratio"
+    },
+    {
+      "alg": "GES",
+      "u": "asset_turnover",
+      "v": "rect_turn",
+      "u_col": "asset_turnover",
+      "v_col": "rect_turn",
+      "weight": 0.2507436998799054,
+      "new_col": "edge_GES__asset_turnover__rect_turn"
+    },
+    {
+      "alg": "GES",
+      "u": "debt_ratio",
+      "v": "Unnamed: 0",
+      "u_col": "debt_ratio",
+      "v_col": "Unnamed: 0",
+      "weight": -0.44279205645912983,
+      "new_col": "edge_GES__debt_ratio__Unnamed: 0"
+    },
+    {
+      "alg": "GES",
+      "u": "debt_ratio",
+      "v": "leverage_ratio",
+      "u_col": "debt_ratio",
+      "v_col": "leverage_ratio",
+      "weight": 1.281766326465264,
+      "new_col": "edge_GES__debt_ratio__leverage_ratio"
+    },
+    {
+      "alg": "GES",
+      "u": "debt_ratio",
+      "v": "asset_liabilities",
+      "u_col": "debt_ratio",
+      "v_col": "asset_liabilities",
+      "weight": -0.9147899082628815,
+      "new_col": "edge_GES__debt_ratio__asset_liabilities"
+    },
+    {
+      "alg": "GES",
+      "u": "debt_ratio",
+      "v": "roe",
+      "u_col": "debt_ratio",
+      "v_col": "roe",
+      "weight": -0.0403743742210241,
+      "new_col": "edge_GES__debt_ratio__roe"
+    },
+    {
+      "alg": "GES",
+      "u": "debt_ratio",
+      "v": "roa",
+      "u_col": "debt_ratio",
+      "v_col": "roa",
+      "weight": -0.2521291458679837,
+      "new_col": "edge_GES__debt_ratio__roa"
+    },
+    {
+      "alg": "GES",
+      "u": "debt_ratio",
+      "v": "capitalization_ratio",
+      "u_col": "debt_ratio",
+      "v_col": "capitalization_ratio",
+      "weight": 0.1604651928966359,
+      "new_col": "edge_GES__debt_ratio__capitalization_ratio"
+    },
+    {
+      "alg": "GES",
+      "u": "debt_ratio",
+      "v": "rect_turn",
+      "u_col": "debt_ratio",
+      "v_col": "rect_turn",
+      "weight": 0.1613710531022432,
+      "new_col": "edge_GES__debt_ratio__rect_turn"
+    },
+    {
+      "alg": "GES",
+      "u": "debt_ratio2",
+      "v": "leverage_ratio",
+      "u_col": "debt_ratio2",
+      "v_col": "leverage_ratio",
+      "weight": -0.03988360356924615,
+      "new_col": "edge_GES__debt_ratio2__leverage_ratio"
+    },
+    {
+      "alg": "GES",
+      "u": "debt_ratio2",
+      "v": "asset_liabilities",
+      "u_col": "debt_ratio2",
+      "v_col": "asset_liabilities",
+      "weight": 0.051344493323753224,
+      "new_col": "edge_GES__debt_ratio2__asset_liabilities"
+    },
+    {
+      "alg": "GES",
+      "u": "debt_ratio2",
+      "v": "roe",
+      "u_col": "debt_ratio2",
+      "v_col": "roe",
+      "weight": 0.014267044847888532,
+      "new_col": "edge_GES__debt_ratio2__roe"
+    },
+    {
+      "alg": "GES",
+      "u": "debt_ratio2",
+      "v": "debt_ratio",
+      "u_col": "debt_ratio2",
+      "v_col": "debt_ratio",
+      "weight": 0.04511243344235849,
+      "new_col": "edge_GES__debt_ratio2__debt_ratio"
+    },
+    {
+      "alg": "GES",
+      "u": "debt_ratio2",
+      "v": "roa",
+      "u_col": "debt_ratio2",
+      "v_col": "roa",
+      "weight": 0.1922260316078262,
+      "new_col": "edge_GES__debt_ratio2__roa"
+    },
+    {
+      "alg": "GES",
+      "u": "debt_ratio2",
+      "v": "capitalization_ratio",
+      "u_col": "debt_ratio2",
+      "v_col": "capitalization_ratio",
+      "weight": 0.3877265793573006,
+      "new_col": "edge_GES__debt_ratio2__capitalization_ratio"
+    },
+    {
+      "alg": "GES",
+      "u": "debt_ratio2",
+      "v": "longtermdebt_invcap",
+      "u_col": "debt_ratio2",
+      "v_col": "longtermdebt_invcap",
+      "weight": 0.5957433121865222,
+      "new_col": "edge_GES__debt_ratio2__longtermdebt_invcap"
+    },
+    {
+      "alg": "GES",
+      "u": "debt_ratio2",
+      "v": "totaldebt_invcap",
+      "u_col": "debt_ratio2",
+      "v_col": "totaldebt_invcap",
+      "weight": 0.6424563391782321,
+      "new_col": "edge_GES__debt_ratio2__totaldebt_invcap"
+    },
+    {
+      "alg": "GES",
+      "u": "roa",
+      "v": "Unnamed: 0",
+      "u_col": "roa",
+      "v_col": "Unnamed: 0",
+      "weight": -0.028236169790450766,
+      "new_col": "edge_GES__roa__Unnamed: 0"
+    },
+    {
+      "alg": "GES",
+      "u": "roa",
+      "v": "leverage_ratio",
+      "u_col": "roa",
+      "v_col": "leverage_ratio",
+      "weight": -0.05552895859063778,
+      "new_col": "edge_GES__roa__leverage_ratio"
+    },
+    {
+      "alg": "GES",
+      "u": "roa",
+      "v": "asset_turnover",
+      "u_col": "roa",
+      "v_col": "asset_turnover",
+      "weight": 0.5735492728811198,
+      "new_col": "edge_GES__roa__asset_turnover"
+    },
+    {
+      "alg": "GES",
+      "u": "roa",
+      "v": "totaldebt_invcap",
+      "u_col": "roa",
+      "v_col": "totaldebt_invcap",
+      "weight": -0.2250956375355691,
+      "new_col": "edge_GES__roa__totaldebt_invcap"
+    },
+    {
+      "alg": "GES",
+      "u": "roa",
+      "v": "rect_turn",
+      "u_col": "roa",
+      "v_col": "rect_turn",
+      "weight": 0.19647619098840163,
+      "new_col": "edge_GES__roa__rect_turn"
+    },
+    {
+      "alg": "GES",
+      "u": "longtermdebt_invcap",
+      "v": "leverage_ratio",
+      "u_col": "longtermdebt_invcap",
+      "v_col": "leverage_ratio",
+      "weight": 0.053312190381662766,
+      "new_col": "edge_GES__longtermdebt_invcap__leverage_ratio"
+    },
+    {
+      "alg": "GES",
+      "u": "longtermdebt_invcap",
+      "v": "capitalization_ratio",
+      "u_col": "longtermdebt_invcap",
+      "v_col": "capitalization_ratio",
+      "weight": 0.6962406993154067,
+      "new_col": "edge_GES__longtermdebt_invcap__capitalization_ratio"
+    },
+    {
+      "alg": "GES",
+      "u": "longtermdebt_invcap",
+      "v": "totaldebt_invcap",
+      "u_col": "longtermdebt_invcap",
+      "v_col": "totaldebt_invcap",
+      "weight": -0.15657878391373622,
+      "new_col": "edge_GES__longtermdebt_invcap__totaldebt_invcap"
+    },
+    {
+      "alg": "GES",
+      "u": "totaldebt_invcap",
+      "v": "Unnamed: 0",
+      "u_col": "totaldebt_invcap",
+      "v_col": "Unnamed: 0",
+      "weight": -0.23331972855011,
+      "new_col": "edge_GES__totaldebt_invcap__Unnamed: 0"
+    },
+    {
+      "alg": "GES",
+      "u": "totaldebt_invcap",
+      "v": "leverage_ratio",
+      "u_col": "totaldebt_invcap",
+      "v_col": "leverage_ratio",
+      "weight": 0.20387562930586445,
+      "new_col": "edge_GES__totaldebt_invcap__leverage_ratio"
+    },
+    {
+      "alg": "GES",
+      "u": "totaldebt_invcap",
+      "v": "asset_turnover",
+      "u_col": "totaldebt_invcap",
+      "v_col": "asset_turnover",
+      "weight": 0.27984165623655377,
+      "new_col": "edge_GES__totaldebt_invcap__asset_turnover"
+    },
+    {
+      "alg": "GES",
+      "u": "totaldebt_invcap",
+      "v": "capitalization_ratio",
+      "u_col": "totaldebt_invcap",
+      "v_col": "capitalization_ratio",
+      "weight": -0.2808023748951552,
+      "new_col": "edge_GES__totaldebt_invcap__capitalization_ratio"
+    },
+    {
+      "alg": "GES",
+      "u": "cash_debt",
+      "v": "Unnamed: 0",
+      "u_col": "cash_debt",
+      "v_col": "Unnamed: 0",
+      "weight": -0.05008413139946685,
+      "new_col": "edge_GES__cash_debt__Unnamed: 0"
+    },
+    {
+      "alg": "GES",
+      "u": "cash_debt",
+      "v": "asset_liabilities",
+      "u_col": "cash_debt",
+      "v_col": "asset_liabilities",
+      "weight": 0.04551582288195079,
+      "new_col": "edge_GES__cash_debt__asset_liabilities"
+    },
+    {
+      "alg": "GES",
+      "u": "cash_debt",
+      "v": "debt_ratio",
+      "u_col": "cash_debt",
+      "v_col": "debt_ratio",
+      "weight": -0.10398986972471592,
+      "new_col": "edge_GES__cash_debt__debt_ratio"
+    },
+    {
+      "alg": "GES",
+      "u": "cash_debt",
+      "v": "debt_ratio2",
+      "u_col": "cash_debt",
+      "v_col": "debt_ratio2",
+      "weight": -0.11289016736489829,
+      "new_col": "edge_GES__cash_debt__debt_ratio2"
+    },
+    {
+      "alg": "GES",
+      "u": "cash_debt",
+      "v": "longtermdebt_invcap",
+      "u_col": "cash_debt",
+      "v_col": "longtermdebt_invcap",
+      "weight": 0.02539519077459906,
+      "new_col": "edge_GES__cash_debt__longtermdebt_invcap"
+    },
+    {
+      "alg": "GES",
+      "u": "cash_debt",
+      "v": "totaldebt_invcap",
+      "u_col": "cash_debt",
+      "v_col": "totaldebt_invcap",
+      "weight": -0.06244634571041557,
+      "new_col": "edge_GES__cash_debt__totaldebt_invcap"
+    },
+    {
+      "alg": "GES",
+      "u": "cash_debt",
+      "v": "rect_turn",
+      "u_col": "cash_debt",
+      "v_col": "rect_turn",
+      "weight": 0.019677108090412763,
+      "new_col": "edge_GES__cash_debt__rect_turn"
+    },
+    {
+      "alg": "GES",
+      "u": "debt_ebitda",
+      "v": "roe",
+      "u_col": "debt_ebitda",
+      "v_col": "roe",
+      "weight": 0.021584136448439824,
+      "new_col": "edge_GES__debt_ebitda__roe"
+    },
+    {
+      "alg": "GES",
+      "u": "debt_ebitda",
+      "v": "debt_ratio2",
+      "u_col": "debt_ebitda",
+      "v_col": "debt_ratio2",
+      "weight": 0.3200446662739366,
+      "new_col": "edge_GES__debt_ebitda__debt_ratio2"
+    },
+    {
+      "alg": "GES",
+      "u": "debt_ebitda",
+      "v": "roa",
+      "u_col": "debt_ebitda",
+      "v_col": "roa",
+      "weight": -0.12388673910853422,
+      "new_col": "edge_GES__debt_ebitda__roa"
+    }
+  ]
+}

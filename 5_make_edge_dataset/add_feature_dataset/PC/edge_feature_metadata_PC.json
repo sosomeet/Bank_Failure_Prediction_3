@@ -1,0 +1,268 @@
+{
+  "alg": "PC",
+  "data_path": "./training_data_normalized.csv",
+  "gexf_path": "./graph_PC.gexf",
+  "output_csv": "./add_feature_dataset\\PC\\data_with_edge_features_PC.csv",
+  "n_rows": 17881,
+  "n_original_cols": 15,
+  "n_added_edge_features": 24,
+  "added_feature_cols": [
+    "edge_PC__leverage_ratio__asset_turnover",
+    "edge_PC__leverage_ratio__capitalization_ratio",
+    "edge_PC__asset_liabilities__debt_ratio",
+    "edge_PC__asset_liabilities__cash_debt",
+    "edge_PC__asset_liabilities__rect_turn",
+    "edge_PC__asset_turnover__roe",
+    "edge_PC__asset_turnover__roa",
+    "edge_PC__asset_turnover__rect_turn",
+    "edge_PC__debt_ratio__leverage_ratio",
+    "edge_PC__debt_ratio__rect_turn",
+    "edge_PC__debt_ratio2__roa",
+    "edge_PC__debt_ratio2__capitalization_ratio",
+    "edge_PC__debt_ratio2__longtermdebt_invcap",
+    "edge_PC__debt_ratio2__totaldebt_invcap",
+    "edge_PC__debt_ratio2__cash_debt",
+    "edge_PC__debt_ratio2__debt_ebitda",
+    "edge_PC__debt_ratio2__rect_turn",
+    "edge_PC__roa__roe",
+    "edge_PC__roa__debt_ebitda",
+    "edge_PC__roa__rect_turn",
+    "edge_PC__longtermdebt_invcap__capitalization_ratio",
+    "edge_PC__longtermdebt_invcap__totaldebt_invcap",
+    "edge_PC__totaldebt_invcap__leverage_ratio",
+    "edge_PC__totaldebt_invcap__cash_debt"
+  ],
+  "node_to_col_mapping_preview": {
+    "leverage_ratio": "leverage_ratio",
+    "asset_liabilities": "asset_liabilities",
+    "roe": "roe",
+    "asset_turnover": "asset_turnover",
+    "debt_ratio": "debt_ratio",
+    "debt_ratio2": "debt_ratio2",
+    "roa": "roa",
+    "capitalization_ratio": "capitalization_ratio",
+    "longtermdebt_invcap": "longtermdebt_invcap",
+    "totaldebt_invcap": "totaldebt_invcap",
+    "cash_debt": "cash_debt",
+    "debt_ebitda": "debt_ebitda",
+    "rect_turn": "rect_turn"
+  },
+  "edges": [
+    {
+      "alg": "PC",
+      "u": "leverage_ratio",
+      "v": "asset_turnover",
+      "u_col": "leverage_ratio",
+      "v_col": "asset_turnover",
+      "weight": 0.15832068719209003,
+      "new_col": "edge_PC__leverage_ratio__asset_turnover"
+    },
+    {
+      "alg": "PC",
+      "u": "leverage_ratio",
+      "v": "capitalization_ratio",
+      "u_col": "leverage_ratio",
+      "v_col": "capitalization_ratio",
+      "weight": 0.018258043821493337,
+      "new_col": "edge_PC__leverage_ratio__capitalization_ratio"
+    },
+    {
+      "alg": "PC",
+      "u": "asset_liabilities",
+      "v": "debt_ratio",
+      "u_col": "asset_liabilities",
+      "v_col": "debt_ratio",
+      "weight": -0.9167743997403649,
+      "new_col": "edge_PC__asset_liabilities__debt_ratio"
+    },
+    {
+      "alg": "PC",
+      "u": "asset_liabilities",
+      "v": "cash_debt",
+      "u_col": "asset_liabilities",
+      "v_col": "cash_debt",
+      "weight": 0.12191798170277335,
+      "new_col": "edge_PC__asset_liabilities__cash_debt"
+    },
+    {
+      "alg": "PC",
+      "u": "asset_liabilities",
+      "v": "rect_turn",
+      "u_col": "asset_liabilities",
+      "v_col": "rect_turn",
+      "weight": 0.7748560324991942,
+      "new_col": "edge_PC__asset_liabilities__rect_turn"
+    },
+    {
+      "alg": "PC",
+      "u": "asset_turnover",
+      "v": "roe",
+      "u_col": "asset_turnover",
+      "v_col": "roe",
+      "weight": -0.13016456144131272,
+      "new_col": "edge_PC__asset_turnover__roe"
+    },
+    {
+      "alg": "PC",
+      "u": "asset_turnover",
+      "v": "roa",
+      "u_col": "asset_turnover",
+      "v_col": "roa",
+      "weight": 0.4925395033929539,
+      "new_col": "edge_PC__asset_turnover__roa"
+    },
+    {
+      "alg": "PC",
+      "u": "asset_turnover",
+      "v": "rect_turn",
+      "u_col": "asset_turnover",
+      "v_col": "rect_turn",
+      "weight": 0.2706919439146581,
+      "new_col": "edge_PC__asset_turnover__rect_turn"
+    },
+    {
+      "alg": "PC",
+      "u": "debt_ratio",
+      "v": "leverage_ratio",
+      "u_col": "debt_ratio",
+      "v_col": "leverage_ratio",
+      "weight": 0.61961918593158,
+      "new_col": "edge_PC__debt_ratio__leverage_ratio"
+    },
+    {
+      "alg": "PC",
+      "u": "debt_ratio",
+      "v": "rect_turn",
+      "u_col": "debt_ratio",
+      "v_col": "rect_turn",
+      "weight": 0.3598669881884052,
+      "new_col": "edge_PC__debt_ratio__rect_turn"
+    },
+    {
+      "alg": "PC",
+      "u": "debt_ratio2",
+      "v": "roa",
+      "u_col": "debt_ratio2",
+      "v_col": "roa",
+      "weight": 0.046439867075745406,
+      "new_col": "edge_PC__debt_ratio2__roa"
+    },
+    {
+      "alg": "PC",
+      "u": "debt_ratio2",
+      "v": "capitalization_ratio",
+      "u_col": "debt_ratio2",
+      "v_col": "capitalization_ratio",
+      "weight": 0.21078309496905778,
+      "new_col": "edge_PC__debt_ratio2__capitalization_ratio"
+    },
+    {
+      "alg": "PC",
+      "u": "debt_ratio2",
+      "v": "longtermdebt_invcap",
+      "u_col": "debt_ratio2",
+      "v_col": "longtermdebt_invcap",
+      "weight": 0.5924014339964093,
+      "new_col": "edge_PC__debt_ratio2__longtermdebt_invcap"
+    },
+    {
+      "alg": "PC",
+      "u": "debt_ratio2",
+      "v": "totaldebt_invcap",
+      "u_col": "debt_ratio2",
+      "v_col": "totaldebt_invcap",
+      "weight": 0.5676004694670066,
+      "new_col": "edge_PC__debt_ratio2__totaldebt_invcap"
+    },
+    {
+      "alg": "PC",
+      "u": "debt_ratio2",
+      "v": "cash_debt",
+      "u_col": "debt_ratio2",
+      "v_col": "cash_debt",
+      "weight": -0.0972843637853117,
+      "new_col": "edge_PC__debt_ratio2__cash_debt"
+    },
+    {
+      "alg": "PC",
+      "u": "debt_ratio2",
+      "v": "debt_ebitda",
+      "u_col": "debt_ratio2",
+      "v_col": "debt_ebitda",
+      "weight": 0.3434265824381695,
+      "new_col": "edge_PC__debt_ratio2__debt_ebitda"
+    },
+    {
+      "alg": "PC",
+      "u": "debt_ratio2",
+      "v": "rect_turn",
+      "u_col": "debt_ratio2",
+      "v_col": "rect_turn",
+      "weight": 0.11314119663369201,
+      "new_col": "edge_PC__debt_ratio2__rect_turn"
+    },
+    {
+      "alg": "PC",
+      "u": "roa",
+      "v": "roe",
+      "u_col": "roa",
+      "v_col": "roe",
+      "weight": 0.5477720420761151,
+      "new_col": "edge_PC__roa__roe"
+    },
+    {
+      "alg": "PC",
+      "u": "roa",
+      "v": "debt_ebitda",
+      "u_col": "roa",
+      "v_col": "debt_ebitda",
+      "weight": -0.12257018363794625,
+      "new_col": "edge_PC__roa__debt_ebitda"
+    },
+    {
+      "alg": "PC",
+      "u": "roa",
+      "v": "rect_turn",
+      "u_col": "roa",
+      "v_col": "rect_turn",
+      "weight": 0.11362438833273604,
+      "new_col": "edge_PC__roa__rect_turn"
+    },
+    {
+      "alg": "PC",
+      "u": "longtermdebt_invcap",
+      "v": "capitalization_ratio",
+      "u_col": "longtermdebt_invcap",
+      "v_col": "capitalization_ratio",
+      "weight": 0.7748752971013391,
+      "new_col": "edge_PC__longtermdebt_invcap__capitalization_ratio"
+    },
+    {
+      "alg": "PC",
+      "u": "longtermdebt_invcap",
+      "v": "totaldebt_invcap",
+      "u_col": "longtermdebt_invcap",
+      "v_col": "totaldebt_invcap",
+      "weight": -0.10131411099330559,
+      "new_col": "edge_PC__longtermdebt_invcap__totaldebt_invcap"
+    },
+    {
+      "alg": "PC",
+      "u": "totaldebt_invcap",
+      "v": "leverage_ratio",
+      "u_col": "totaldebt_invcap",
+      "v_col": "leverage_ratio",
+      "weight": 0.2863739574278699,
+      "new_col": "edge_PC__totaldebt_invcap__leverage_ratio"
+    },
+    {
+      "alg": "PC",
+      "u": "totaldebt_invcap",
+      "v": "cash_debt",
+      "u_col": "totaldebt_invcap",
+      "v_col": "cash_debt",
+      "weight": -0.06281307773214408,
+      "new_col": "edge_PC__totaldebt_invcap__cash_debt"
+    }
+  ]
+}

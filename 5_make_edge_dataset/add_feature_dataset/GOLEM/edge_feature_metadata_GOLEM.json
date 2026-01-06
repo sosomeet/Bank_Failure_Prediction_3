@@ -1,0 +1,288 @@
+{
+  "alg": "GOLEM",
+  "data_path": "./training_data_normalized.csv",
+  "gexf_path": "./graph_GOLEM.gexf",
+  "output_csv": "./add_feature_dataset\\GOLEM\\data_with_edge_features_GOLEM.csv",
+  "n_rows": 17881,
+  "n_original_cols": 15,
+  "n_added_edge_features": 26,
+  "added_feature_cols": [
+    "edge_GOLEM__leverage_ratio__asset_liabilities",
+    "edge_GOLEM__leverage_ratio__asset_turnover",
+    "edge_GOLEM__leverage_ratio__totaldebt_invcap",
+    "edge_GOLEM__roe__totaldebt_invcap",
+    "edge_GOLEM__debt_ratio__leverage_ratio",
+    "edge_GOLEM__debt_ratio__asset_liabilities",
+    "edge_GOLEM__debt_ratio__rect_turn",
+    "edge_GOLEM__debt_ratio2__roa",
+    "edge_GOLEM__debt_ratio2__capitalization_ratio",
+    "edge_GOLEM__debt_ratio2__totaldebt_invcap",
+    "edge_GOLEM__debt_ratio2__debt_ebitda",
+    "edge_GOLEM__debt_ratio2__rect_turn",
+    "edge_GOLEM__roa__roe",
+    "edge_GOLEM__roa__asset_turnover",
+    "edge_GOLEM__roa__debt_ratio",
+    "edge_GOLEM__roa__capitalization_ratio",
+    "edge_GOLEM__roa__totaldebt_invcap",
+    "edge_GOLEM__roa__rect_turn",
+    "edge_GOLEM__capitalization_ratio__debt_ratio",
+    "edge_GOLEM__capitalization_ratio__longtermdebt_invcap",
+    "edge_GOLEM__capitalization_ratio__totaldebt_invcap",
+    "edge_GOLEM__longtermdebt_invcap__totaldebt_invcap",
+    "edge_GOLEM__rect_turn__leverage_ratio",
+    "edge_GOLEM__rect_turn__asset_liabilities",
+    "edge_GOLEM__rect_turn__roe",
+    "edge_GOLEM__rect_turn__asset_turnover"
+  ],
+  "node_to_col_mapping_preview": {
+    "leverage_ratio": "leverage_ratio",
+    "asset_liabilities": "asset_liabilities",
+    "roe": "roe",
+    "asset_turnover": "asset_turnover",
+    "debt_ratio": "debt_ratio",
+    "debt_ratio2": "debt_ratio2",
+    "roa": "roa",
+    "capitalization_ratio": "capitalization_ratio",
+    "longtermdebt_invcap": "longtermdebt_invcap",
+    "totaldebt_invcap": "totaldebt_invcap",
+    "cash_debt": "cash_debt",
+    "debt_ebitda": "debt_ebitda",
+    "rect_turn": "rect_turn"
+  },
+  "edges": [
+    {
+      "alg": "GOLEM",
+      "u": "leverage_ratio",
+      "v": "asset_liabilities",
+      "u_col": "leverage_ratio",
+      "v_col": "asset_liabilities",
+      "weight": 0.22412717299418278,
+      "new_col": "edge_GOLEM__leverage_ratio__asset_liabilities"
+    },
+    {
+      "alg": "GOLEM",
+      "u": "leverage_ratio",
+      "v": "asset_turnover",
+      "u_col": "leverage_ratio",
+      "v_col": "asset_turnover",
+      "weight": 0.19726387579301244,
+      "new_col": "edge_GOLEM__leverage_ratio__asset_turnover"
+    },
+    {
+      "alg": "GOLEM",
+      "u": "leverage_ratio",
+      "v": "totaldebt_invcap",
+      "u_col": "leverage_ratio",
+      "v_col": "totaldebt_invcap",
+      "weight": 0.37734410162221305,
+      "new_col": "edge_GOLEM__leverage_ratio__totaldebt_invcap"
+    },
+    {
+      "alg": "GOLEM",
+      "u": "roe",
+      "v": "totaldebt_invcap",
+      "u_col": "roe",
+      "v_col": "totaldebt_invcap",
+      "weight": 0.10856125903967648,
+      "new_col": "edge_GOLEM__roe__totaldebt_invcap"
+    },
+    {
+      "alg": "GOLEM",
+      "u": "debt_ratio",
+      "v": "leverage_ratio",
+      "u_col": "debt_ratio",
+      "v_col": "leverage_ratio",
+      "weight": 0.788978257551765,
+      "new_col": "edge_GOLEM__debt_ratio__leverage_ratio"
+    },
+    {
+      "alg": "GOLEM",
+      "u": "debt_ratio",
+      "v": "asset_liabilities",
+      "u_col": "debt_ratio",
+      "v_col": "asset_liabilities",
+      "weight": -1.0487020316640285,
+      "new_col": "edge_GOLEM__debt_ratio__asset_liabilities"
+    },
+    {
+      "alg": "GOLEM",
+      "u": "debt_ratio",
+      "v": "rect_turn",
+      "u_col": "debt_ratio",
+      "v_col": "rect_turn",
+      "weight": -0.2803237237247274,
+      "new_col": "edge_GOLEM__debt_ratio__rect_turn"
+    },
+    {
+      "alg": "GOLEM",
+      "u": "debt_ratio2",
+      "v": "roa",
+      "u_col": "debt_ratio2",
+      "v_col": "roa",
+      "weight": 0.11341564801788015,
+      "new_col": "edge_GOLEM__debt_ratio2__roa"
+    },
+    {
+      "alg": "GOLEM",
+      "u": "debt_ratio2",
+      "v": "capitalization_ratio",
+      "u_col": "debt_ratio2",
+      "v_col": "capitalization_ratio",
+      "weight": 0.6864985459790469,
+      "new_col": "edge_GOLEM__debt_ratio2__capitalization_ratio"
+    },
+    {
+      "alg": "GOLEM",
+      "u": "debt_ratio2",
+      "v": "totaldebt_invcap",
+      "u_col": "debt_ratio2",
+      "v_col": "totaldebt_invcap",
+      "weight": 0.7916437955527503,
+      "new_col": "edge_GOLEM__debt_ratio2__totaldebt_invcap"
+    },
+    {
+      "alg": "GOLEM",
+      "u": "debt_ratio2",
+      "v": "debt_ebitda",
+      "u_col": "debt_ratio2",
+      "v_col": "debt_ebitda",
+      "weight": 0.3006395021434944,
+      "new_col": "edge_GOLEM__debt_ratio2__debt_ebitda"
+    },
+    {
+      "alg": "GOLEM",
+      "u": "debt_ratio2",
+      "v": "rect_turn",
+      "u_col": "debt_ratio2",
+      "v_col": "rect_turn",
+      "weight": 0.15879669127174512,
+      "new_col": "edge_GOLEM__debt_ratio2__rect_turn"
+    },
+    {
+      "alg": "GOLEM",
+      "u": "roa",
+      "v": "roe",
+      "u_col": "roa",
+      "v_col": "roe",
+      "weight": 0.5449864671267228,
+      "new_col": "edge_GOLEM__roa__roe"
+    },
+    {
+      "alg": "GOLEM",
+      "u": "roa",
+      "v": "asset_turnover",
+      "u_col": "roa",
+      "v_col": "asset_turnover",
+      "weight": 0.4664253965184754,
+      "new_col": "edge_GOLEM__roa__asset_turnover"
+    },
+    {
+      "alg": "GOLEM",
+      "u": "roa",
+      "v": "debt_ratio",
+      "u_col": "roa",
+      "v_col": "debt_ratio",
+      "weight": -0.20975395567488458,
+      "new_col": "edge_GOLEM__roa__debt_ratio"
+    },
+    {
+      "alg": "GOLEM",
+      "u": "roa",
+      "v": "capitalization_ratio",
+      "u_col": "roa",
+      "v_col": "capitalization_ratio",
+      "weight": -0.13953480846329794,
+      "new_col": "edge_GOLEM__roa__capitalization_ratio"
+    },
+    {
+      "alg": "GOLEM",
+      "u": "roa",
+      "v": "totaldebt_invcap",
+      "u_col": "roa",
+      "v_col": "totaldebt_invcap",
+      "weight": -0.17787081366373467,
+      "new_col": "edge_GOLEM__roa__totaldebt_invcap"
+    },
+    {
+      "alg": "GOLEM",
+      "u": "roa",
+      "v": "rect_turn",
+      "u_col": "roa",
+      "v_col": "rect_turn",
+      "weight": 0.24947021896429358,
+      "new_col": "edge_GOLEM__roa__rect_turn"
+    },
+    {
+      "alg": "GOLEM",
+      "u": "capitalization_ratio",
+      "v": "debt_ratio",
+      "u_col": "capitalization_ratio",
+      "v_col": "debt_ratio",
+      "weight": 0.11329469968544735,
+      "new_col": "edge_GOLEM__capitalization_ratio__debt_ratio"
+    },
+    {
+      "alg": "GOLEM",
+      "u": "capitalization_ratio",
+      "v": "longtermdebt_invcap",
+      "u_col": "capitalization_ratio",
+      "v_col": "longtermdebt_invcap",
+      "weight": 0.9275139976572211,
+      "new_col": "edge_GOLEM__capitalization_ratio__longtermdebt_invcap"
+    },
+    {
+      "alg": "GOLEM",
+      "u": "capitalization_ratio",
+      "v": "totaldebt_invcap",
+      "u_col": "capitalization_ratio",
+      "v_col": "totaldebt_invcap",
+      "weight": -0.8195173471177255,
+      "new_col": "edge_GOLEM__capitalization_ratio__totaldebt_invcap"
+    },
+    {
+      "alg": "GOLEM",
+      "u": "longtermdebt_invcap",
+      "v": "totaldebt_invcap",
+      "u_col": "longtermdebt_invcap",
+      "v_col": "totaldebt_invcap",
+      "weight": 0.37506344913327966,
+      "new_col": "edge_GOLEM__longtermdebt_invcap__totaldebt_invcap"
+    },
+    {
+      "alg": "GOLEM",
+      "u": "rect_turn",
+      "v": "leverage_ratio",
+      "u_col": "rect_turn",
+      "v_col": "leverage_ratio",
+      "weight": 0.231498411108146,
+      "new_col": "edge_GOLEM__rect_turn__leverage_ratio"
+    },
+    {
+      "alg": "GOLEM",
+      "u": "rect_turn",
+      "v": "asset_liabilities",
+      "u_col": "rect_turn",
+      "v_col": "asset_liabilities",
+      "weight": 0.12047630974763236,
+      "new_col": "edge_GOLEM__rect_turn__asset_liabilities"
+    },
+    {
+      "alg": "GOLEM",
+      "u": "rect_turn",
+      "v": "roe",
+      "u_col": "rect_turn",
+      "v_col": "roe",
+      "weight": -0.13152581684383333,
+      "new_col": "edge_GOLEM__rect_turn__roe"
+    },
+    {
+      "alg": "GOLEM",
+      "u": "rect_turn",
+      "v": "asset_turnover",
+      "u_col": "rect_turn",
+      "v_col": "asset_turnover",
+      "weight": 0.24968004519509074,
+      "new_col": "edge_GOLEM__rect_turn__asset_turnover"
+    }
+  ]
+}

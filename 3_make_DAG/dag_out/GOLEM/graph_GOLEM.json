@@ -43,8 +43,23 @@
   "edges": [
     {
       "source": "leverage_ratio",
+      "target": "asset_liabilities",
+      "weight": 0.22412717299418278
+    },
+    {
+      "source": "leverage_ratio",
+      "target": "asset_turnover",
+      "weight": 0.19726387579301244
+    },
+    {
+      "source": "leverage_ratio",
       "target": "totaldebt_invcap",
       "weight": 0.37734410162221305
+    },
+    {
+      "source": "roe",
+      "target": "totaldebt_invcap",
+      "weight": 0.10856125903967648
     },
     {
       "source": "debt_ratio",
@@ -55,6 +70,16 @@
       "source": "debt_ratio",
       "target": "asset_liabilities",
       "weight": -1.0487020316640285
+    },
+    {
+      "source": "debt_ratio",
+      "target": "rect_turn",
+      "weight": -0.2803237237247274
+    },
+    {
+      "source": "debt_ratio2",
+      "target": "roa",
+      "weight": 0.11341564801788015
     },
     {
       "source": "debt_ratio2",
@@ -72,6 +97,11 @@
       "weight": 0.3006395021434944
     },
     {
+      "source": "debt_ratio2",
+      "target": "rect_turn",
+      "weight": 0.15879669127174512
+    },
+    {
       "source": "roa",
       "target": "roe",
       "weight": 0.5449864671267228
@@ -80,6 +110,31 @@
       "source": "roa",
       "target": "asset_turnover",
       "weight": 0.4664253965184754
+    },
+    {
+      "source": "roa",
+      "target": "debt_ratio",
+      "weight": -0.20975395567488458
+    },
+    {
+      "source": "roa",
+      "target": "capitalization_ratio",
+      "weight": -0.13953480846329794
+    },
+    {
+      "source": "roa",
+      "target": "totaldebt_invcap",
+      "weight": -0.17787081366373467
+    },
+    {
+      "source": "roa",
+      "target": "rect_turn",
+      "weight": 0.24947021896429358
+    },
+    {
+      "source": "capitalization_ratio",
+      "target": "debt_ratio",
+      "weight": 0.11329469968544735
     },
     {
       "source": "capitalization_ratio",
@@ -95,6 +150,26 @@
       "source": "longtermdebt_invcap",
       "target": "totaldebt_invcap",
       "weight": 0.37506344913327966
+    },
+    {
+      "source": "rect_turn",
+      "target": "leverage_ratio",
+      "weight": 0.231498411108146
+    },
+    {
+      "source": "rect_turn",
+      "target": "asset_liabilities",
+      "weight": 0.12047630974763236
+    },
+    {
+      "source": "rect_turn",
+      "target": "roe",
+      "weight": -0.13152581684383333
+    },
+    {
+      "source": "rect_turn",
+      "target": "asset_turnover",
+      "weight": 0.24968004519509074
     }
   ]
 }
