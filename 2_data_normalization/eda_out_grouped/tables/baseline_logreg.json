@@ -1,8 +1,8 @@
 {
   "n_train": 13410,
   "n_test": 4471,
-  "num_cols": 14,
+  "num_cols": 13,
   "cat_cols": 0,
-  "roc_auc": 0.8908619590229838,
-  "avg_precision": 0.33514162021284916
+  "roc_auc": 0.8908157512915063,
+  "avg_precision": 0.33702396703213616
 }

@@ -1,13 +1,18 @@
 {
-  "generated_at": "2025-12-29T14:03:06",
+  "generated_at": "2026-01-06T10:32:58",
   "data_path": "./training_data.csv",
-  "shape": [
+  "raw_shape": [
+    17881,
+    15
+  ],
+  "shape_after_cast_and_norm": [
     17881,
     15
   ],
   "target_col": "label",
-  "numeric_cols": 14,
-  "categorical_cols": 0,
+  "skip_col": "Unnamed: 0",
+  "numeric_cols_used": 13,
+  "categorical_cols_used": 0,
   "apply_normalization": true,
-  "normalized_csv_path": "./traning_data_normalized.csv"
+  "normalized_csv_path": "./training_data_normalized.csv"
 }

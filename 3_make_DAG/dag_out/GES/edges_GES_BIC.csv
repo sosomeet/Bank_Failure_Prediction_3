@@ -1,0 +1,56 @@
+source,target,score
+Unnamed: 0,capitalization_ratio,-280.8250063971427
+Unnamed: 0,rect_turn,-3.15338877265458
+leverage_ratio,capitalization_ratio,-435.66753085501114
+leverage_ratio,rect_turn,-275.0218142439826
+asset_liabilities,Unnamed: 0,-135.80264321505092
+asset_liabilities,leverage_ratio,-3962.6547615380514
+asset_liabilities,roe,-0.6562721340646789
+asset_liabilities,asset_turnover,-61.288782849781455
+asset_liabilities,capitalization_ratio,-99.64339553943864
+asset_liabilities,rect_turn,-1487.1024378823658
+roe,Unnamed: 0,-176.80657818488544
+roe,leverage_ratio,-475.4126598694602
+roe,asset_turnover,-413.5264654039165
+roe,totaldebt_invcap,-401.95216413625803
+roe,rect_turn,-127.65739243520329
+asset_turnover,Unnamed: 0,-1073.0430735954433
+asset_turnover,leverage_ratio,-551.3321074156484
+asset_turnover,rect_turn,-1173.9618066718049
+debt_ratio,Unnamed: 0,-652.0937321302481
+debt_ratio,leverage_ratio,-9948.112564337684
+debt_ratio,asset_liabilities,-32923.79967433745
+debt_ratio,roe,5.210850456802799
+debt_ratio,roa,-1202.2257481591362
+debt_ratio,capitalization_ratio,-306.37700266153115
+debt_ratio,rect_turn,-52.323940017560744
+debt_ratio2,leverage_ratio,-31.424032965565857
+debt_ratio2,asset_liabilities,-285.1764818696902
+debt_ratio2,roe,6.581541299376465
+debt_ratio2,debt_ratio,-26.44260878201669
+debt_ratio2,roa,-631.8626815165476
+debt_ratio2,capitalization_ratio,-8598.348684787881
+debt_ratio2,longtermdebt_invcap,-7686.066531968235
+debt_ratio2,totaldebt_invcap,-5653.588187372956
+roa,Unnamed: 0,-0.7012470589834265
+roa,leverage_ratio,-83.29773260458023
+roa,asset_turnover,-5271.411738194714
+roa,totaldebt_invcap,-945.5950469648906
+roa,rect_turn,-615.4489765767394
+longtermdebt_invcap,leverage_ratio,-92.06264244267368
+longtermdebt_invcap,capitalization_ratio,-22852.234645781868
+longtermdebt_invcap,totaldebt_invcap,-394.26403279060196
+totaldebt_invcap,Unnamed: 0,-1002.013275016041
+totaldebt_invcap,leverage_ratio,-1254.5607298513787
+totaldebt_invcap,asset_turnover,-1847.7389128281238
+totaldebt_invcap,capitalization_ratio,-5291.742029613997
+cash_debt,Unnamed: 0,-52.072261814551894
+cash_debt,asset_liabilities,-220.41859764822584
+cash_debt,debt_ratio,-181.90629836891253
+cash_debt,debt_ratio2,-246.25816565846776
+cash_debt,longtermdebt_invcap,-7.676177274524889
+cash_debt,totaldebt_invcap,-92.12683959013611
+cash_debt,rect_turn,-2.3709915463696234
+debt_ebitda,roe,2.3523799012751496
+debt_ebitda,debt_ratio2,-1951.3654604857159
+debt_ebitda,roa,-259.57437401397556

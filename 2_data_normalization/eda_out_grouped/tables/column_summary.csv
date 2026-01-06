@@ -1,5 +1,5 @@
 column,dtype,nunique,missing_ratio,n_rows
-Unnamed: 0,float64,17881,0.0,17881
+Unnamed: 0,int64,17881,0.0,17881
 asset_liabilities,float64,17881,0.0,17881
 debt_ebitda,float64,11043,0.0,17881
 leverage_ratio,float64,10255,0.0,17881
