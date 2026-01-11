@@ -1,0 +1,128 @@
+GROUP,FEATURE_TYPE,FEATURE_NAME,ALG,U,V,U_COL,V_COL,WEIGHT,EXPR
+original,original,leverage_ratio,original,,,,,,
+original,original,asset_liabilities,original,,,,,,
+original,original,roe,original,,,,,,
+original,original,asset_turnover,original,,,,,,
+original,original,debt_ratio,original,,,,,,
+original,original,debt_ratio2,original,,,,,,
+original,original,roa,original,,,,,,
+original,original,capitalization_ratio,original,,,,,,
+original,original,longtermdebt_invcap,original,,,,,,
+original,original,totaldebt_invcap,original,,,,,,
+original,original,cash_debt,original,,,,,,
+original,original,debt_ebitda,original,,,,,,
+original,original,rect_turn,original,,,,,,
+NOTEARS,edge,edge_NOTEARS__asset_liabilities__rect_turn,NOTEARS,asset_liabilities,rect_turn,asset_liabilities,rect_turn,0.7154210929108874,0.7154210929108874 * asset_liabilities * rect_turn
+NOTEARS,edge,edge_NOTEARS__debt_ratio__leverage_ratio,NOTEARS,debt_ratio,leverage_ratio,debt_ratio,leverage_ratio,0.5582300368828771,0.5582300368828771 * debt_ratio * leverage_ratio
+NOTEARS,edge,edge_NOTEARS__debt_ratio__asset_liabilities,NOTEARS,debt_ratio,asset_liabilities,debt_ratio,asset_liabilities,-1.1177563249867835,-1.1177563249867835 * debt_ratio * asset_liabilities
+NOTEARS,edge,edge_NOTEARS__debt_ratio2__debt_ratio,NOTEARS,debt_ratio2,debt_ratio,debt_ratio2,debt_ratio,-0.6155811528304794,-0.6155811528304794 * debt_ratio2 * debt_ratio
+NOTEARS,edge,edge_NOTEARS__debt_ratio2__roa,NOTEARS,debt_ratio2,roa,debt_ratio2,roa,0.4255292428879352,0.4255292428879352 * debt_ratio2 * roa
+NOTEARS,edge,edge_NOTEARS__debt_ratio2__capitalization_ratio,NOTEARS,debt_ratio2,capitalization_ratio,debt_ratio2,capitalization_ratio,0.656556507022898,0.656556507022898 * debt_ratio2 * capitalization_ratio
+NOTEARS,edge,edge_NOTEARS__debt_ratio2__totaldebt_invcap,NOTEARS,debt_ratio2,totaldebt_invcap,debt_ratio2,totaldebt_invcap,0.7582772319097619,0.7582772319097619 * debt_ratio2 * totaldebt_invcap
+NOTEARS,edge,edge_NOTEARS__roa__roe,NOTEARS,roa,roe,roa,roe,0.6050061109760706,0.6050061109760706 * roa * roe
+NOTEARS,edge,edge_NOTEARS__roa__asset_turnover,NOTEARS,roa,asset_turnover,roa,asset_turnover,0.4388220989457979,0.4388220989457979 * roa * asset_turnover
+NOTEARS,edge,edge_NOTEARS__capitalization_ratio__debt_ratio,NOTEARS,capitalization_ratio,debt_ratio,capitalization_ratio,debt_ratio,0.713858975430937,0.713858975430937 * capitalization_ratio * debt_ratio
+NOTEARS,edge,edge_NOTEARS__capitalization_ratio__roa,NOTEARS,capitalization_ratio,roa,capitalization_ratio,roa,-0.3815265594117246,-0.3815265594117246 * capitalization_ratio * roa
+NOTEARS,edge,edge_NOTEARS__capitalization_ratio__longtermdebt_invcap,NOTEARS,capitalization_ratio,longtermdebt_invcap,capitalization_ratio,longtermdebt_invcap,0.9075478256654163,0.9075478256654163 * capitalization_ratio * longtermdebt_invcap
+NOTEARS,edge,edge_NOTEARS__capitalization_ratio__totaldebt_invcap,NOTEARS,capitalization_ratio,totaldebt_invcap,capitalization_ratio,totaldebt_invcap,-0.8213728131849061,-0.8213728131849061 * capitalization_ratio * totaldebt_invcap
+NOTEARS,edge,edge_NOTEARS__longtermdebt_invcap__totaldebt_invcap,NOTEARS,longtermdebt_invcap,totaldebt_invcap,longtermdebt_invcap,totaldebt_invcap,0.5158812915280586,0.5158812915280586 * longtermdebt_invcap * totaldebt_invcap
+NOTEARS,edge,edge_NOTEARS__totaldebt_invcap__leverage_ratio,NOTEARS,totaldebt_invcap,leverage_ratio,totaldebt_invcap,leverage_ratio,0.37174002185774885,0.37174002185774885 * totaldebt_invcap * leverage_ratio
+NOTEARS,edge,edge_NOTEARS__totaldebt_invcap__debt_ratio,NOTEARS,totaldebt_invcap,debt_ratio,totaldebt_invcap,debt_ratio,0.6450674647416814,0.6450674647416814 * totaldebt_invcap * debt_ratio
+NOTEARS,edge,edge_NOTEARS__debt_ebitda__debt_ratio2,NOTEARS,debt_ebitda,debt_ratio2,debt_ebitda,debt_ratio2,0.3202912116334793,0.3202912116334793 * debt_ebitda * debt_ratio2
+NOTEARS,edge,edge_NOTEARS__rect_turn__roa,NOTEARS,rect_turn,roa,rect_turn,roa,0.32625410780434105,0.32625410780434105 * rect_turn * roa
+PC,edge,edge_PC__leverage_ratio__asset_turnover,PC,leverage_ratio,asset_turnover,leverage_ratio,asset_turnover,0.15832068719209003,0.15832068719209003 * leverage_ratio * asset_turnover
+PC,edge,edge_PC__leverage_ratio__capitalization_ratio,PC,leverage_ratio,capitalization_ratio,leverage_ratio,capitalization_ratio,0.018258043821493337,0.018258043821493337 * leverage_ratio * capitalization_ratio
+PC,edge,edge_PC__asset_liabilities__debt_ratio,PC,asset_liabilities,debt_ratio,asset_liabilities,debt_ratio,-0.9167743997403649,-0.9167743997403649 * asset_liabilities * debt_ratio
+PC,edge,edge_PC__asset_liabilities__cash_debt,PC,asset_liabilities,cash_debt,asset_liabilities,cash_debt,0.12191798170277335,0.12191798170277335 * asset_liabilities * cash_debt
+PC,edge,edge_PC__asset_liabilities__rect_turn,PC,asset_liabilities,rect_turn,asset_liabilities,rect_turn,0.7748560324991942,0.7748560324991942 * asset_liabilities * rect_turn
+PC,edge,edge_PC__asset_turnover__roe,PC,asset_turnover,roe,asset_turnover,roe,-0.13016456144131272,-0.13016456144131272 * asset_turnover * roe
+PC,edge,edge_PC__asset_turnover__roa,PC,asset_turnover,roa,asset_turnover,roa,0.4925395033929539,0.4925395033929539 * asset_turnover * roa
+PC,edge,edge_PC__asset_turnover__rect_turn,PC,asset_turnover,rect_turn,asset_turnover,rect_turn,0.2706919439146581,0.2706919439146581 * asset_turnover * rect_turn
+PC,edge,edge_PC__debt_ratio__leverage_ratio,PC,debt_ratio,leverage_ratio,debt_ratio,leverage_ratio,0.61961918593158,0.61961918593158 * debt_ratio * leverage_ratio
+PC,edge,edge_PC__debt_ratio__rect_turn,PC,debt_ratio,rect_turn,debt_ratio,rect_turn,0.3598669881884052,0.3598669881884052 * debt_ratio * rect_turn
+PC,edge,edge_PC__debt_ratio2__roa,PC,debt_ratio2,roa,debt_ratio2,roa,0.046439867075745406,0.046439867075745406 * debt_ratio2 * roa
+PC,edge,edge_PC__debt_ratio2__capitalization_ratio,PC,debt_ratio2,capitalization_ratio,debt_ratio2,capitalization_ratio,0.21078309496905778,0.21078309496905778 * debt_ratio2 * capitalization_ratio
+PC,edge,edge_PC__debt_ratio2__longtermdebt_invcap,PC,debt_ratio2,longtermdebt_invcap,debt_ratio2,longtermdebt_invcap,0.5924014339964093,0.5924014339964093 * debt_ratio2 * longtermdebt_invcap
+PC,edge,edge_PC__debt_ratio2__totaldebt_invcap,PC,debt_ratio2,totaldebt_invcap,debt_ratio2,totaldebt_invcap,0.5676004694670066,0.5676004694670066 * debt_ratio2 * totaldebt_invcap
+PC,edge,edge_PC__debt_ratio2__cash_debt,PC,debt_ratio2,cash_debt,debt_ratio2,cash_debt,-0.0972843637853117,-0.0972843637853117 * debt_ratio2 * cash_debt
+PC,edge,edge_PC__debt_ratio2__debt_ebitda,PC,debt_ratio2,debt_ebitda,debt_ratio2,debt_ebitda,0.3434265824381695,0.3434265824381695 * debt_ratio2 * debt_ebitda
+PC,edge,edge_PC__debt_ratio2__rect_turn,PC,debt_ratio2,rect_turn,debt_ratio2,rect_turn,0.11314119663369201,0.11314119663369201 * debt_ratio2 * rect_turn
+PC,edge,edge_PC__roa__roe,PC,roa,roe,roa,roe,0.5477720420761151,0.5477720420761151 * roa * roe
+PC,edge,edge_PC__roa__debt_ebitda,PC,roa,debt_ebitda,roa,debt_ebitda,-0.12257018363794625,-0.12257018363794625 * roa * debt_ebitda
+PC,edge,edge_PC__roa__rect_turn,PC,roa,rect_turn,roa,rect_turn,0.11362438833273604,0.11362438833273604 * roa * rect_turn
+PC,edge,edge_PC__longtermdebt_invcap__capitalization_ratio,PC,longtermdebt_invcap,capitalization_ratio,longtermdebt_invcap,capitalization_ratio,0.7748752971013391,0.7748752971013391 * longtermdebt_invcap * capitalization_ratio
+PC,edge,edge_PC__longtermdebt_invcap__totaldebt_invcap,PC,longtermdebt_invcap,totaldebt_invcap,longtermdebt_invcap,totaldebt_invcap,-0.10131411099330559,-0.10131411099330559 * longtermdebt_invcap * totaldebt_invcap
+PC,edge,edge_PC__totaldebt_invcap__leverage_ratio,PC,totaldebt_invcap,leverage_ratio,totaldebt_invcap,leverage_ratio,0.2863739574278699,0.2863739574278699 * totaldebt_invcap * leverage_ratio
+PC,edge,edge_PC__totaldebt_invcap__cash_debt,PC,totaldebt_invcap,cash_debt,totaldebt_invcap,cash_debt,-0.06281307773214408,-0.06281307773214408 * totaldebt_invcap * cash_debt
+GES,edge,edge_GES__leverage_ratio__capitalization_ratio,GES,leverage_ratio,capitalization_ratio,leverage_ratio,capitalization_ratio,0.09472080018973789,0.09472080018973789 * leverage_ratio * capitalization_ratio
+GES,edge,edge_GES__leverage_ratio__rect_turn,GES,leverage_ratio,rect_turn,leverage_ratio,rect_turn,0.17161027797208628,0.17161027797208628 * leverage_ratio * rect_turn
+GES,edge,edge_GES__asset_liabilities__leverage_ratio,GES,asset_liabilities,leverage_ratio,asset_liabilities,leverage_ratio,0.7041104916537222,0.7041104916537222 * asset_liabilities * leverage_ratio
+GES,edge,edge_GES__asset_liabilities__roe,GES,asset_liabilities,roe,asset_liabilities,roe,-0.060880549050645896,-0.060880549050645896 * asset_liabilities * roe
+GES,edge,edge_GES__asset_liabilities__asset_turnover,GES,asset_liabilities,asset_turnover,asset_liabilities,asset_turnover,0.05581527566181574,0.05581527566181574 * asset_liabilities * asset_turnover
+GES,edge,edge_GES__asset_liabilities__capitalization_ratio,GES,asset_liabilities,capitalization_ratio,asset_liabilities,capitalization_ratio,0.07539777569513526,0.07539777569513526 * asset_liabilities * capitalization_ratio
+GES,edge,edge_GES__asset_liabilities__rect_turn,GES,asset_liabilities,rect_turn,asset_liabilities,rect_turn,0.6536536416790295,0.6536536416790295 * asset_liabilities * rect_turn
+GES,edge,edge_GES__roe__leverage_ratio,GES,roe,leverage_ratio,roe,leverage_ratio,-0.10465973269240925,-0.10465973269240925 * roe * leverage_ratio
+GES,edge,edge_GES__roe__asset_turnover,GES,roe,asset_turnover,roe,asset_turnover,-0.14647962661999422,-0.14647962661999422 * roe * asset_turnover
+GES,edge,edge_GES__roe__totaldebt_invcap,GES,roe,totaldebt_invcap,roe,totaldebt_invcap,0.14254409314898103,0.14254409314898103 * roe * totaldebt_invcap
+GES,edge,edge_GES__roe__rect_turn,GES,roe,rect_turn,roe,rect_turn,-0.07813687525644453,-0.07813687525644453 * roe * rect_turn
+GES,edge,edge_GES__asset_turnover__leverage_ratio,GES,asset_turnover,leverage_ratio,asset_turnover,leverage_ratio,0.11849990071239452,0.11849990071239452 * asset_turnover * leverage_ratio
+GES,edge,edge_GES__asset_turnover__rect_turn,GES,asset_turnover,rect_turn,asset_turnover,rect_turn,0.25074369987990586,0.25074369987990586 * asset_turnover * rect_turn
+GES,edge,edge_GES__debt_ratio__leverage_ratio,GES,debt_ratio,leverage_ratio,debt_ratio,leverage_ratio,1.281766326465264,1.281766326465264 * debt_ratio * leverage_ratio
+GES,edge,edge_GES__debt_ratio__asset_liabilities,GES,debt_ratio,asset_liabilities,debt_ratio,asset_liabilities,-0.9147899082628815,-0.9147899082628815 * debt_ratio * asset_liabilities
+GES,edge,edge_GES__debt_ratio__roe,GES,debt_ratio,roe,debt_ratio,roe,-0.0403743742210241,-0.0403743742210241 * debt_ratio * roe
+GES,edge,edge_GES__debt_ratio__roa,GES,debt_ratio,roa,debt_ratio,roa,-0.2521291458679837,-0.2521291458679837 * debt_ratio * roa
+GES,edge,edge_GES__debt_ratio__capitalization_ratio,GES,debt_ratio,capitalization_ratio,debt_ratio,capitalization_ratio,0.16046519289663524,0.16046519289663524 * debt_ratio * capitalization_ratio
+GES,edge,edge_GES__debt_ratio__rect_turn,GES,debt_ratio,rect_turn,debt_ratio,rect_turn,0.16137105310224184,0.16137105310224184 * debt_ratio * rect_turn
+GES,edge,edge_GES__debt_ratio2__leverage_ratio,GES,debt_ratio2,leverage_ratio,debt_ratio2,leverage_ratio,-0.03988360356924615,-0.03988360356924615 * debt_ratio2 * leverage_ratio
+GES,edge,edge_GES__debt_ratio2__asset_liabilities,GES,debt_ratio2,asset_liabilities,debt_ratio2,asset_liabilities,0.051344493323753224,0.051344493323753224 * debt_ratio2 * asset_liabilities
+GES,edge,edge_GES__debt_ratio2__roe,GES,debt_ratio2,roe,debt_ratio2,roe,0.014267044847888532,0.014267044847888532 * debt_ratio2 * roe
+GES,edge,edge_GES__debt_ratio2__debt_ratio,GES,debt_ratio2,debt_ratio,debt_ratio2,debt_ratio,0.04511243344235849,0.04511243344235849 * debt_ratio2 * debt_ratio
+GES,edge,edge_GES__debt_ratio2__roa,GES,debt_ratio2,roa,debt_ratio2,roa,0.1922260316078262,0.1922260316078262 * debt_ratio2 * roa
+GES,edge,edge_GES__debt_ratio2__capitalization_ratio,GES,debt_ratio2,capitalization_ratio,debt_ratio2,capitalization_ratio,0.38772657935730015,0.38772657935730015 * debt_ratio2 * capitalization_ratio
+GES,edge,edge_GES__debt_ratio2__longtermdebt_invcap,GES,debt_ratio2,longtermdebt_invcap,debt_ratio2,longtermdebt_invcap,0.5957433121865222,0.5957433121865222 * debt_ratio2 * longtermdebt_invcap
+GES,edge,edge_GES__debt_ratio2__totaldebt_invcap,GES,debt_ratio2,totaldebt_invcap,debt_ratio2,totaldebt_invcap,0.6424563391782321,0.6424563391782321 * debt_ratio2 * totaldebt_invcap
+GES,edge,edge_GES__roa__leverage_ratio,GES,roa,leverage_ratio,roa,leverage_ratio,-0.05552895859063778,-0.05552895859063778 * roa * leverage_ratio
+GES,edge,edge_GES__roa__asset_turnover,GES,roa,asset_turnover,roa,asset_turnover,0.5735492728811198,0.5735492728811198 * roa * asset_turnover
+GES,edge,edge_GES__roa__totaldebt_invcap,GES,roa,totaldebt_invcap,roa,totaldebt_invcap,-0.2250956375355691,-0.2250956375355691 * roa * totaldebt_invcap
+GES,edge,edge_GES__roa__rect_turn,GES,roa,rect_turn,roa,rect_turn,0.19647619098840158,0.19647619098840158 * roa * rect_turn
+GES,edge,edge_GES__longtermdebt_invcap__leverage_ratio,GES,longtermdebt_invcap,leverage_ratio,longtermdebt_invcap,leverage_ratio,0.053312190381662766,0.053312190381662766 * longtermdebt_invcap * leverage_ratio
+GES,edge,edge_GES__longtermdebt_invcap__capitalization_ratio,GES,longtermdebt_invcap,capitalization_ratio,longtermdebt_invcap,capitalization_ratio,0.696240699315406,0.696240699315406 * longtermdebt_invcap * capitalization_ratio
+GES,edge,edge_GES__longtermdebt_invcap__totaldebt_invcap,GES,longtermdebt_invcap,totaldebt_invcap,longtermdebt_invcap,totaldebt_invcap,-0.15657878391373622,-0.15657878391373622 * longtermdebt_invcap * totaldebt_invcap
+GES,edge,edge_GES__totaldebt_invcap__leverage_ratio,GES,totaldebt_invcap,leverage_ratio,totaldebt_invcap,leverage_ratio,0.20387562930586445,0.20387562930586445 * totaldebt_invcap * leverage_ratio
+GES,edge,edge_GES__totaldebt_invcap__asset_turnover,GES,totaldebt_invcap,asset_turnover,totaldebt_invcap,asset_turnover,0.27984165623655377,0.27984165623655377 * totaldebt_invcap * asset_turnover
+GES,edge,edge_GES__totaldebt_invcap__capitalization_ratio,GES,totaldebt_invcap,capitalization_ratio,totaldebt_invcap,capitalization_ratio,-0.2808023748951546,-0.2808023748951546 * totaldebt_invcap * capitalization_ratio
+GES,edge,edge_GES__cash_debt__asset_liabilities,GES,cash_debt,asset_liabilities,cash_debt,asset_liabilities,0.04551582288195079,0.04551582288195079 * cash_debt * asset_liabilities
+GES,edge,edge_GES__cash_debt__debt_ratio,GES,cash_debt,debt_ratio,cash_debt,debt_ratio,-0.10398986972471592,-0.10398986972471592 * cash_debt * debt_ratio
+GES,edge,edge_GES__cash_debt__debt_ratio2,GES,cash_debt,debt_ratio2,cash_debt,debt_ratio2,-0.11289016736489829,-0.11289016736489829 * cash_debt * debt_ratio2
+GES,edge,edge_GES__cash_debt__longtermdebt_invcap,GES,cash_debt,longtermdebt_invcap,cash_debt,longtermdebt_invcap,0.02539519077459906,0.02539519077459906 * cash_debt * longtermdebt_invcap
+GES,edge,edge_GES__cash_debt__totaldebt_invcap,GES,cash_debt,totaldebt_invcap,cash_debt,totaldebt_invcap,-0.06244634571041557,-0.06244634571041557 * cash_debt * totaldebt_invcap
+GES,edge,edge_GES__cash_debt__rect_turn,GES,cash_debt,rect_turn,cash_debt,rect_turn,0.019677108090412596,0.019677108090412596 * cash_debt * rect_turn
+GES,edge,edge_GES__debt_ebitda__roe,GES,debt_ebitda,roe,debt_ebitda,roe,0.021584136448439824,0.021584136448439824 * debt_ebitda * roe
+GES,edge,edge_GES__debt_ebitda__debt_ratio2,GES,debt_ebitda,debt_ratio2,debt_ebitda,debt_ratio2,0.3200446662739366,0.3200446662739366 * debt_ebitda * debt_ratio2
+GES,edge,edge_GES__debt_ebitda__roa,GES,debt_ebitda,roa,debt_ebitda,roa,-0.12388673910853422,-0.12388673910853422 * debt_ebitda * roa
+GOLEM,edge,edge_GOLEM__leverage_ratio__asset_liabilities,GOLEM,leverage_ratio,asset_liabilities,leverage_ratio,asset_liabilities,0.22412717299418278,0.22412717299418278 * leverage_ratio * asset_liabilities
+GOLEM,edge,edge_GOLEM__leverage_ratio__asset_turnover,GOLEM,leverage_ratio,asset_turnover,leverage_ratio,asset_turnover,0.19726387579301244,0.19726387579301244 * leverage_ratio * asset_turnover
+GOLEM,edge,edge_GOLEM__leverage_ratio__totaldebt_invcap,GOLEM,leverage_ratio,totaldebt_invcap,leverage_ratio,totaldebt_invcap,0.37734410162221305,0.37734410162221305 * leverage_ratio * totaldebt_invcap
+GOLEM,edge,edge_GOLEM__roe__totaldebt_invcap,GOLEM,roe,totaldebt_invcap,roe,totaldebt_invcap,0.10856125903967648,0.10856125903967648 * roe * totaldebt_invcap
+GOLEM,edge,edge_GOLEM__debt_ratio__leverage_ratio,GOLEM,debt_ratio,leverage_ratio,debt_ratio,leverage_ratio,0.788978257551765,0.788978257551765 * debt_ratio * leverage_ratio
+GOLEM,edge,edge_GOLEM__debt_ratio__asset_liabilities,GOLEM,debt_ratio,asset_liabilities,debt_ratio,asset_liabilities,-1.0487020316640285,-1.0487020316640285 * debt_ratio * asset_liabilities
+GOLEM,edge,edge_GOLEM__debt_ratio__rect_turn,GOLEM,debt_ratio,rect_turn,debt_ratio,rect_turn,-0.2803237237247274,-0.2803237237247274 * debt_ratio * rect_turn
+GOLEM,edge,edge_GOLEM__debt_ratio2__roa,GOLEM,debt_ratio2,roa,debt_ratio2,roa,0.11341564801788015,0.11341564801788015 * debt_ratio2 * roa
+GOLEM,edge,edge_GOLEM__debt_ratio2__capitalization_ratio,GOLEM,debt_ratio2,capitalization_ratio,debt_ratio2,capitalization_ratio,0.6864985459790469,0.6864985459790469 * debt_ratio2 * capitalization_ratio
+GOLEM,edge,edge_GOLEM__debt_ratio2__totaldebt_invcap,GOLEM,debt_ratio2,totaldebt_invcap,debt_ratio2,totaldebt_invcap,0.7916437955527503,0.7916437955527503 * debt_ratio2 * totaldebt_invcap
+GOLEM,edge,edge_GOLEM__debt_ratio2__debt_ebitda,GOLEM,debt_ratio2,debt_ebitda,debt_ratio2,debt_ebitda,0.3006395021434944,0.3006395021434944 * debt_ratio2 * debt_ebitda
+GOLEM,edge,edge_GOLEM__debt_ratio2__rect_turn,GOLEM,debt_ratio2,rect_turn,debt_ratio2,rect_turn,0.15879669127174512,0.15879669127174512 * debt_ratio2 * rect_turn
+GOLEM,edge,edge_GOLEM__roa__roe,GOLEM,roa,roe,roa,roe,0.5449864671267228,0.5449864671267228 * roa * roe
+GOLEM,edge,edge_GOLEM__roa__asset_turnover,GOLEM,roa,asset_turnover,roa,asset_turnover,0.4664253965184754,0.4664253965184754 * roa * asset_turnover
+GOLEM,edge,edge_GOLEM__roa__debt_ratio,GOLEM,roa,debt_ratio,roa,debt_ratio,-0.20975395567488458,-0.20975395567488458 * roa * debt_ratio
+GOLEM,edge,edge_GOLEM__roa__capitalization_ratio,GOLEM,roa,capitalization_ratio,roa,capitalization_ratio,-0.13953480846329794,-0.13953480846329794 * roa * capitalization_ratio
+GOLEM,edge,edge_GOLEM__roa__totaldebt_invcap,GOLEM,roa,totaldebt_invcap,roa,totaldebt_invcap,-0.17787081366373467,-0.17787081366373467 * roa * totaldebt_invcap
+GOLEM,edge,edge_GOLEM__roa__rect_turn,GOLEM,roa,rect_turn,roa,rect_turn,0.24947021896429358,0.24947021896429358 * roa * rect_turn
+GOLEM,edge,edge_GOLEM__capitalization_ratio__debt_ratio,GOLEM,capitalization_ratio,debt_ratio,capitalization_ratio,debt_ratio,0.11329469968544735,0.11329469968544735 * capitalization_ratio * debt_ratio
+GOLEM,edge,edge_GOLEM__capitalization_ratio__longtermdebt_invcap,GOLEM,capitalization_ratio,longtermdebt_invcap,capitalization_ratio,longtermdebt_invcap,0.9275139976572211,0.9275139976572211 * capitalization_ratio * longtermdebt_invcap
+GOLEM,edge,edge_GOLEM__capitalization_ratio__totaldebt_invcap,GOLEM,capitalization_ratio,totaldebt_invcap,capitalization_ratio,totaldebt_invcap,-0.8195173471177255,-0.8195173471177255 * capitalization_ratio * totaldebt_invcap
+GOLEM,edge,edge_GOLEM__longtermdebt_invcap__totaldebt_invcap,GOLEM,longtermdebt_invcap,totaldebt_invcap,longtermdebt_invcap,totaldebt_invcap,0.37506344913327966,0.37506344913327966 * longtermdebt_invcap * totaldebt_invcap
+GOLEM,edge,edge_GOLEM__rect_turn__leverage_ratio,GOLEM,rect_turn,leverage_ratio,rect_turn,leverage_ratio,0.231498411108146,0.231498411108146 * rect_turn * leverage_ratio
+GOLEM,edge,edge_GOLEM__rect_turn__asset_liabilities,GOLEM,rect_turn,asset_liabilities,rect_turn,asset_liabilities,0.12047630974763236,0.12047630974763236 * rect_turn * asset_liabilities
+GOLEM,edge,edge_GOLEM__rect_turn__roe,GOLEM,rect_turn,roe,rect_turn,roe,-0.13152581684383333,-0.13152581684383333 * rect_turn * roe
+GOLEM,edge,edge_GOLEM__rect_turn__asset_turnover,GOLEM,rect_turn,asset_turnover,rect_turn,asset_turnover,0.24968004519509074,0.24968004519509074 * rect_turn * asset_turnover
