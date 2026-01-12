@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2026-01-06">
+  <meta lastmodifieddate="2026-01-12">
     <creator>NetworkX 3.2.1</creator>
   </meta>
   <graph defaultedgetype="directed" mode="static" name="">
@@ -8,7 +8,6 @@
       <attribute id="0" title="score" type="double" />
     </attributes>
     <nodes>
-      <node id="Unnamed: 0" label="Unnamed: 0" />
       <node id="leverage_ratio" label="leverage_ratio" />
       <node id="asset_liabilities" label="asset_liabilities" />
       <node id="roe" label="roe" />
@@ -24,279 +23,179 @@
       <node id="rect_turn" label="rect_turn" />
     </nodes>
     <edges>
-      <edge source="Unnamed: 0" target="capitalization_ratio" id="0">
+      <edge source="asset_liabilities" target="leverage_ratio" id="0">
         <attvalues>
-          <attvalue for="0" value="-280.8250063971427" />
+          <attvalue for="0" value="-4618.858806918808" />
         </attvalues>
       </edge>
-      <edge source="Unnamed: 0" target="rect_turn" id="1">
+      <edge source="asset_liabilities" target="roe" id="1">
         <attvalues>
-          <attvalue for="0" value="-3.15338877265458" />
+          <attvalue for="0" value="-23.56035555300423" />
         </attvalues>
       </edge>
-      <edge source="leverage_ratio" target="capitalization_ratio" id="2">
+      <edge source="asset_liabilities" target="debt_ratio" id="2">
         <attvalues>
-          <attvalue for="0" value="-435.66753085501114" />
+          <attvalue for="0" value="-32923.79967330186" />
         </attvalues>
       </edge>
-      <edge source="leverage_ratio" target="rect_turn" id="3">
+      <edge source="asset_liabilities" target="rect_turn" id="3">
         <attvalues>
-          <attvalue for="0" value="-275.0218142439826" />
+          <attvalue for="0" value="-2681.5148274646244" />
         </attvalues>
       </edge>
-      <edge source="asset_liabilities" target="Unnamed: 0" id="4">
+      <edge source="asset_turnover" target="leverage_ratio" id="4">
         <attvalues>
-          <attvalue for="0" value="-135.80264321505092" />
+          <attvalue for="0" value="-1102.06711036665" />
         </attvalues>
       </edge>
-      <edge source="asset_liabilities" target="leverage_ratio" id="5">
+      <edge source="asset_turnover" target="roe" id="5">
         <attvalues>
-          <attvalue for="0" value="-3962.6547615380514" />
+          <attvalue for="0" value="-317.29320934186126" />
         </attvalues>
       </edge>
-      <edge source="asset_liabilities" target="roe" id="6">
+      <edge source="asset_turnover" target="capitalization_ratio" id="6">
         <attvalues>
-          <attvalue for="0" value="-0.6562721340646789" />
+          <attvalue for="0" value="-522.3617925897215" />
         </attvalues>
       </edge>
-      <edge source="asset_liabilities" target="asset_turnover" id="7">
+      <edge source="asset_turnover" target="totaldebt_invcap" id="7">
         <attvalues>
-          <attvalue for="0" value="-61.288782849781455" />
+          <attvalue for="0" value="-1289.828497624363" />
         </attvalues>
       </edge>
-      <edge source="asset_liabilities" target="capitalization_ratio" id="8">
+      <edge source="asset_turnover" target="rect_turn" id="8">
         <attvalues>
-          <attvalue for="0" value="-99.64339553943864" />
+          <attvalue for="0" value="-1688.7829356791426" />
         </attvalues>
       </edge>
-      <edge source="asset_liabilities" target="rect_turn" id="9">
+      <edge source="debt_ratio" target="leverage_ratio" id="9">
         <attvalues>
-          <attvalue for="0" value="-1487.1024378823658" />
+          <attvalue for="0" value="-11910.185814998253" />
         </attvalues>
       </edge>
-      <edge source="roe" target="Unnamed: 0" id="10">
+      <edge source="debt_ratio" target="roe" id="10">
         <attvalues>
-          <attvalue for="0" value="-176.80657818488544" />
+          <attvalue for="0" value="-7.939993434715689" />
         </attvalues>
       </edge>
-      <edge source="roe" target="leverage_ratio" id="11">
+      <edge source="debt_ratio" target="roa" id="11">
         <attvalues>
-          <attvalue for="0" value="-475.4126598694602" />
+          <attvalue for="0" value="-1202.2257482491" />
         </attvalues>
       </edge>
-      <edge source="roe" target="asset_turnover" id="12">
+      <edge source="debt_ratio" target="capitalization_ratio" id="12">
         <attvalues>
-          <attvalue for="0" value="-413.5264654039165" />
+          <attvalue for="0" value="-713.0508153292958" />
         </attvalues>
       </edge>
-      <edge source="roe" target="totaldebt_invcap" id="13">
+      <edge source="debt_ratio" target="rect_turn" id="13">
         <attvalues>
-          <attvalue for="0" value="-401.95216413625803" />
+          <attvalue for="0" value="-673.641487181405" />
         </attvalues>
       </edge>
-      <edge source="roe" target="rect_turn" id="14">
+      <edge source="debt_ratio2" target="leverage_ratio" id="14">
         <attvalues>
-          <attvalue for="0" value="-127.65739243520329" />
+          <attvalue for="0" value="-479.7272720634428" />
         </attvalues>
       </edge>
-      <edge source="asset_turnover" target="Unnamed: 0" id="15">
+      <edge source="debt_ratio2" target="asset_liabilities" id="15">
         <attvalues>
-          <attvalue for="0" value="-1073.0430735954433" />
+          <attvalue for="0" value="7.972111043942391" />
         </attvalues>
       </edge>
-      <edge source="asset_turnover" target="leverage_ratio" id="16">
+      <edge source="debt_ratio2" target="debt_ratio" id="16">
         <attvalues>
-          <attvalue for="0" value="-551.3321074156484" />
+          <attvalue for="0" value="-319.59120169164817" />
         </attvalues>
       </edge>
-      <edge source="asset_turnover" target="rect_turn" id="17">
+      <edge source="debt_ratio2" target="roa" id="17">
         <attvalues>
-          <attvalue for="0" value="-1173.9618066718049" />
+          <attvalue for="0" value="-631.8626815308471" />
         </attvalues>
       </edge>
-      <edge source="debt_ratio" target="Unnamed: 0" id="18">
+      <edge source="debt_ratio2" target="capitalization_ratio" id="18">
         <attvalues>
-          <attvalue for="0" value="-652.0937321302481" />
+          <attvalue for="0" value="-11416.720134895371" />
         </attvalues>
       </edge>
-      <edge source="debt_ratio" target="leverage_ratio" id="19">
+      <edge source="debt_ratio2" target="longtermdebt_invcap" id="19">
         <attvalues>
-          <attvalue for="0" value="-9948.112564337684" />
+          <attvalue for="0" value="-7686.066532056421" />
         </attvalues>
       </edge>
-      <edge source="debt_ratio" target="asset_liabilities" id="20">
+      <edge source="debt_ratio2" target="totaldebt_invcap" id="20">
         <attvalues>
-          <attvalue for="0" value="-32923.79967433745" />
+          <attvalue for="0" value="-5706.561880478598" />
         </attvalues>
       </edge>
-      <edge source="debt_ratio" target="roe" id="21">
+      <edge source="roa" target="leverage_ratio" id="21">
         <attvalues>
-          <attvalue for="0" value="5.210850456802799" />
+          <attvalue for="0" value="-923.4572375444186" />
         </attvalues>
       </edge>
-      <edge source="debt_ratio" target="roa" id="22">
+      <edge source="roa" target="roe" id="22">
         <attvalues>
-          <attvalue for="0" value="-1202.2257481591362" />
+          <attvalue for="0" value="-5246.326446277403" />
         </attvalues>
       </edge>
-      <edge source="debt_ratio" target="capitalization_ratio" id="23">
+      <edge source="roa" target="asset_turnover" id="23">
         <attvalues>
-          <attvalue for="0" value="-306.37700266153115" />
+          <attvalue for="0" value="-5159.854653248615" />
         </attvalues>
       </edge>
-      <edge source="debt_ratio" target="rect_turn" id="24">
+      <edge source="roa" target="totaldebt_invcap" id="24">
         <attvalues>
-          <attvalue for="0" value="-52.323940017560744" />
+          <attvalue for="0" value="-1272.6367011466582" />
         </attvalues>
       </edge>
-      <edge source="debt_ratio2" target="leverage_ratio" id="25">
+      <edge source="roa" target="rect_turn" id="25">
         <attvalues>
-          <attvalue for="0" value="-31.424032965565857" />
+          <attvalue for="0" value="-318.65774901830446" />
         </attvalues>
       </edge>
-      <edge source="debt_ratio2" target="asset_liabilities" id="26">
+      <edge source="cash_debt" target="asset_liabilities" id="26">
         <attvalues>
-          <attvalue for="0" value="-285.1764818696902" />
+          <attvalue for="0" value="-341.2340287140815" />
         </attvalues>
       </edge>
-      <edge source="debt_ratio2" target="roe" id="27">
+      <edge source="cash_debt" target="debt_ratio" id="27">
         <attvalues>
-          <attvalue for="0" value="6.581541299376465" />
+          <attvalue for="0" value="-61.090867304032145" />
         </attvalues>
       </edge>
-      <edge source="debt_ratio2" target="debt_ratio" id="28">
+      <edge source="cash_debt" target="debt_ratio2" id="28">
         <attvalues>
-          <attvalue for="0" value="-26.44260878201669" />
+          <attvalue for="0" value="-246.25816565826904" />
         </attvalues>
       </edge>
-      <edge source="debt_ratio2" target="roa" id="29">
+      <edge source="cash_debt" target="longtermdebt_invcap" id="29">
         <attvalues>
-          <attvalue for="0" value="-631.8626815165476" />
+          <attvalue for="0" value="-7.676177277081479" />
         </attvalues>
       </edge>
-      <edge source="debt_ratio2" target="capitalization_ratio" id="30">
+      <edge source="cash_debt" target="totaldebt_invcap" id="30">
         <attvalues>
-          <attvalue for="0" value="-8598.348684787881" />
+          <attvalue for="0" value="-123.3831582988887" />
         </attvalues>
       </edge>
-      <edge source="debt_ratio2" target="longtermdebt_invcap" id="31">
+      <edge source="cash_debt" target="rect_turn" id="31">
         <attvalues>
-          <attvalue for="0" value="-7686.066531968235" />
+          <attvalue for="0" value="-0.0039020704789436422" />
         </attvalues>
       </edge>
-      <edge source="debt_ratio2" target="totaldebt_invcap" id="32">
+      <edge source="debt_ebitda" target="roe" id="32">
         <attvalues>
-          <attvalue for="0" value="-5653.588187372956" />
+          <attvalue for="0" value="-78.14793405408636" />
         </attvalues>
       </edge>
-      <edge source="roa" target="Unnamed: 0" id="33">
+      <edge source="debt_ebitda" target="debt_ratio2" id="33">
         <attvalues>
-          <attvalue for="0" value="-0.7012470589834265" />
+          <attvalue for="0" value="-1951.3654605328302" />
         </attvalues>
       </edge>
-      <edge source="roa" target="leverage_ratio" id="34">
+      <edge source="debt_ebitda" target="roa" id="34">
         <attvalues>
-          <attvalue for="0" value="-83.29773260458023" />
-        </attvalues>
-      </edge>
-      <edge source="roa" target="asset_turnover" id="35">
-        <attvalues>
-          <attvalue for="0" value="-5271.411738194714" />
-        </attvalues>
-      </edge>
-      <edge source="roa" target="totaldebt_invcap" id="36">
-        <attvalues>
-          <attvalue for="0" value="-945.5950469648906" />
-        </attvalues>
-      </edge>
-      <edge source="roa" target="rect_turn" id="37">
-        <attvalues>
-          <attvalue for="0" value="-615.4489765767394" />
-        </attvalues>
-      </edge>
-      <edge source="longtermdebt_invcap" target="leverage_ratio" id="38">
-        <attvalues>
-          <attvalue for="0" value="-92.06264244267368" />
-        </attvalues>
-      </edge>
-      <edge source="longtermdebt_invcap" target="capitalization_ratio" id="39">
-        <attvalues>
-          <attvalue for="0" value="-22852.234645781868" />
-        </attvalues>
-      </edge>
-      <edge source="longtermdebt_invcap" target="totaldebt_invcap" id="40">
-        <attvalues>
-          <attvalue for="0" value="-394.26403279060196" />
-        </attvalues>
-      </edge>
-      <edge source="totaldebt_invcap" target="Unnamed: 0" id="41">
-        <attvalues>
-          <attvalue for="0" value="-1002.013275016041" />
-        </attvalues>
-      </edge>
-      <edge source="totaldebt_invcap" target="leverage_ratio" id="42">
-        <attvalues>
-          <attvalue for="0" value="-1254.5607298513787" />
-        </attvalues>
-      </edge>
-      <edge source="totaldebt_invcap" target="asset_turnover" id="43">
-        <attvalues>
-          <attvalue for="0" value="-1847.7389128281238" />
-        </attvalues>
-      </edge>
-      <edge source="totaldebt_invcap" target="capitalization_ratio" id="44">
-        <attvalues>
-          <attvalue for="0" value="-5291.742029613997" />
-        </attvalues>
-      </edge>
-      <edge source="cash_debt" target="Unnamed: 0" id="45">
-        <attvalues>
-          <attvalue for="0" value="-52.072261814551894" />
-        </attvalues>
-      </edge>
-      <edge source="cash_debt" target="asset_liabilities" id="46">
-        <attvalues>
-          <attvalue for="0" value="-220.41859764822584" />
-        </attvalues>
-      </edge>
-      <edge source="cash_debt" target="debt_ratio" id="47">
-        <attvalues>
-          <attvalue for="0" value="-181.90629836891253" />
-        </attvalues>
-      </edge>
-      <edge source="cash_debt" target="debt_ratio2" id="48">
-        <attvalues>
-          <attvalue for="0" value="-246.25816565846776" />
-        </attvalues>
-      </edge>
-      <edge source="cash_debt" target="longtermdebt_invcap" id="49">
-        <attvalues>
-          <attvalue for="0" value="-7.676177274524889" />
-        </attvalues>
-      </edge>
-      <edge source="cash_debt" target="totaldebt_invcap" id="50">
-        <attvalues>
-          <attvalue for="0" value="-92.12683959013611" />
-        </attvalues>
-      </edge>
-      <edge source="cash_debt" target="rect_turn" id="51">
-        <attvalues>
-          <attvalue for="0" value="-2.3709915463696234" />
-        </attvalues>
-      </edge>
-      <edge source="debt_ebitda" target="roe" id="52">
-        <attvalues>
-          <attvalue for="0" value="2.3523799012751496" />
-        </attvalues>
-      </edge>
-      <edge source="debt_ebitda" target="debt_ratio2" id="53">
-        <attvalues>
-          <attvalue for="0" value="-1951.3654604857159" />
-        </attvalues>
-      </edge>
-      <edge source="debt_ebitda" target="roa" id="54">
-        <attvalues>
-          <attvalue for="0" value="-259.57437401397556" />
+          <attvalue for="0" value="-259.574374024126" />
         </attvalues>
       </edge>
     </edges>

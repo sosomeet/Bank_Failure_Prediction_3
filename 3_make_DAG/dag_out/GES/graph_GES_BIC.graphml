@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="score" attr.type="double"/>
-<graph edgedefault="directed"><node id="Unnamed: 0"/>
-<node id="leverage_ratio"/>
+<graph edgedefault="directed"><node id="leverage_ratio"/>
 <node id="asset_liabilities"/>
 <node id="roe"/>
 <node id="asset_turnover"/>
@@ -14,169 +13,109 @@
 <node id="cash_debt"/>
 <node id="debt_ebitda"/>
 <node id="rect_turn"/>
-<edge source="Unnamed: 0" target="capitalization_ratio">
-  <data key="d0">-280.8250063971427</data>
-</edge>
-<edge source="Unnamed: 0" target="rect_turn">
-  <data key="d0">-3.15338877265458</data>
-</edge>
-<edge source="leverage_ratio" target="capitalization_ratio">
-  <data key="d0">-435.66753085501114</data>
-</edge>
-<edge source="leverage_ratio" target="rect_turn">
-  <data key="d0">-275.0218142439826</data>
-</edge>
-<edge source="asset_liabilities" target="Unnamed: 0">
-  <data key="d0">-135.80264321505092</data>
-</edge>
 <edge source="asset_liabilities" target="leverage_ratio">
-  <data key="d0">-3962.6547615380514</data>
+  <data key="d0">-4618.858806918808</data>
 </edge>
 <edge source="asset_liabilities" target="roe">
-  <data key="d0">-0.6562721340646789</data>
+  <data key="d0">-23.56035555300423</data>
 </edge>
-<edge source="asset_liabilities" target="asset_turnover">
-  <data key="d0">-61.288782849781455</data>
-</edge>
-<edge source="asset_liabilities" target="capitalization_ratio">
-  <data key="d0">-99.64339553943864</data>
+<edge source="asset_liabilities" target="debt_ratio">
+  <data key="d0">-32923.79967330186</data>
 </edge>
 <edge source="asset_liabilities" target="rect_turn">
-  <data key="d0">-1487.1024378823658</data>
-</edge>
-<edge source="roe" target="Unnamed: 0">
-  <data key="d0">-176.80657818488544</data>
-</edge>
-<edge source="roe" target="leverage_ratio">
-  <data key="d0">-475.4126598694602</data>
-</edge>
-<edge source="roe" target="asset_turnover">
-  <data key="d0">-413.5264654039165</data>
-</edge>
-<edge source="roe" target="totaldebt_invcap">
-  <data key="d0">-401.95216413625803</data>
-</edge>
-<edge source="roe" target="rect_turn">
-  <data key="d0">-127.65739243520329</data>
-</edge>
-<edge source="asset_turnover" target="Unnamed: 0">
-  <data key="d0">-1073.0430735954433</data>
+  <data key="d0">-2681.5148274646244</data>
 </edge>
 <edge source="asset_turnover" target="leverage_ratio">
-  <data key="d0">-551.3321074156484</data>
+  <data key="d0">-1102.06711036665</data>
+</edge>
+<edge source="asset_turnover" target="roe">
+  <data key="d0">-317.29320934186126</data>
+</edge>
+<edge source="asset_turnover" target="capitalization_ratio">
+  <data key="d0">-522.3617925897215</data>
+</edge>
+<edge source="asset_turnover" target="totaldebt_invcap">
+  <data key="d0">-1289.828497624363</data>
 </edge>
 <edge source="asset_turnover" target="rect_turn">
-  <data key="d0">-1173.9618066718049</data>
-</edge>
-<edge source="debt_ratio" target="Unnamed: 0">
-  <data key="d0">-652.0937321302481</data>
+  <data key="d0">-1688.7829356791426</data>
 </edge>
 <edge source="debt_ratio" target="leverage_ratio">
-  <data key="d0">-9948.112564337684</data>
-</edge>
-<edge source="debt_ratio" target="asset_liabilities">
-  <data key="d0">-32923.79967433745</data>
+  <data key="d0">-11910.185814998253</data>
 </edge>
 <edge source="debt_ratio" target="roe">
-  <data key="d0">5.210850456802799</data>
+  <data key="d0">-7.939993434715689</data>
 </edge>
 <edge source="debt_ratio" target="roa">
-  <data key="d0">-1202.2257481591362</data>
+  <data key="d0">-1202.2257482491</data>
 </edge>
 <edge source="debt_ratio" target="capitalization_ratio">
-  <data key="d0">-306.37700266153115</data>
+  <data key="d0">-713.0508153292958</data>
 </edge>
 <edge source="debt_ratio" target="rect_turn">
-  <data key="d0">-52.323940017560744</data>
+  <data key="d0">-673.641487181405</data>
 </edge>
 <edge source="debt_ratio2" target="leverage_ratio">
-  <data key="d0">-31.424032965565857</data>
+  <data key="d0">-479.7272720634428</data>
 </edge>
 <edge source="debt_ratio2" target="asset_liabilities">
-  <data key="d0">-285.1764818696902</data>
-</edge>
-<edge source="debt_ratio2" target="roe">
-  <data key="d0">6.581541299376465</data>
+  <data key="d0">7.972111043942391</data>
 </edge>
 <edge source="debt_ratio2" target="debt_ratio">
-  <data key="d0">-26.44260878201669</data>
+  <data key="d0">-319.59120169164817</data>
 </edge>
 <edge source="debt_ratio2" target="roa">
-  <data key="d0">-631.8626815165476</data>
+  <data key="d0">-631.8626815308471</data>
 </edge>
 <edge source="debt_ratio2" target="capitalization_ratio">
-  <data key="d0">-8598.348684787881</data>
+  <data key="d0">-11416.720134895371</data>
 </edge>
 <edge source="debt_ratio2" target="longtermdebt_invcap">
-  <data key="d0">-7686.066531968235</data>
+  <data key="d0">-7686.066532056421</data>
 </edge>
 <edge source="debt_ratio2" target="totaldebt_invcap">
-  <data key="d0">-5653.588187372956</data>
-</edge>
-<edge source="roa" target="Unnamed: 0">
-  <data key="d0">-0.7012470589834265</data>
+  <data key="d0">-5706.561880478598</data>
 </edge>
 <edge source="roa" target="leverage_ratio">
-  <data key="d0">-83.29773260458023</data>
+  <data key="d0">-923.4572375444186</data>
+</edge>
+<edge source="roa" target="roe">
+  <data key="d0">-5246.326446277403</data>
 </edge>
 <edge source="roa" target="asset_turnover">
-  <data key="d0">-5271.411738194714</data>
+  <data key="d0">-5159.854653248615</data>
 </edge>
 <edge source="roa" target="totaldebt_invcap">
-  <data key="d0">-945.5950469648906</data>
+  <data key="d0">-1272.6367011466582</data>
 </edge>
 <edge source="roa" target="rect_turn">
-  <data key="d0">-615.4489765767394</data>
-</edge>
-<edge source="longtermdebt_invcap" target="leverage_ratio">
-  <data key="d0">-92.06264244267368</data>
-</edge>
-<edge source="longtermdebt_invcap" target="capitalization_ratio">
-  <data key="d0">-22852.234645781868</data>
-</edge>
-<edge source="longtermdebt_invcap" target="totaldebt_invcap">
-  <data key="d0">-394.26403279060196</data>
-</edge>
-<edge source="totaldebt_invcap" target="Unnamed: 0">
-  <data key="d0">-1002.013275016041</data>
-</edge>
-<edge source="totaldebt_invcap" target="leverage_ratio">
-  <data key="d0">-1254.5607298513787</data>
-</edge>
-<edge source="totaldebt_invcap" target="asset_turnover">
-  <data key="d0">-1847.7389128281238</data>
-</edge>
-<edge source="totaldebt_invcap" target="capitalization_ratio">
-  <data key="d0">-5291.742029613997</data>
-</edge>
-<edge source="cash_debt" target="Unnamed: 0">
-  <data key="d0">-52.072261814551894</data>
+  <data key="d0">-318.65774901830446</data>
 </edge>
 <edge source="cash_debt" target="asset_liabilities">
-  <data key="d0">-220.41859764822584</data>
+  <data key="d0">-341.2340287140815</data>
 </edge>
 <edge source="cash_debt" target="debt_ratio">
-  <data key="d0">-181.90629836891253</data>
+  <data key="d0">-61.090867304032145</data>
 </edge>
 <edge source="cash_debt" target="debt_ratio2">
-  <data key="d0">-246.25816565846776</data>
+  <data key="d0">-246.25816565826904</data>
 </edge>
 <edge source="cash_debt" target="longtermdebt_invcap">
-  <data key="d0">-7.676177274524889</data>
+  <data key="d0">-7.676177277081479</data>
 </edge>
 <edge source="cash_debt" target="totaldebt_invcap">
-  <data key="d0">-92.12683959013611</data>
+  <data key="d0">-123.3831582988887</data>
 </edge>
 <edge source="cash_debt" target="rect_turn">
-  <data key="d0">-2.3709915463696234</data>
+  <data key="d0">-0.0039020704789436422</data>
 </edge>
 <edge source="debt_ebitda" target="roe">
-  <data key="d0">2.3523799012751496</data>
+  <data key="d0">-78.14793405408636</data>
 </edge>
 <edge source="debt_ebitda" target="debt_ratio2">
-  <data key="d0">-1951.3654604857159</data>
+  <data key="d0">-1951.3654605328302</data>
 </edge>
 <edge source="debt_ebitda" target="roa">
-  <data key="d0">-259.57437401397556</data>
+  <data key="d0">-259.574374024126</data>
 </edge>
 </graph></graphml>

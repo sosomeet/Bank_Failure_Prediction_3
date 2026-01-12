@@ -1,56 +1,36 @@
 source,target,weight
-Unnamed: 0,capitalization_ratio,0.04861376562095095
-Unnamed: 0,rect_turn,0.023784375318841228
-leverage_ratio,capitalization_ratio,0.09472080018973789
-leverage_ratio,rect_turn,0.17161027797208628
-asset_liabilities,Unnamed: 0,-0.19982207046780248
-asset_liabilities,leverage_ratio,0.7041104916537222
-asset_liabilities,roe,-0.060880549050645896
-asset_liabilities,asset_turnover,0.05581527566181574
-asset_liabilities,capitalization_ratio,0.07539777569513526
-asset_liabilities,rect_turn,0.6536536416790295
-roe,Unnamed: 0,-0.10031583814435191
-roe,leverage_ratio,-0.10465973269240925
-roe,asset_turnover,-0.14647962661999422
-roe,totaldebt_invcap,0.14254409314898103
-roe,rect_turn,-0.07813687525644453
-asset_turnover,Unnamed: 0,-0.25894234723205506
-asset_turnover,leverage_ratio,0.11849990071239452
-asset_turnover,rect_turn,0.25074369987990586
-debt_ratio,Unnamed: 0,-0.4427920564591302
-debt_ratio,leverage_ratio,1.281766326465264
-debt_ratio,asset_liabilities,-0.9147899082628815
-debt_ratio,roe,-0.0403743742210241
-debt_ratio,roa,-0.2521291458679837
-debt_ratio,capitalization_ratio,0.16046519289663524
-debt_ratio,rect_turn,0.16137105310224184
-debt_ratio2,leverage_ratio,-0.03988360356924615
-debt_ratio2,asset_liabilities,0.051344493323753224
-debt_ratio2,roe,0.014267044847888532
-debt_ratio2,debt_ratio,0.04511243344235849
-debt_ratio2,roa,0.1922260316078262
-debt_ratio2,capitalization_ratio,0.38772657935730015
-debt_ratio2,longtermdebt_invcap,0.5957433121865222
-debt_ratio2,totaldebt_invcap,0.6424563391782321
-roa,Unnamed: 0,-0.028236169790450794
-roa,leverage_ratio,-0.05552895859063778
-roa,asset_turnover,0.5735492728811198
-roa,totaldebt_invcap,-0.2250956375355691
-roa,rect_turn,0.19647619098840158
-longtermdebt_invcap,leverage_ratio,0.053312190381662766
-longtermdebt_invcap,capitalization_ratio,0.696240699315406
-longtermdebt_invcap,totaldebt_invcap,-0.15657878391373622
-totaldebt_invcap,Unnamed: 0,-0.23331972855010988
-totaldebt_invcap,leverage_ratio,0.20387562930586445
-totaldebt_invcap,asset_turnover,0.27984165623655377
-totaldebt_invcap,capitalization_ratio,-0.2808023748951546
-cash_debt,Unnamed: 0,-0.05008413139946684
-cash_debt,asset_liabilities,0.04551582288195079
-cash_debt,debt_ratio,-0.10398986972471592
-cash_debt,debt_ratio2,-0.11289016736489829
-cash_debt,longtermdebt_invcap,0.02539519077459906
-cash_debt,totaldebt_invcap,-0.06244634571041557
-cash_debt,rect_turn,0.019677108090412596
-debt_ebitda,roe,0.021584136448439824
-debt_ebitda,debt_ratio2,0.3200446662739366
-debt_ebitda,roa,-0.12388673910853422
+asset_liabilities,leverage_ratio,0.7842496878294754
+asset_liabilities,roe,-0.09523718190881175
+asset_liabilities,debt_ratio,-0.919852110112131
+asset_liabilities,rect_turn,0.7917987532410673
+asset_turnover,leverage_ratio,0.16938816628712572
+asset_turnover,roe,-0.1383766626901139
+asset_turnover,capitalization_ratio,-0.12626546775219666
+asset_turnover,totaldebt_invcap,0.25774143140113936
+asset_turnover,rect_turn,0.28536854163595515
+debt_ratio,leverage_ratio,1.4107297393951839
+debt_ratio,roe,0.06959341524683621
+debt_ratio,roa,-0.2521291458768869
+debt_ratio,capitalization_ratio,0.14529402265545277
+debt_ratio,rect_turn,0.38704148422711177
+debt_ratio2,leverage_ratio,0.09504355930553597
+debt_ratio2,asset_liabilities,0.010076094477155734
+debt_ratio2,debt_ratio,0.054380950206696185
+debt_ratio2,roa,0.19222603160980373
+debt_ratio2,capitalization_ratio,0.6877863364310018
+debt_ratio2,longtermdebt_invcap,0.595743312189409
+debt_ratio2,totaldebt_invcap,0.5080825412798154
+roa,leverage_ratio,-0.15492750688021092
+roa,roe,0.5983927586303646
+roa,asset_turnover,0.5010719740981291
+roa,totaldebt_invcap,-0.2543200207919821
+roa,rect_turn,0.12345067561006642
+cash_debt,asset_liabilities,0.14064470626917583
+cash_debt,debt_ratio,0.02538246011202355
+cash_debt,debt_ratio2,-0.11289016736471527
+cash_debt,longtermdebt_invcap,0.025395190776401122
+cash_debt,totaldebt_invcap,-0.07032163871832446
+cash_debt,rect_turn,0.017896792792874393
+debt_ebitda,roe,0.060077282182644
+debt_ebitda,debt_ratio2,0.3200446662776011
+debt_ebitda,roa,-0.12388673911071317
