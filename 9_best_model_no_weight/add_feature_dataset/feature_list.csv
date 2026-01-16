@@ -1,0 +1,49 @@
+GROUP,FEATURE_TYPE,FEATURE_NAME,ALG,U,V,U_COL,V_COL,WEIGHT,EXPR
+original,original,leverage_ratio,original,,,,,,
+original,original,asset_liabilities,original,,,,,,
+original,original,roe,original,,,,,,
+original,original,asset_turnover,original,,,,,,
+original,original,debt_ratio,original,,,,,,
+original,original,debt_ratio2,original,,,,,,
+original,original,roa,original,,,,,,
+original,original,capitalization_ratio,original,,,,,,
+original,original,longtermdebt_invcap,original,,,,,,
+original,original,totaldebt_invcap,original,,,,,,
+original,original,cash_debt,original,,,,,,
+original,original,debt_ebitda,original,,,,,,
+original,original,rect_turn,original,,,,,,
+GES,edge,edge_GES__asset_liabilities__leverage_ratio,GES,asset_liabilities,leverage_ratio,asset_liabilities,leverage_ratio,,asset_liabilities * leverage_ratio
+GES,edge,edge_GES__asset_liabilities__roe,GES,asset_liabilities,roe,asset_liabilities,roe,,asset_liabilities * roe
+GES,edge,edge_GES__asset_liabilities__debt_ratio,GES,asset_liabilities,debt_ratio,asset_liabilities,debt_ratio,,asset_liabilities * debt_ratio
+GES,edge,edge_GES__asset_liabilities__rect_turn,GES,asset_liabilities,rect_turn,asset_liabilities,rect_turn,,asset_liabilities * rect_turn
+GES,edge,edge_GES__asset_turnover__leverage_ratio,GES,asset_turnover,leverage_ratio,asset_turnover,leverage_ratio,,asset_turnover * leverage_ratio
+GES,edge,edge_GES__asset_turnover__roe,GES,asset_turnover,roe,asset_turnover,roe,,asset_turnover * roe
+GES,edge,edge_GES__asset_turnover__capitalization_ratio,GES,asset_turnover,capitalization_ratio,asset_turnover,capitalization_ratio,,asset_turnover * capitalization_ratio
+GES,edge,edge_GES__asset_turnover__totaldebt_invcap,GES,asset_turnover,totaldebt_invcap,asset_turnover,totaldebt_invcap,,asset_turnover * totaldebt_invcap
+GES,edge,edge_GES__asset_turnover__rect_turn,GES,asset_turnover,rect_turn,asset_turnover,rect_turn,,asset_turnover * rect_turn
+GES,edge,edge_GES__debt_ratio__leverage_ratio,GES,debt_ratio,leverage_ratio,debt_ratio,leverage_ratio,,debt_ratio * leverage_ratio
+GES,edge,edge_GES__debt_ratio__roe,GES,debt_ratio,roe,debt_ratio,roe,,debt_ratio * roe
+GES,edge,edge_GES__debt_ratio__roa,GES,debt_ratio,roa,debt_ratio,roa,,debt_ratio * roa
+GES,edge,edge_GES__debt_ratio__capitalization_ratio,GES,debt_ratio,capitalization_ratio,debt_ratio,capitalization_ratio,,debt_ratio * capitalization_ratio
+GES,edge,edge_GES__debt_ratio__rect_turn,GES,debt_ratio,rect_turn,debt_ratio,rect_turn,,debt_ratio * rect_turn
+GES,edge,edge_GES__debt_ratio2__leverage_ratio,GES,debt_ratio2,leverage_ratio,debt_ratio2,leverage_ratio,,debt_ratio2 * leverage_ratio
+GES,edge,edge_GES__debt_ratio2__asset_liabilities,GES,debt_ratio2,asset_liabilities,debt_ratio2,asset_liabilities,,debt_ratio2 * asset_liabilities
+GES,edge,edge_GES__debt_ratio2__debt_ratio,GES,debt_ratio2,debt_ratio,debt_ratio2,debt_ratio,,debt_ratio2 * debt_ratio
+GES,edge,edge_GES__debt_ratio2__roa,GES,debt_ratio2,roa,debt_ratio2,roa,,debt_ratio2 * roa
+GES,edge,edge_GES__debt_ratio2__capitalization_ratio,GES,debt_ratio2,capitalization_ratio,debt_ratio2,capitalization_ratio,,debt_ratio2 * capitalization_ratio
+GES,edge,edge_GES__debt_ratio2__longtermdebt_invcap,GES,debt_ratio2,longtermdebt_invcap,debt_ratio2,longtermdebt_invcap,,debt_ratio2 * longtermdebt_invcap
+GES,edge,edge_GES__debt_ratio2__totaldebt_invcap,GES,debt_ratio2,totaldebt_invcap,debt_ratio2,totaldebt_invcap,,debt_ratio2 * totaldebt_invcap
+GES,edge,edge_GES__roa__leverage_ratio,GES,roa,leverage_ratio,roa,leverage_ratio,,roa * leverage_ratio
+GES,edge,edge_GES__roa__roe,GES,roa,roe,roa,roe,,roa * roe
+GES,edge,edge_GES__roa__asset_turnover,GES,roa,asset_turnover,roa,asset_turnover,,roa * asset_turnover
+GES,edge,edge_GES__roa__totaldebt_invcap,GES,roa,totaldebt_invcap,roa,totaldebt_invcap,,roa * totaldebt_invcap
+GES,edge,edge_GES__roa__rect_turn,GES,roa,rect_turn,roa,rect_turn,,roa * rect_turn
+GES,edge,edge_GES__cash_debt__asset_liabilities,GES,cash_debt,asset_liabilities,cash_debt,asset_liabilities,,cash_debt * asset_liabilities
+GES,edge,edge_GES__cash_debt__debt_ratio,GES,cash_debt,debt_ratio,cash_debt,debt_ratio,,cash_debt * debt_ratio
+GES,edge,edge_GES__cash_debt__debt_ratio2,GES,cash_debt,debt_ratio2,cash_debt,debt_ratio2,,cash_debt * debt_ratio2
+GES,edge,edge_GES__cash_debt__longtermdebt_invcap,GES,cash_debt,longtermdebt_invcap,cash_debt,longtermdebt_invcap,,cash_debt * longtermdebt_invcap
+GES,edge,edge_GES__cash_debt__totaldebt_invcap,GES,cash_debt,totaldebt_invcap,cash_debt,totaldebt_invcap,,cash_debt * totaldebt_invcap
+GES,edge,edge_GES__cash_debt__rect_turn,GES,cash_debt,rect_turn,cash_debt,rect_turn,,cash_debt * rect_turn
+GES,edge,edge_GES__debt_ebitda__roe,GES,debt_ebitda,roe,debt_ebitda,roe,,debt_ebitda * roe
+GES,edge,edge_GES__debt_ebitda__debt_ratio2,GES,debt_ebitda,debt_ratio2,debt_ebitda,debt_ratio2,,debt_ebitda * debt_ratio2
+GES,edge,edge_GES__debt_ebitda__roa,GES,debt_ebitda,roa,debt_ebitda,roa,,debt_ebitda * roa
