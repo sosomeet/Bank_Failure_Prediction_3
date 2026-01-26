@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-01-12">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="leverage_ratio" label="leverage_ratio" />
+      <node id="asset_liabilities" label="asset_liabilities" />
+      <node id="roe" label="roe" />
+      <node id="asset_turnover" label="asset_turnover" />
+      <node id="debt_ratio" label="debt_ratio" />
+      <node id="debt_ratio2" label="debt_ratio2" />
+      <node id="roa" label="roa" />
+      <node id="capitalization_ratio" label="capitalization_ratio" />
+      <node id="longtermdebt_invcap" label="longtermdebt_invcap" />
+      <node id="totaldebt_invcap" label="totaldebt_invcap" />
+      <node id="cash_debt" label="cash_debt" />
+      <node id="debt_ebitda" label="debt_ebitda" />
+      <node id="rect_turn" label="rect_turn" />
+    </nodes>
+    <edges>
+      <edge source="leverage_ratio" target="asset_turnover" id="0" weight="0.1583206871905965" />
+      <edge source="leverage_ratio" target="capitalization_ratio" id="1" weight="0.01825804382505275" />
+      <edge source="asset_liabilities" target="debt_ratio" id="2" weight="-0.9167743997353748" />
+      <edge source="asset_liabilities" target="cash_debt" id="3" weight="0.12191798170304605" />
+      <edge source="asset_liabilities" target="rect_turn" id="4" weight="0.774856032489876" />
+      <edge source="asset_turnover" target="roe" id="5" weight="-0.13016456145783814" />
+      <edge source="asset_turnover" target="roa" id="6" weight="0.49253950339183233" />
+      <edge source="asset_turnover" target="rect_turn" id="7" weight="0.27069194389279244" />
+      <edge source="debt_ratio" target="leverage_ratio" id="8" weight="0.6196191859347152" />
+      <edge source="debt_ratio" target="rect_turn" id="9" weight="0.3598669881872109" />
+      <edge source="debt_ratio2" target="roa" id="10" weight="0.046439867060475135" />
+      <edge source="debt_ratio2" target="capitalization_ratio" id="11" weight="0.2107830949667907" />
+      <edge source="debt_ratio2" target="longtermdebt_invcap" id="12" weight="0.5924014339990127" />
+      <edge source="debt_ratio2" target="totaldebt_invcap" id="13" weight="0.5676004694782198" />
+      <edge source="debt_ratio2" target="cash_debt" id="14" weight="-0.09728436378532715" />
+      <edge source="debt_ratio2" target="debt_ebitda" id="15" weight="0.3434265824425539" />
+      <edge source="debt_ratio2" target="rect_turn" id="16" weight="0.11314119662469183" />
+      <edge source="roa" target="roe" id="17" weight="0.5477720420821419" />
+      <edge source="roa" target="debt_ebitda" id="18" weight="-0.12257018363804223" />
+      <edge source="roa" target="rect_turn" id="19" weight="0.11362438835454136" />
+      <edge source="longtermdebt_invcap" target="capitalization_ratio" id="20" weight="0.7748752971049281" />
+      <edge source="longtermdebt_invcap" target="totaldebt_invcap" id="21" weight="-0.10131411100800361" />
+      <edge source="totaldebt_invcap" target="leverage_ratio" id="22" weight="0.2863739574252265" />
+      <edge source="totaldebt_invcap" target="cash_debt" id="23" weight="-0.06281307773603338" />
+    </edges>
+  </graph>
+</gexf>
